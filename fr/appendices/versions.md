@@ -3,51 +3,47 @@
 
 <!-- timeline -->
 
-## 2.3 {#version23}
+## 1.5 {#version15}
 
-<br> Publiée le 30 septembre 2017 :
+<br> Publiée le 30 mai 2017 :
 
-* mise en place du système "Voir aussi" (similarité entre les métadonnées) ;
-* gestion des licences associées au bouton téléchargement ;
-* possibilité de personnaliser l'intitulé "Propriétaire" de la métadonnée ;
-* possibilité de personnaliser le nuage de mots-clés de la page d'accueil :
-    * nombre de mots,
-    * mots à exclure,
-    * renouvellement du cache
-* ajout de la visualisation des emprises personnalisées dans le back-office ;
-* refonte complète de l'aide en ligne.
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/5?closed=1)
 
-<!-- /timeline -->
-<!-- timeline -->
-
-## 2.2 {#version22}
-
-<br> Publiée le 31 mai 2017 :
-
-* nouvelle option pour la zone accueil : le nuage de mots-clés ;
-* améliorations et correctifs sur l'interface cartographique et la recherche géographique via l'API Isogeo ;
-* 5 niveaux de granularité dans la gestion des droits d'affichage sur les métadonnées ;
-* possibilité de personnaliser le géocodeur avec une emprise de recherche ;
-* ajouts des fitres par contacts et licences ;
-* les derniers événements sur la donnée sont désormais affichable dans une métadonnée ;
-* gestion automatique des résumés trop longs ;
-* réorganisation complète des menus du back-office ;
+* refonte de la fiche de métadonnées : informations complètes, présentation en onglets, design.
+* gestion des nouvelles métadonnées de service Isogeo : appel du _GetCapabilities_ pour les informations complémentaires, optimisation de la construction d'URL d'ajout à QGIS, gestion des espaces de nommage
+* gestion automatique des vues PostgreSQL
+* remplissage des informations sur la couche dans QGIS à partir des métadonnées Isogeo
+* réduction de la liste de résultats à 10 éléments (au lieu de 15)
+* corrections d'anomalies : recherche par SRS, problèmes dans l'ajout de services, informations sur les partages dans l'onglet des paramètres.
 
 <!-- /timeline -->
 <!-- timeline -->
 
-## 2.1
+## 1.2 {#version12}
 
-<br> Publiée le 31 décembre 2016 :
+<br> Publiée le 28 décembre 2016 :
 
-* amélioration des balises du référencement (SEO) ;
-* amélioration de la gestion des filtres contextuels (performance) ;
-* ajout de la possibilité pour l'administrateur de régler le paramètre de tri par défaut ;
-* ajout de la possibilité pour l'administrateur de régler l'opérateur géométrique à appliquer pour les recherches géographiques ;
-* ajout d'icônes correspondant aux types de liens dans les métadonnées ;
-* ajout de la possibilité de copier le chemin vers les données fichiers dans le presse-papiers ;
-* ajout d'un bouton pour revenir en haut de la page ;
-* ajout de la possibilité de faire des liens vers les filtres thématiques dans l'éditeur WYSIWYG ;
-* ajout des liens uniques vers chaque métadonnée du portail à partir de son identifiant Isogeo.
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/2?closed=1)
+
+* ajout d'une fenêtre "A propos" avec les crédits
+* ajout de messages d'informations temporaires dans QGIS
+* ajout de la valeur "Aucun" aux filtres
+* refonte de l'onglet des paramètres
+* traduction de tous les intitulés dans la fiche de métadonnées détaillée
+* support de QGIS 2.16
+* documentation utilisateur
+* corrections diverses : ajout WMS, plantages, encodage, barres de progression...
+
+<!-- /timeline -->
+<!-- timeline -->
+
+## 1.0 {#version10}
+
+<br> Publiée le 1er octobre 2016 :
+
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/1?closed=1)
+
+* produit minimum atteint ;
+* socle fonctionnel de base : recherche textuelle, filtres dynamiques, recherche géographique, affichage des résultats, ajout des données, fiche de métadonnées minimaliste, recherches rapides, etc.
 
 <!-- /timeline -->
