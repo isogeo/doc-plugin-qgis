@@ -14,7 +14,7 @@ Dans les paramètres, il est également possible de changer de compte, pour se c
 
 Créer un partage avec un ou plusieurs catalogues vers l'application _Plugin QGIS_ dans l'administration des partages sur [APP](https://app.isogeo.com) ;
 
-<img src="https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/app_share_toPlugin_fr.png" alt="Créer et configurer un partage" height="350" />
+<img src="https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/app_share_toPlugin_fr.png" alt="Créer et configurer un partage" height="350" align="center" />
 
 ---
 
