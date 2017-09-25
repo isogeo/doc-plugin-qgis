@@ -12,7 +12,7 @@ Installation classique pour les utilisateurs standards, via le canal stable du g
 
 3. Au premier lancement du plugin, entrer les identifiants reçus par mail :
 
-    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_auth_prompt_fr.png "Prompt dialog to enter your application credentials")
+    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_auth_prompt_fr.png "Boîte de dialogue pour entrer authentifier le plugin avec les clés API")
 
 Et voilà, bonne utilisation !
 
