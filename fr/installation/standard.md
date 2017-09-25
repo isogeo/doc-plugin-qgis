@@ -2,8 +2,6 @@
 
 Installation classique pour les utilisateurs standards, via le canal stable du gestionnaire d'extensions intégré à QGIS.
 
-## Procédure standard
-
 1. Dans QGIS, vérifier les paramètres réseau (proxy...) via le menu *Préférences* > *Options...* ;
 
     ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_network_fr.png "Vérifier les paramètres de connexion de QGIS")
