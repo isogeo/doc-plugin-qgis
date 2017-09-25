@@ -22,7 +22,7 @@ Créer un partage avec un ou plusieurs catalogues vers l'application _Plugin QGI
 
 Dans l'onglet "Paramètres" du plugin, on retrouve les informations sur les groupes de travail qui alimentent l'application.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_shares_details_fr.png "TODO")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_shares_details_fr.png "Informations sur les partages dans les Paramètres")
 
 On retrouve donc :
 

@@ -16,9 +16,8 @@
 * [Configuration](usage/configuration.md)
 * [Rechercher](usage/search.md)
 * [Ajouter une donnée](usage/display.md)
-* [Fonctionnalités avancées](usage/advanced.md)
-  * [Recherches rapides](usage/advanced/quicksearch.md)
-  * [Recherche par défaut](usage/advanced/defaultsearch.md)
+* [Recherches rapides](usage/advanced/quicksearch.md)
+* [Recherche par défaut](usage/advanced/defaultsearch.md)
 
 ## Annexes
 
