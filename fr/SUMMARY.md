@@ -24,4 +24,5 @@
 
 * [Notes des versions](appendices/versions.md)
 * [Index des images et figures](appendices/pictures.md)
+* [support](appendices/support.md)
 
