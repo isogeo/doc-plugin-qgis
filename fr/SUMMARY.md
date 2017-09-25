@@ -23,6 +23,6 @@
 ## Annexes
 
 * [Notes des versions](appendices/versions.md)
-* [Index des images et figures](appendices/pictures.md)
+* [Index des images et figures](pictures.md)
 * [support](appendices/support.md)
 
