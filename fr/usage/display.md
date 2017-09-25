@@ -4,26 +4,25 @@ Pour ajouter une donnée à la carte, la colonne "Ajouter" liste les options pos
 
 Il y a plusieurs cas de figure :
 
-- La donnée ne peut pas être ajoutée : le fichier n'est pas disponible et il n'y a pas de services renseignés (ou ceux-ci sont mal renseignés).
-
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addNot_fr.png "TODO")
-
 - La donnée peut être ajoutée d'une seule manière. Auquel cas, la colonne "Ajouter" ne comprend qu'un bouton. Au clic, la donnée sera ajoutée à la carte.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addOk_one_fr.png "TODO")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addOk_one_fr.png "Donnée ajoutable d'une seule manière")
 
 - La donnée peut être ajoutée de plusieurs manières différentes. Auquel cas, la colonne "Ajouter" comprend une liste déroulante permettant à l'utilisateur de choisir entre les différentes options.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_add_OK_multi_fr.png "TODO")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_add_OK_multi_fr.png "Donnée ajoutable de plusieurs manières")
 
+- La donnée ne peut pas être ajoutée : le fichier n'est pas disponible et il n'y a pas de services renseignés (ou ceux-ci sont mal renseignés).
+
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addNot_fr.png "Donnée non ajoutable - Critères non remplis")
 ___
 
 ## Critères
 
 ### Données fichier
 
-Le chemin vers la donnée doit être rempli dans le champ *Emplacement de la donnée* sur https://app.isogeo.com. 
-Ce chemin doit être accessible :
+Le chemin vers la donnée doit être rempli dans le champ `Emplacement de la donnée` sur https://app.isogeo.com. Ce chemin doit être accessible :
+
 * par l'utilisateur ayant lancé QGIS (droits en lecture);
 * depuis le poste sur lequel le plugin se trouve (en local ou via le réseau local).
 
