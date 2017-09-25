@@ -1,4 +1,4 @@
-# Ajouter une donnée à la carte de QGIS
+# Ajouter une donnée à la carte
 
 Pour ajouter une donnée à la carte, la colonne "Ajouter" liste les options possibles.
 
@@ -16,11 +16,20 @@ Il y a plusieurs cas de figure :
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_add_OK_multi_fr.png "TODO")
 
-## Critères pour qu'une donnée soit ajoutable
+___
 
-### Formats supportés
+## Critères
 
-#### Fichiers au format vecteur 
+### Données fichier
+
+Le chemin vers la donnée doit être rempli dans le champ *Emplacement de la donnée* sur https://app.isogeo.com. 
+Ce chemin doit être accessible :
+* par l'utilisateur ayant lancé QGIS (droits en lecture);
+* depuis le poste sur lequel le plugin se trouve (en local ou via le réseau local).
+
+#### Formats supportés
+
+##### Vecteur
 
 - DXF
 - DGN
@@ -28,7 +37,7 @@ Il y a plusieurs cas de figure :
 - Esri shapefile
 - MapInfo tab
 
-#### Fichiers au format raster
+##### Raster
 
 - ECW
 - Esri ascii grid
@@ -38,19 +47,7 @@ Il y a plusieurs cas de figure :
 - PNG
 - XYZ
 
-#### Données stockées en base de données
-
-- Tables PostGIS
-
-#### Services géographiques
-
-- Web Feature Service (WFS)
-- Web Map Service (WMS)
-- Web Map Tile Service (WMTS)
-
-### Autres conditions
-
-#### Conditions pour ajouter une table PostGIS
+### Données PostGIS
 
 Une table PostGIS pourra être ajoutée par le plugin dans les conditions suivantes : 
 
@@ -58,14 +55,7 @@ Une table PostGIS pourra être ajoutée par le plugin dans les conditions suivan
 - L’option “Enregistrer le nom d’utilisateur et le mot de passe” a été choisie
 - La fiche documentant la table PostGIS a été créée à partir du scan FME Isogeo. En créant une fiche manuellement dans https://app.isogeo.com, il est impossible de renseigner le champ *name* nécessaire à l’ajout de la table.
 
-#### Conditions pour ajouter une donnée fichier
-
-Le chemin vers la donnée doit être rempli dans le champ *Emplacement de la donnée* sur https://app.isogeo.com. 
-Ce chemin doit être accessible :
-* par l'utilisateur ayant lancé QGIS (droits en lecture);
-* depuis le poste sur lequel le plugin se trouve (en local ou via le réseau local).
-
-#### Conditions pour ajouter une donnée via un service géographique
+### Services géographiques
 
 Le plugin supporte les couches de services documentés automatiquement et associés aux métadonnées de données.  
 
@@ -77,6 +67,11 @@ Il supporte également les URLs de couches de services renseignées manuellement
 
 Consulter [l'aide en ligne sur les syntaxes de documentation manuelle des couches de services](http://help.isogeo.com/fr/features/publish/webservices.html).
 
-##### Note importante : 
+#### Formats de services supportés
 
-Si le titre de la couche comprend des caractères spéciaux ou des accents, il est possible que la couche ne puisse pas être affichée convenablement dans QGIS. Il s’agit d’un problème de gestion de l'encodage par l’API PyQGIS.
+- Web Feature Service (WFS)
+- Web Map Service (WMS)
+- Web Map Tile Service (WMTS)
+
+> **Note importante**
+> Si le titre de la couche comprend des caractères spéciaux ou des accents, il est possible que la couche ne puisse pas être affichée convenablement dans QGIS. Il s’agit d’un problème de gestion de l'encodage par l’API PyQGIS.
