@@ -33,7 +33,7 @@ On y trouve les possibilités de filtrer sur :
 - L'emprise actuelle de la carte
 - L'enveloppe convexe des couches actuellement affichées
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_fr.png "Filtre à partir de la carte ou d'une couche active")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_fr.png "Filtre à partir de la carte ou d\'une couche active")
 
 Par défaut, le filtre géographique remonte toute les données qui intersectent l'emprise considérée. 
 
