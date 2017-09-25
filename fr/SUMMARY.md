@@ -1,21 +1,24 @@
 # Summary
 
-## Introduction
+## Présentation générale
 
 * [Introduction](README.md)
-* [prerequisites](prerequisites.md)
+* [Prérequis](prerequisites.md)
 
 ## Installation
 
-* [standard](installation/standard.md)
-* [beta](installation/beta.md)
-* dev
+* [Standard](installation/standard.md)
+* [Version bêta](installation/beta.md)
+* [Version en développement](installation/dev.md)
 
 ## Utilisation
 
-* [configuration](usage/configuration.md)
-* [search](usage/search.md)
-* [display](usage/display.md)
+* [Configuration](usage/configuration.md)
+* [Rechercher](usage/search.md)
+* [Ajouter une donnée](usage/display.md)
+* [Fonctionnalités avancées](usage/advanced.md)
+  * [Recherches rapides](usage/advanced/quicksearch.md)
+  * [Recherche par défaut](usage/advanced/defaultsearch.md)
 
 ## Annexes
 
