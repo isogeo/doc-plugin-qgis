@@ -6,7 +6,7 @@
 
 Dans les paramètres, il est également possible de changer de compte, pour se connecter à une autre instance du plugin QGIS.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_switch_api_fr.png "TODO")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_switch_api_fr.png "Changer les clés API du plugin")
 
 ---
 

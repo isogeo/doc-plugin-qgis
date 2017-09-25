@@ -13,7 +13,7 @@
 
 ## Utilisation
 
-* [Configuration](usage/configuration.md)
+* [Configurer](usage/configuration.md)
 * [Rechercher](usage/search.md)
 * [Ajouter une donnée](usage/display.md)
 * [Recherches rapides](usage/advanced/quicksearch.md)
