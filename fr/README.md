@@ -1,4 +1,4 @@
-<img src="https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/logo_complet_IsoQGIS.png?raw=true" width="200">
+<img src="https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/logo_complet_IsoQGIS.png?raw=true" width="400">
 
 
 
