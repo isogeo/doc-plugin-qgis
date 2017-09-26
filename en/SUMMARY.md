@@ -3,7 +3,7 @@
 ## General
 
 * [Introduction](README.md)
-* [Prerequisites](prerequisites.md)
+* [Requirements](prerequisites.md)
 
 ## Installation
 
