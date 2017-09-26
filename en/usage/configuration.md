@@ -6,7 +6,7 @@
 
 Dans les paramètres, il est également possible de changer de compte, pour se connecter à une autre instance du plugin QGIS.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_switch_api_fr.png "Changer les clés API du plugin")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_switch_api_en.png "Change API authentication")
 
 ---
 
@@ -14,7 +14,7 @@ Dans les paramètres, il est également possible de changer de compte, pour se c
 
 Créer un partage avec un ou plusieurs catalogues vers l'application _Plugin QGIS_ dans l'administration des partages sur [APP](https://app.isogeo.com) ;
 
-<img src="https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/app_share_toPlugin_fr.png" alt="Créer et configurer un partage" height="350" align="center" />
+<img src="https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/app_share_toPlugin_en.png" alt="Create a share to publish metadata to the plugin" height="350" align="center" />
 
 ---
 
@@ -22,7 +22,7 @@ Créer un partage avec un ou plusieurs catalogues vers l'application _Plugin QGI
 
 Dans l'onglet "Paramètres" du plugin, on retrouve les informations sur les groupes de travail qui alimentent l'application.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_shares_details_fr.png "Informations sur les partages dans les Paramètres")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_shares_details_en.png "Informations about the share can be retrieved in Settings tab")
 
 On retrouve donc :
 

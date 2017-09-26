@@ -5,7 +5,7 @@ Pour tenir compte du moteur de recherche Isogeo \(basé sur le principes des fac
 1. l'utilisateur entre les paramètres de sa recherche qui ressert de plus en plus le nombre de résultats ;
 2. l'utilisateur affiche et parcourt la liste des résultats.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_tabs_main_search_empty_fr.png "Interface du plugin avec une recherche vide")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_tabs_main_search_empty_en.png "Interface du plugin avec une recherche vide")
 
 ## Recherche sémantique
 
@@ -27,7 +27,7 @@ Pour en savoir plus sur le fonctionnement du moteur de recherche Isogeo, [consul
 
 Pour filtrer par mots-clés, cocher un ou plusieurs mots-clés dans la liste déroulante dédiée.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_keywords_fr.png "Filtre par mot-clé")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_keywords_en.png "Filtre par mot-clé")
 
 ### Filtre géographique
 
@@ -37,19 +37,19 @@ On y trouve les possibilités de filtrer sur :
 * L'emprise actuelle de la carte
 * L'enveloppe convexe des couches actuellement affichées
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_options\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_fr.png) "Filtre à partir de la carte ou d'une couche active"\)
+!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_options\_geographic\_en.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_en.png) "Filtre à partir de la carte ou d'une couche active"\)
 
 Par défaut, le filtre géographique remonte toute les données qui intersectent l'emprise considérée.
 
 Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opérateur différent, puis relancer la recherche.
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_fr.png) "Paramétrer l'opérateur géométrique pour la recherche géographique"\)
+!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings\_geographic\_en.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_en.png) "Paramétrer l'opérateur géométrique pour la recherche géographique"\)
 
 ### Autres filtres
 
 Tous les autres filtres sémantiques fonctionnent de la même manière \(sélection d'une modalité dans une liste déroulante\). La seule exception est le filtre sur les actions disponibles pour lequel les options souhaitées doivent être cochées.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_actions_fr.png "Filtre sur les actions associées")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_actions_en.png "Filtre sur les actions associées")
 
 Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'un filtre fait évoluer les modalités disponibles dans toutes les listes déroulantes.
 
@@ -59,7 +59,7 @@ Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'u
 
 Lors de la saisie de texte dans la barre de recherche et de l'action sur un filtre sémantique, le contenu des autres filtres se met à jour, et le nombre de résultats attendus s'affiche dans le bouton orange.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_show_fr.png "Nombre de résultats sur le bouton pour les afficher")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_show_en.png "Nombre de résultats sur le bouton pour les afficher")
 
 Au clic sur ce bouton, les résultats de la recherche sont affichés dans le tableau des résultats, paginés de manière à ne jamais afficher plus de 10 résultats simultanément.
 
@@ -72,7 +72,7 @@ Pour chaque résultat, on trouve :
 
 Deux boutons sont consacrés à la navigation entre les différentes pages de résultats en bas du tableau :
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_pagination_fr.png "Pagination des résultats")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_pagination_en.png "Pagination des résultats")
 
 ### Trier les résultats
 

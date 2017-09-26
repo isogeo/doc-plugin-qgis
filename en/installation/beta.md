@@ -6,7 +6,7 @@ A des fins de recette ou ponctuellement pour présenter la prochaine version, il
 
 2. Dans *Paramètres*, activer les extensions expérimentales :
     
-    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_experimental_settings_fr.png "")
+    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_experimental_settings_en.png "Beta: enable experimental channel in plugin manager settings")
 
 3. Il est aussi recommandé d'activer les mises à jour à chaque démarrage ou au moins hebdomadaires.
 
