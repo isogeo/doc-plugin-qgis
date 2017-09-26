@@ -22,7 +22,7 @@
 
 ## Annexes
 
+* [Questions fréquentes et support](appendices/support.md)
 * [Notes des versions](appendices/versions.md)
 * [Index des images et figures](pictures.md)
-* [Questions fréquentes et support](appendices/support.md)
 

@@ -13,7 +13,7 @@ Le problème persiste et signe ? Le (dys)fonctionnement est incompréhensible ?
 
 Il faut alors [créer un ticket ici](https://github.com/isogeo/isogeo-plugin-qgis/issues) en joignant une capture de l'onglet de la fenêtre messages et *surtout le fichier log_isogeo_plugin.log* situé dans le dossier d'installation du plugin (`C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Debian) :
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_plugin_folder_structure.png "Structure du dossier d'installation du plugin Isogeo pour QGIS")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_plugin_folder_structure.png "Structure du dossier du plugin Isogeo pour QGIS")
 ___
 
 ## Questions fréquentes

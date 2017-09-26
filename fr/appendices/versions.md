@@ -3,6 +3,25 @@
 
 <!-- timeline -->
 
+## 1.6 {#version16}
+
+<br> Publiée le 1er novembre 2017 :
+
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/6?closed=1)
+
+* ajout des filtres contacts et licences
+* ajout du filtre sur toutes les données (vecteur ET raster) dans le type
+* ajout de la possibilité d'ajouter les services Esri (Feature et Map) documentés sur Isogeo
+* gestion de l'ordre des formats à ajouter
+* finalisation de la fenêtre d'authentification
+* remaniement de l'interface de recherche
+* corrections d'anomalies mineures
+
+<!-- /timeline -->
+
+
+<!-- timeline -->
+
 ## 1.5 {#version15}
 
 <br> Publiée le 30 mai 2017 :
