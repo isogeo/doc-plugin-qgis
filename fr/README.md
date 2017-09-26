@@ -43,4 +43,4 @@ L'application est disponible en 2 langues :
 
 Le plugin est développé sous [Licence GNU GPL v3](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/LICENSE).
 
-Chacun est donc libre de modifier le code source à condition d’en reverser les modifications au [dépôt principal](https://github.com/isogeo/isogeo-plugin-qgis).
+Chacun est libre de modifier le code source à condition d’en reverser les modifications au [dépôt principal](https://github.com/isogeo/isogeo-plugin-qgis) et d'être en accord avec la feuille de route établie exclusivement par Isogeo.
