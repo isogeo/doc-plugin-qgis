@@ -1,18 +1,18 @@
-# Utiliser la version bêta
+# Use beta version
 
-A des fins de recette ou ponctuellement pour présenter la prochaine version, il est possible d'utiliser la version bêta du plugin via le canal expérimental du gestionnaire d'extensions de QGIS.
+To check the next version, it's possible to use the beta version throught the experimental channel of QGIS plugins.
 
-1. Dans QGIS, ouvrir le Gestionnaire d'extensions : menu *Extension* > *Installer/Gérer les extensions...* ;
+1. In QGIS, open the Plugin Manager: menu *Plugins* > *Manage and install plugins...*:
 
-2. Dans *Paramètres*, activer les extensions expérimentales :
+2. In the _[Settings Tab](http://docs.qgis.org/testing/en/docs/user_manual/plugins/plugins.html#the-settings-tab)_, enable the experimental channel:
     
     ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_experimental_settings_en.png "Beta: enable experimental channel in plugin manager settings")
 
-3. Il est aussi recommandé d'activer les mises à jour à chaque démarrage ou au moins hebdomadaires.
+3. It's also recommended to enable regular update (daily or everty time QGIS starts).
 
-4. Cliquer sur "Recharger tous les dépôts" ;
+4. Clic on `Reload repository`;
 
-5. Installer ou réinstaller l'extension via le gestionnaire de plugins de QGIS.
+5. Search, install/reinstall then enable Isogeo plugin.
 
 
 

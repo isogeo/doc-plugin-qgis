@@ -1,18 +1,18 @@
-# Installation standard
+# Standard installation
 
-Installation classique pour les utilisateurs standards, via le canal stable du gestionnaire d'extensions intégré à QGIS.
+Classic installation process for standard users, through the stable channel of QGIS plugins.
 
-1. Dans QGIS, vérifier les paramètres réseau (proxy...) via le menu *Préférences* > *Options...* ;
+1. In QGIS, check network settings \(proxy...\) opening menu _Settings_ &gt; _Options..._:
 
-    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_network_en.png "Check QGIS connection settings")
+   ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_network_en.png "Check QGIS connection settings")
 
-2. Ouvrir le gestionnaire d'extensions, rechercher Isogeo et cliquer sur "Installer l'extension" :
-    
-    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_extension_en.png "Install the plugin from the plugin manager")
+2. Open the plugin manager, search for _Isogeo_ and clic on "Install plugin":
 
-3. Au premier lancement du plugin, entrer les identifiants reçus par mail :
+   ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_extension_en.png "Install the plugin from the plugin manager")
 
-    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_auth_prompt_en.png "Dialog form to enter API keys")
+3. At the first start, the authentication form will be displayed, so enter the credentials you received by mail:
 
-Et voilà, bonne utilisation !
+   ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_auth_prompt_en.png "Authentication form to enter API keys")
+
+_Et voilà_! Enjoy!
 
