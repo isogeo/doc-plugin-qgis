@@ -2,10 +2,12 @@
 
 To take advantage of Isogeo search engine (based on contextual filters) and also on performances issues, search is a 2-steps process:
 
-1. user l'utilisateur entre les paramètres de sa recherche qui ressert de plus en plus le nombre de résultats ;
-2. l'utilisateur affiche et parcourt la liste des résultats.
+1. user enter a semantic search and/or pick one and/or many filters to reduce the results count,
+2. user display filtered results then use capabilities available in the results list.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_tabs_main_search_empty_en.png "Interface du plugin avec une recherche vide")
+Note that user can display results list withtout any filter:
+
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_tabs_main_search_empty_en.png "Search form without any filter")
 
 ## Semantic search
 
@@ -20,23 +22,23 @@ Metadata fields where terms are searched::
 
 To know more about how does the Isogeo search engine works, [read the official online documentation](http://help.isogeo.com/en/features/inventory/search.html).
 
-## Filtres contextuels
+## Contextual filters
 
-### Filtre par mot-clé
+### Keyword filter
 
-Pour filtrer par mots-clés, cocher un ou plusieurs mots-clés dans la liste déroulante dédiée.
+To filter by keywords, check one or more in the dedicated drop-down list:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_keywords_en.png "Filtre par mot-clé")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_keywords_en.png "Keyword dropdown filter")
 
-### Filtre géographique
+### Geographic filter
 
-Pour filtrer les résultats sur une emprise géographique, choisir une modalité dans la liste déroulante dédiée.   
-On y trouve les possibilités de filtrer sur :
+To filter results on a geographical bounding box, pick a modality from the drop-down list.
+It's possible to filter on:
 
-* L'emprise actuelle de la carte
-* L'enveloppe convexe des couches actuellement affichées
+- map canvas bounding box
+- convex hull stored from an active layers
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_options\_geographic\_en.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_en.png) "Filtre à partir de la carte ou d'une couche active"\)
+!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_options\_geographic\_en.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_en.png) "Geographic filter - From an active layer"\)
 
 Par défaut, le filtre géographique remonte toute les données qui intersectent l'emprise considérée.
 
