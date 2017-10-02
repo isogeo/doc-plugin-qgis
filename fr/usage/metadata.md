@@ -11,7 +11,8 @@ Une fois les résultats affichés, l'utilisateur peut consulter la fiche de mét
 Lors de l'ajout d'une donnée à QGIS depuis le plugin, les métadonnées Isogeo sont ajoutées aux informations de la couche : 
 
 * titre ;
-* résumé
+* résumé ;
+* mots-clés.
 
-
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_layer_metadata_fr.png "Métadonnées de couche remplie à partir d\'Isogeo")
 

@@ -8,6 +8,8 @@ From the results list, user can display full Isogeo metadata from the data titel
 
 ## Metadata synchronization
 
+
+
 Lors de l'ajout d'une donnée à QGIS depuis le plugin, les métadonnées Isogeo sont ajoutées aux informations de la couche : 
 
 * titre ;
