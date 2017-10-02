@@ -1,34 +1,35 @@
-# Ajouter une donnée à la carte
+# Add a data to the map with the Isogeo plugin
 
-Pour ajouter une donnée à la carte, la colonne "Ajouter" liste les options possibles.
+To add a data directly to the map canvas, let's take a look to the options available in the "Add" column.
 
-Il y a plusieurs cas de figure :
+Here come the different use cases:
 
-- La donnée peut être ajoutée d'une seule manière. Auquel cas, la colonne "Ajouter" ne comprend qu'un bouton. Au clic, la donnée sera ajoutée à la carte.
+- The dataset can be added through different options. User choose its preferred option in the drop-down list.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addOk_one_fr.png "Donnée ajoutable d'une seule manière")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_add_OK_multi_en.png "Data can be added through multiple ways")
 
-- La donnée peut être ajoutée de plusieurs manières différentes. Auquel cas, la colonne "Ajouter" comprend une liste déroulante permettant à l'utilisateur de choisir entre les différentes options.
+- The dataset can be added through only one way. The column "Add" is a button.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_add_OK_multi_fr.png "Donnée ajoutable de plusieurs manières")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addOk_one_en.png "Data can be added through one way")
 
-- La donnée ne peut pas être ajoutée : le fichier n'est pas disponible et il n'y a pas de services renseignés (ou ceux-ci sont mal renseignés).
+- The dataset can't be added: file is not reachable and any correct webservice is linked.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addNot_fr.png "Donnée non ajoutable - Critères non remplis")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addNot_en.png "Unable to add data - check criterias")
 ___
 
-## Critères
+## Criteria
 
-### Données fichier
+### File data
 
-Le chemin vers la donnée doit être rempli dans le champ `Emplacement de la donnée` sur https://app.isogeo.com. Ce chemin doit être accessible :
+Metadata field `Resource location has to contain the absolute path to the datafile.
 
-* par l'utilisateur ayant lancé QGIS (droits en lecture);
-* depuis le poste sur lequel le plugin se trouve (en local ou via le réseau local).
+This path must be reachable:
+* by the system user who launched QGIS (read);
+* from the machine if the data is located on a local network.
 
-#### Formats supportés
+#### Supported formats
 
-##### Vecteur
+##### Vector
 
 - DXF
 - DGN
@@ -46,31 +47,23 @@ Le chemin vers la donnée doit être rempli dans le champ `Emplacement de la don
 - PNG
 - XYZ
 
-### Données PostGIS
+### PostGIS
 
-Une table PostGIS pourra être ajoutée par le plugin dans les conditions suivantes : 
+A PostGIS table can be added when:
 
-- La connexion à la base de données dans laquelle elle se trouve a été enregistrée dans QGIS
-- L’option “Enregistrer le nom d’utilisateur et le mot de passe” a été choisie
-- La fiche documentant la table PostGIS a été créée à partir du scan FME Isogeo. En créant une fiche manuellement dans https://app.isogeo.com, il est impossible de renseigner le champ *name* nécessaire à l’ajout de la table.
+- the connection to the database has been already set in QGIS
+- the option "Save username and password" has been choosen
+- the metadata has been created by the Isogeo Scan
 
-### Services géographiques
+### Geographic webservices
 
-Le plugin supporte les couches de services documentés automatiquement et associés aux métadonnées de données.  
+Plugin supports webservices layers which have been associated to metadata.
 
-Consulter [l'aide en ligne au sujet du recensement automatisé des services et de l'association couche de service / donnée cataloguée](http://help.isogeo.com/fr/features/inventory/md_services/srv_intro.html).
-
-Il supporte également les URLs de couches de services renseignées manuellement dans la métadonnée. Si cette méthode (dépréciée) est utilisée :
-- L’url doit contenir la base de l’url du service géographique
-- Elle doit également contenir le nom de la couche du service à afficher.
-
-Consulter [l'aide en ligne sur les syntaxes de documentation manuelle des couches de services](http://help.isogeo.com/fr/features/publish/webservices.html).
-
-#### Formats de services supportés
+#### Supported services
 
 - Web Feature Service (WFS)
 - Web Map Service (WMS)
 - Web Map Tile Service (WMTS)
 
-> **Note importante**
-> Si le titre de la couche comprend des caractères spéciaux ou des accents, il est possible que la couche ne puisse pas être affichée convenablement dans QGIS. Il s’agit d’un problème de gestion de l'encodage par l’API PyQGIS.
+> **Important note**
+> Be careful, if service layer title, description or style name contains any special characters, it won't be possible to display it. It's a QGIS issue and related to a bad encoding management in PyQGIS.
