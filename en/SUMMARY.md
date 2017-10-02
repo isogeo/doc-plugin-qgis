@@ -23,6 +23,6 @@
 ## Annexes
 
 * [FAQ and support](appendices/support.md)
-* [Releases noteas](appendices/versions.md)
+* [Releases notes](appendices/versions.md)
 * [Images index](pictures.md)
 

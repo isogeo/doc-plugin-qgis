@@ -1,19 +1,19 @@
-# Utiliser la version en développement
+# Installation for development
 
-Pour les développeurs ou à des fins de test, il est possible d'utiliser les versions au plus proche du développement. Les méthodes décrites ici sont destinées aux développeurs ou utilisateurs expérimentés.
+**Developers** should use latest versions.
 
-## Utiliser la dernière version packagée
+## Last packaged version
 
-1. Télécharger la [dernière version du plugin](https://github.com/isogeo/isogeo-plugin-qgis/releases) ;
-2. Décompresser dans `C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Ubuntu ;
+1. Download the [last plugin version released](https://github.com/isogeo/isogeo-plugin-qgis/releases) ;
+2. Unzip it in `C:\Users\%USERNAME%\.qgis2\python\plugins` on Windows or `/home/$USER/.qgis2/python/plugins` on Ubuntu ;
 
-## Utiliser la version en développement
+## Development version
 
-Cloner le dépôt dans `C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Ubuntu, en spécifiant un nom de dossier **sans caractères spéciaux ni tiret** (contrairement au nom du dépôt) :
+Clone the repository in  `C:\Users\%USERNAME%\.qgis2\python\plugins` on Windows or `/home/$USER/.qgis2/python/plugins` on Ubuntu, specifiying a foldername **without special character nor hyphen** (unlike the repository name...):
 
 ```bash
 cd C:\Users\%USERNAME%\.qgis2\python\plugins
 git clone https://github.com/isogeo/isogeo-plugin-qgis.git isogeo_search_engine_dev
 ```
 
-Il est aussi possible de cloner le dépôt dans n'importe quel dossier et d'ajouter son chemin à la variable d'environnement `QGIS_PLUGINPATH`.
+It's also possible to clone the repository in any folder and add its path to the environment variable `QGIS_PLUGINPATH`.
