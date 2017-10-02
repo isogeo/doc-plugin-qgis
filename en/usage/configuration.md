@@ -2,6 +2,12 @@
 
 ## Authentication
 
+
+### 
+
+
+
+
 ### Change API credentials
 
 In the `Settings` tab, it's possible to change API keys:
