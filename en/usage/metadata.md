@@ -4,16 +4,15 @@
 
 From the results list, user can display full Isogeo metadata from the data titel (first column). Then it's displayed in an independant windows with various tabs:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_detailed_metadata_fr_general.png "Fiche de métadonnées détaillée dans QGIS")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_detailed_metadata_en_general.png "Detailed metadata integrated in QGIS")
 
 ## Metadata synchronization
 
 
+When a data is added through the plugin, Isogeo metadata are automatically added to the layer properties:
 
-Lors de l'ajout d'une donnée à QGIS depuis le plugin, les métadonnées Isogeo sont ajoutées aux informations de la couche : 
+* title,
+* abstract,
+* keywords.
 
-* titre ;
-* résumé
-
-
-
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_layer_metadata_en.png "Layer properties fillfulled with Isogeo metadata")
