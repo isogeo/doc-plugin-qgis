@@ -2,8 +2,10 @@
 
 ## Authentication
 
+### Request and set API credentials
 
-### 
+Isogeo is a secured SaaS platform, so applications which use its data have to be authenticated (oAuth2 protocol).
+
 
 The [authentication form](/installation/standard.md#auth-form) show up when:
 
