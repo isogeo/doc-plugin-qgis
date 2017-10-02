@@ -1,11 +1,11 @@
-# Recherche par défaut
+# Default search
 
-Dans l'onglet "Paramètres", l’utilisateur peut configurer la recherche par défaut, à savoir la recherche qui s’exécute automatiquement au lancement du plugin. Par défaut, il s’agit d’une requête sans paramètres, renvoyant la totalité des données partagées avec le plugin.
+In the "Settings" tab, user can configure the default search, i.e. the search parameters applied systematically when the plugin starts. By default, it's an empty search containing every metadata shared to the plugin application.
 
-## Sauvegarder la recherche par défaut
+## Set the default search
 
-1. Effectuer la recherche souhaitée ;
-2. Se rendre dans l'onglet des paramètres et cliquer sur le bouton de sauvegarde de la recherche par défaut :
+1. Make the wanted search,
+2. In the settings tab, clic on save button:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_defaultSearch_fr.png "Sauvegarder la recherche par défaut")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_defaultSearch_en.png "Set the default search")
 

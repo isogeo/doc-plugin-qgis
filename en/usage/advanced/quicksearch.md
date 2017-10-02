@@ -1,22 +1,23 @@
-# Recherches rapides
+# Quick searches
 
-## Enregistrer une recherche rapide
+### Save a quicksearch
 
-Toute recherche, quel que soit le nombre de filtres utilisés, peut être enregistrée sous un profil nommé. Une fois la recherche enregistrée, elle peut être exécutée sans avoir à agir sur les différents filtres.
+Every search can be saved as a quicksearch in order to be used as a shortcut and save time in regular usage.
 
-Pour enregistrer une recherche :
+The process is simple:
 
-1. Après avoir tapé du texte dans la barre de recherche et/ou agi sur les différents filtres, cliquer sur le bouton “Enregistrer la recherche”.
 
-    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_quicksearch_save_button_fr.png "Enregistrer une recherche rapide")
+1. When search parameters are active (terms and/or filters), click on save button:
 
-2. Lui donner un nom dans la fenêtre qui apparait
+    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_quicksearch_save_button_en.png "Form to save a quicksearch")
 
-    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_quicksearch_save_popup_fr.png "Nommer une recherche rapide")
+2. Give it a name:
 
-## Utiliser une recherche rapide
+    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_quicksearch_save_popup_en.png "Form to name a quicksearch")
 
-Choisir la recherche enregistrée dans la liste déroulante pour exécuter la recherche rapidement :
+## Use quick searches
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_quicksearch_pick_fr.png "Utiliser une recherche rapide")
+Pick the wanted quicksearch from the drop-down list:
+
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_quicksearch_pick_en.png "Quicksearch picker")
 
