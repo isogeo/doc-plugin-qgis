@@ -4,13 +4,14 @@
 
 ### Request and set API credentials
 
-Isogeo is a secured SaaS platform, so applications which use its data have to be authenticated (oAuth2 protocol).
+Isogeo is a secured SaaS platform, so applications which use its data have to be authenticated (oAuth2 protocol). API credentials are a key pair, with an _id_ and a _secret_. A graphic form allows the user to set it. Credentials are stored in [the QGIS authentication base](http://docs.qgis.org/2.18/en/docs/user_manual/auth_system/auth_overview.html#authentication-database) if user enabled it before or in Qsettings if not.
 
-
-The [authentication form](/installation/standard.md#auth-form) show up when:
+The [authentication form](/installation/standard.md#auth-form) shows up when:
 
 * the plugin is launched for the first time,
 * the API credentials have expired.
+
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_auth_prompt_en.png "Authentication form to enter API keys")
 
 ### Change API credentials
 
