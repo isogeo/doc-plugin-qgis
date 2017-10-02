@@ -1,25 +1,24 @@
-# Rechercher
+# Search
 
-Pour tenir compte du moteur de recherche Isogeo \(basé sur le principes des facettes contextuelles\) mais aussi pour les performances, la recherche se passe en deux temps :
+To take advantage of Isogeo search engine (based on contextual filters) and also on performances issues, search is a 2-steps process:
 
-1. l'utilisateur entre les paramètres de sa recherche qui ressert de plus en plus le nombre de résultats ;
+1. user l'utilisateur entre les paramètres de sa recherche qui ressert de plus en plus le nombre de résultats ;
 2. l'utilisateur affiche et parcourt la liste des résultats.
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_tabs_main_search_empty_en.png "Interface du plugin avec une recherche vide")
 
-## Recherche sémantique
+## Semantic search
 
-La recherche textuelle s'effectue dans la barre de saisie de texte en haut à gauche de la fenêtre du plugin.
+The search bar is the first widget at the top left of the plugin window.
 
-Les termes saisis sont recherchés au sein :
+Metadata fields where terms are searched:: 
+- title
+- filename or table name
+- abstract
+- keywords
+- INSPIRE themes
 
-* du titre de la fiche de métadonnées
-* du nom du fichier
-* de son résumé
-* de ses mots-clés
-* de ses thèmes INSPIRE
-
-Pour en savoir plus sur le fonctionnement du moteur de recherche Isogeo, [consulter l'aide en ligne](http://help.isogeo.com/fr/features/inventory/search.html).
+To know more about how does the Isogeo search engine works, [read the official online documentation](http://help.isogeo.com/en/features/inventory/search.html).
 
 ## Filtres contextuels
 
