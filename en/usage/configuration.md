@@ -1,36 +1,32 @@
-# Configuration et paramètres
+# Configuration and settings
 
-## Authentification
+## Authentication
 
-### Changer les clés d'authentification
+### Change API credentials
 
-Dans les paramètres, il est également possible de changer de compte, pour se connecter à une autre instance du plugin QGIS.
+In the `Settings` tab, it's possible to change API keys:
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_switch_api_en.png "Change API authentication")
 
 ---
 
-## Partager les catalogues de ses données au plugin
+## Share catalogs to the plugin
 
-Créer un partage avec un ou plusieurs catalogues vers l'application _Plugin QGIS_ dans l'administration des partages sur [APP](https://app.isogeo.com) ;
 
-<img src="https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/app_share_toPlugin_en.png" alt="Create a share to publish metadata to the plugin" height="350" align="center" />
+Create a share to the application *QGIS Plugin* in the administration console on [APP](https://app.isogeo.com/admin/shares);
+
+<img src="https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/app_share_toPlugin_en.png" alt="A share to publish metadata into the plugin from Isogeo administration console" height="350" align="center" />
 
 ---
 
-## Consulter les groupes de travail alimentant le plugin
+## Display shares which are feeding the plugin
 
-Dans l'onglet "Paramètres" du plugin, on retrouve les informations sur les groupes de travail qui alimentent l'application.
+In the `Settings` tabs, informations about the application are displayed:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_shares_details_en.png "Informations about the share can be retrieved in Settings tab")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_shares_details_en.png "Informations about application in the Settings tab")
 
-On retrouve donc :
-
-* le nom de l'application déclarée dans Isogeo qui correspond au plugin ;
-* le nombre de partages qui l'alimentent. On trouve ensuite les informations sur chaque partage :
-  * le nom du partage ;
-  * la date de dernière mise à jour du partage ;
-  * le groupe de travail Isogeo à qui appartient le partage, ainsi que le mail de contact
-
-
-
+* name of the application declared to the Isogeo platform, corresponding to the plugin in use,
+* count of shares feeding the plugin in use. Then, each share is described:
+  * the share name - a clic opens the administration console on Isogeo,
+  * the share last update,
+  * the Isogeo workgroup owning the share and its email contact

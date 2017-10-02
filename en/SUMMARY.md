@@ -11,7 +11,7 @@
 * [Beta version](installation/beta.md)
 * [Development version](installation/dev.md)
 
-## Utilisation
+## Usage
 
 * [Configure](usage/configuration.md)
 * [Search](usage/search.md)
@@ -20,7 +20,7 @@
 * [Quicksearches](usage/advanced/quicksearch.md)
 * [Default search](usage/advanced/defaultsearch.md)
 
-## Annexes
+## Appendices
 
 * [FAQ and support](appendices/support.md)
 * [Releases notes](appendices/versions.md)
