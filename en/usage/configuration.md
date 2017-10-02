@@ -5,8 +5,10 @@
 
 ### 
 
+The [authentication form](/installation/standard.md#auth-form) show up when:
 
-
+* the plugin is launched for the first time,
+* the API credentials have expired.
 
 ### Change API credentials
 
