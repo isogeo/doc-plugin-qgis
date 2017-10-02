@@ -40,56 +40,50 @@ It's possible to filter on:
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_en.png "Geographic filter - From an active layer")
 
-Par défaut, le filtre géographique remonte toute les données qui intersectent l'emprise considérée.
-
-Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opérateur différent, puis relancer la recherche.
+By default, the geographical filter give all data which intersect with the bounding box selected.
+To change this behavior, choose a different operator in "Settings" tab, and then restart the search.
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_en.png "Set geometric operator for geographic filter")
 
-### Autres filtres
+### Other filters 
 
-Tous les autres filtres sémantiques fonctionnent de la même manière \(sélection d'une modalité dans une liste déroulante\). La seule exception est le filtre sur les actions disponibles pour lequel les options souhaitées doivent être cochées.
+All others filters are operating the same way. The only exception is the filter on the available actions that need to be checked.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_actions_en.png "Filtre sur les actions associées")
-
-Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'un filtre fait évoluer les modalités disponibles dans toutes les listes déroulantes.
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_actions_en.png "Filter on associated actions")
 
 ---
 
-## Afficher les résultats
+## Display and explore results
 
-Lors de la saisie de texte dans la barre de recherche et de l'action sur un filtre sémantique, le contenu des autres filtres se met à jour, et le nombre de résultats attendus s'affiche dans le bouton orange.
+When a search is made (search terms or filter used), the number of results is updated and displayed in the orange button.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_show_en.png "Nombre de résultats sur le bouton pour les afficher")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_show_en.png "Results count on the display button")
 
-Au clic sur ce bouton, les résultats de la recherche sont affichés dans le tableau des résultats, paginés de manière à ne jamais afficher plus de 10 résultats simultanément.
+Clicking on this button displays search results in the table, 15 per 15 (pagination).
 
-Pour chaque résultat, on trouve :
+For each result, are displayed:
 
-* le titre affecté à la fiche de métadonnée
-* la date de dernière modification de la donnée
-* une icône représentant son type de géométrie
-* les modalités d'ajout disponibles pour cette donnée
+- the metadata title
+- the last data update
+- the geometry type
+- available options to adda data to the map canvas (see below)
 
-Deux boutons sont consacrés à la navigation entre les différentes pages de résultats en bas du tableau :
+Two buttons allow navigation between different pages:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_pagination_en.png "Pagination des résultats")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_pagination_en.png "Results pagination")
 
-### Trier les résultats
+### Order results
 
-Une fois affichés, les résultats peuvent être triés.
+Once displayed, results can be ordered.
 
-Le tri par défaut est **le score de pertinence** \(voir [ici pour le détail du calcul du score](http://help.isogeo.com/fr/features/inventory/search.html#pertinence-)\). Il s'agit du tri recommandé lors de recherches textuelles.
+By default, results are ordered according to a relevance rank. Obviously, when there is not text in the search bar, the relevance is the same for all results which are ordered by descending metadata creation date.
 
-Lorsqu'aucun texte n'est saisi dans la barre de recherche, le score de pertinence étant nul pour tous les résultats c'est alors le tri décroissant par date de création de la fiche de métadonnée qui est appliqué par défaut.
+Others order options available:
 
-Les autres tris disponibles sont :
-
-* Ordre alphabétique
-* Date de création de la métadonnée
-* Date de dernière modification de la métadonnée
-* Date de création de la donnée
-* Date de dernière modification de la donnée
-
+- Alphabetical
+- Metadata creation
+- Metadata last update
+- Data creation
+- Data last update
 
 
