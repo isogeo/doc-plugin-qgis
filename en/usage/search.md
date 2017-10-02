@@ -38,13 +38,13 @@ It's possible to filter on:
 - map canvas bounding box
 - convex hull stored from an active layers
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_options\_geographic\_en.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_en.png) "Geographic filter - From an active layer"\)
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_en.png "Geographic filter - From an active layer")
 
 Par défaut, le filtre géographique remonte toute les données qui intersectent l'emprise considérée.
 
 Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opérateur différent, puis relancer la recherche.
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings\_geographic\_en.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_en.png) "Paramétrer l'opérateur géométrique pour la recherche géographique"\)
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_en.png "Set geometric operator for geographic filter")
 
 ### Autres filtres
 
