@@ -10,7 +10,7 @@ Classic installation process for standard users, through the stable channel of Q
 
    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_install_extension_en.png "Install the plugin from the plugin manager")
 
-3. At the first start, the [authentication form](/{#auth}) will be displayed, so enter the credentials you received by mail:
+3. At the first start, the [authentication form](#auth-form) will be displayed, so enter the credentials you received by mail:
 
    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_auth_prompt_en.png "Authentication form to enter API keys")
    
