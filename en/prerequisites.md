@@ -3,7 +3,7 @@
 ## Technical environment
 
 * QGIS 2.x LTR version (+ 3 months) - check [the roadmap and the release schedule](https://www.qgis.org/fr/site/getinvolved/development/roadmap.html#release-schedule)
-* an connection to [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) and [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/). Think about proxies, firewall...
+* an Internet connection to [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) and [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/). Think about proxies, firewall...
 
 ___
 
