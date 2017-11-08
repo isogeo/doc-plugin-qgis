@@ -11,4 +11,4 @@ En tapant `Ici c'est Isogeo !` dans la barre de recherche, le logo d'Isogeo est 
 
 ## Le Picasa de l'information géographique
 
-Cela zoom sur la procédure d'installation de Picasa.
+En tapant `Picasa` dans la barre de recherche, la carte est zoomée et le projet renommé en "Isogeo, le Picasa de l'information géographique !".
