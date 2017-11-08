@@ -26,5 +26,3 @@
 * [Notes des versions](appendices/versions.md)
 * [Index des images et figures](pictures.md)
 
-[ ](usage/advanced/eastereggs.md)
-
