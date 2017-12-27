@@ -1,3 +1,4 @@
-# Summary
+# Sommaire / Summary
 
-* [First Chapter](chapter1.md)
+* [Documentation en Français](/fr/README.md)
+* [English documentation](/en/README.md)
