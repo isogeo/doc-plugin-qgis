@@ -15,7 +15,7 @@ Installation classique pour les utilisateurs standards, via le canal stable du g
    * Si vos identifiants ne sont pas reconnus, un message d'erreur s'affiche et les fonctionnalités du plugin sont bloquées. Le bouton "Enregistrer" reste inactif.
    
    
-   ![](/assets/Capture_authentication_invalid.PNG)
+   ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/Capture_authentication_invalid.PNG)
    
    
    * Si vos identifiants sont reconnus, le bouton "Enregistrer" s'active. Cliquer dessus pour accéder au plugin.
