@@ -16,7 +16,7 @@ Installation classique pour les utilisateurs standards, via le canal stable du g
    
    
    ![](/assets/Capture_authentication_invalid.PNG)
-   "Boîte de dialogue pour authentifier le plugin avec les clés API")
+   
    
    * Si vos identifiants sont reconnus, le bouton "Enregistrer" s'active. Cliquer dessus pour accéder au plugin.
 
