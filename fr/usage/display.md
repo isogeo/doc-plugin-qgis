@@ -1,12 +1,23 @@
 # Ajouter une donnée à la carte
 
+La principale finalité du plugin est de permettre à l'utilisateur final d'ajouter les données du catalogue directement à sa carte, sans se soucier de configurer les paramètres d'accès aux données sources.
+
+## Fonctionnement
+
+Pour pouvoir ajouter les données à l'espace de travail du logiciel SIG, le plugin se base uniquement sur les métadonnées. Pour rappel :
+
+* **aucune donnée ne transite par notre infrastructure**
+* seules les métadonnées sont utilisées et plus particulièrement les champs d'identification de la donnée source ([emplacement et nom technique](http://help.isogeo.com/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donn%C3%A9e))
+
+## Options d&apos;ajout
+
 Pour ajouter une donnée à la carte, la colonne "Ajouter" liste les options possibles.
 
 Il y a plusieurs cas de figure :
 
 * La donnée peut être ajoutée d'une seule manière. Auquel cas, la colonne "Ajouter" ne comprend qu'un bouton. Au clic, la donnée sera ajoutée à la carte.
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_results\_addOk\_one\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addOk_one_fr.png) "Donn&eacute;e ajoutable d&apos;une seule mani&egrave;re"\)
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addOk_one_fr.png "Donn&eacute;e ajoutable d&apos;une seule mani&egrave;re")
 
 * La donnée peut être ajoutée de plusieurs manières différentes. Auquel cas, la colonne "Ajouter" comprend une liste déroulante permettant à l'utilisateur de choisir entre les différentes options.
 
