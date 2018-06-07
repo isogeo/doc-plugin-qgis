@@ -1,7 +1,7 @@
 {
  "plugins": ["image-captions",
+             "page-toc",
              "timeline",
-             "page-nav-configurable",
              "youtube"
              ],
   "pluginsConfig": {
@@ -9,8 +9,12 @@
                               "variable_name": "pictures",
                               "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_",
                               "images": {"1.1.1": {"skip": true}}
-                                        }
-              },
+                              },
+                "page-toc": {
+                              "position": "top",
+                              "selector": ".markdown-section h2, .markdown-section h3",
+                              },
+                },
  "variables": {
         "pictures": []
     }
