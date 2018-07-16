@@ -17,15 +17,15 @@ Il y a plusieurs cas de figure :
 
 * La donnée peut être ajoutée d'une seule manière. Auquel cas, la colonne "Ajouter" ne comprend qu'un bouton. Au clic, la donnée sera ajoutée à la carte.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addOk_one_fr.png "Donn&eacute;e ajoutable d&apos;une seule mani&egrave;re")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_addOk_one_fr.png "Donn&eacute;e ajoutable d&apos;une seule mani&egrave;re")
 
 * La donnée peut être ajoutée de plusieurs manières différentes. Auquel cas, la colonne "Ajouter" comprend une liste déroulante permettant à l'utilisateur de choisir entre les différentes options.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_add_OK_multi_fr.png "Donnée ajoutable de plusieurs manières")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_add_OK_multi_fr.png "Donnée ajoutable de plusieurs manières")
 
 * La donnée ne peut pas être ajoutée : le fichier n'est pas disponible et il n'y a pas de services renseignés \(ou ceux-ci sont mal renseignés\).
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addNot_fr.png "Donnée non ajoutable - Critères non remplis")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_addNot_fr.png "Donnée non ajoutable - Critères non remplis")
 
 ---
 
