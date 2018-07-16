@@ -7,5 +7,5 @@ Dans l'onglet "Paramètres", l’utilisateur peut configurer la recherche par d�
 1. Effectuer la recherche souhaitée ;
 2. Se rendre dans l'onglet des paramètres et cliquer sur le bouton de sauvegarde de la recherche par défaut :
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_defaultSearch_fr.png "Sauvegarder la recherche par défaut")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/settings_defaultSearch_fr.png "Sauvegarder la recherche par d&eacute;faut")
 
