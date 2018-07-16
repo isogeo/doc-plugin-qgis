@@ -19,6 +19,7 @@
 * [Ajouter une donnée](usage/display.md)
 * [Recherches rapides](usage/advanced/quicksearch.md)
 * [Recherche par défaut](usage/advanced/defaultsearch.md)
+* [Recherches spéciales](usage/advanced/eastereggs.md)
 
 ## Annexes
 

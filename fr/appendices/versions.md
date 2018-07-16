@@ -3,9 +3,29 @@
 
 <!-- timeline -->
 
+## 1.6.1 {#version161}
+
+<br> Publiée le 1er août 2018 :
+
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/7?closed=1)
+
+* amélioration du rapport d'anomalie [#139](https://github.com/isogeo/isogeo-plugin-qgis/issues/139#issuecomment-405258056)
+* l'authentification à l'API Isogeo est désormais capable de gérer d'autres isntances que celle de la plateforme Isogeo. Requis pour une installation [_on-premises_](https://fr.wikipedia.org/wiki/Auto-h%C3%A9bergement_(Internet)). [#149](https://github.com/isogeo/isogeo-plugin-qgis/issues/149)
+* corrections d'anomalies mineures :
+    - depuis la version précédente, certaines icônes ne s'affichaient pas dans la fiche de métadonnées [#147](https://github.com/isogeo/isogeo-plugin-qgis/issues/147 et [#148](https://github.com/isogeo/isogeo-plugin-qgis/issues/148))
+    - une erreur pouvait intervenir dans certains cas de chargement de données fichiers
+    - des fenêtres d'information à l'utilisateur ne fonctionnaient pas
+
+<!-- /timeline -->
+
+
+
+
+<!-- timeline -->
+
 ## 1.6 {#version16}
 
-<br> Publiée le 1er novembre 2017 :
+<br> Publiée le 30 avril 2018 :
 
 > [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/6?closed=1)
 
