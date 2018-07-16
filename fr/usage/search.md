@@ -39,13 +39,13 @@ On y trouve les possibilités de filtrer sur :
 * L'emprise actuelle de la carte
 * L'enveloppe convexe des couches actuellement affichées
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_options\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_fr.png) "Filtre à partir de la carte ou d&apos;une couche active"\)
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_geographic_fr.png "Filtre à partir de la carte ou d&apos;une couche active")
 
 Par défaut, le filtre géographique remonte toute les données qui intersectent l'emprise considérée.
 
 Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opérateur différent, puis relancer la recherche.
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_fr.png) "Param&eacute;trer l&apos;op&eacute;rateur g&eacute;om&eacute;trique pour la recherche g&eacute;ographique"\)
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/settings_geographic_fr.png "Param&eacute;trer l&apos;op&eacute;rateur g&eacute;om&eacute;trique pour la recherche g&eacute;ographique")
 
 ### Autres filtres {#others}
 
