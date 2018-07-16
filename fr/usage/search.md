@@ -39,7 +39,7 @@ On y trouve les possibilités de filtrer sur :
 * L'emprise actuelle de la carte
 * L'enveloppe convexe des couches actuellement affichées
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_options\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_fr.png) "Filtre à partir de la carte ou d'une couche active"\)
+!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search\_options\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_geographic_fr.png) "Filtre à partir de la carte ou d&apos;une couche active"\)
 
 Par défaut, le filtre géographique remonte toute les données qui intersectent l'emprise considérée.
 
@@ -51,7 +51,7 @@ Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opé
 
 Tous les autres filtres sémantiques fonctionnent de la même manière \(sélection d'une modalité dans une liste déroulante\). La seule exception est le filtre sur les actions disponibles pour lequel les options souhaitées doivent être cochées.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_geographic_fr.png "Filtre sur les actions associ&eacute;es")
+!\[\]\(https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_geographic_fr.png "Filtre sur les actions associ&eacute;es")
 
 Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'un filtre fait évoluer les modalités disponibles dans toutes les listes déroulantes.
 
