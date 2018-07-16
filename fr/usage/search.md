@@ -45,7 +45,7 @@ Par défaut, le filtre géographique remonte toute les données qui intersectent
 
 Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opérateur différent, puis relancer la recherche.
 
-!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_fr.png) "Paramétrer l'opérateur géométrique pour la recherche géographique"\)
+!\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_fr.png) "Param&eacute;trer l&apos;op&eacute;rateur g&eacute;om&eacute;trique pour la recherche g&eacute;ographique"\)
 
 ### Autres filtres {#others}
 
