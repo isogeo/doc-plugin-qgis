@@ -6,15 +6,15 @@ Here come the different use cases:
 
 - The dataset can be added through different options. User choose its preferred option in the drop-down list.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_add_OK_multi_en.png "Data can be added through multiple ways")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_results_add_OK_multi_en.png "Data can be added through multiple ways")
 
 - The dataset can be added through only one way. The column "Add" is a button.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addOk_one_en.png "Data can be added through one way")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_results_addOk_one_en.png "Data can be added through one way")
 
 - The dataset can't be added: file is not reachable and any correct webservice is linked.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_results_addNot_en.png "Unable to add data - check criterias")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_results_addNot_en.png "Unable to add data - check criterias")
 ___
 
 ## Criteria
