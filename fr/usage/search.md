@@ -76,7 +76,7 @@ Deux boutons sont consacrés à la navigation entre les différentes pages de r�
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_pagination_fr.png "Pagination des résultats")
 
-### Trier les résultats {order}
+### Trier les résultats {#order}
 
 Une fois affichés, les résultats peuvent être triés.
 
