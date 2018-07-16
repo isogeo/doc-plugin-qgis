@@ -31,7 +31,7 @@ Pour filtrer par mots-clés, cocher un ou plusieurs mots-clés dans la liste dé
 
 ### Filtre géographique
 
-Pour filtrer les résultats sur une emprise géographique, choisir une modalité dans la liste déroulante dédiée.   
+Pour filtrer les résultats sur une emprise géographique, choisir une modalité dans la liste déroulante dédiée.  
 On y trouve les possibilités de filtrer sur :
 
 * L'emprise actuelle de la carte
@@ -49,7 +49,7 @@ Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opé
 
 Tous les autres filtres sémantiques fonctionnent de la même manière \(sélection d'une modalité dans une liste déroulante\). La seule exception est le filtre sur les actions disponibles pour lequel les options souhaitées doivent être cochées.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_actions_fr.png "Filtre sur les actions associ&eacute;es")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_geographic_fr.png "Filtre sur les actions associ&eacute;es")
 
 Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'un filtre fait évoluer les modalités disponibles dans toutes les listes déroulantes.
 
@@ -59,7 +59,7 @@ Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'u
 
 Lors de la saisie de texte dans la barre de recherche et de l'action sur un filtre sémantique, le contenu des autres filtres se met à jour, et le nombre de résultats attendus s'affiche dans le bouton orange.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_show_fr.png "Nombre de r&eacute;sultats sur le bouton pour les afficher")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_show_fr.png "Nombre de résultats sur le bouton pour les afficher")
 
 Au clic sur ce bouton, les résultats de la recherche sont affichés dans le tableau des résultats, paginés de manière à ne jamais afficher plus de 10 résultats simultanément.
 
@@ -72,7 +72,7 @@ Pour chaque résultat, on trouve :
 
 Deux boutons sont consacrés à la navigation entre les différentes pages de résultats en bas du tableau :
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_pagination_fr.png "Pagination des r&eacute;sultats")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_pagination_fr.png "Pagination des résultats")
 
 ### Trier les résultats
 
