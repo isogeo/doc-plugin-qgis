@@ -21,15 +21,17 @@ Les termes saisis sont recherchés au sein :
 
 Pour en savoir plus sur le fonctionnement du moteur de recherche Isogeo, [consulter l'aide en ligne](http://help.isogeo.com/fr/features/inventory/search.html).
 
-## Filtres contextuels
+---
 
-### Filtre par mot-clé
+## Filtres contextuels {#filters}
+
+### Filtre par mot-clé {#keywords}
 
 Pour filtrer par mots-clés, cocher un ou plusieurs mots-clés dans la liste déroulante dédiée.
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_keywords_fr.png "Filtre par mot-clé")
 
-### Filtre géographique
+### Filtre géographique {#geometric}
 
 Pour filtrer les résultats sur une emprise géographique, choisir une modalité dans la liste déroulante dédiée.  
 On y trouve les possibilités de filtrer sur :
@@ -45,7 +47,7 @@ Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opé
 
 !\[\]\([https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings\_geographic\_fr.png](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/settings_geographic_fr.png) "Paramétrer l'opérateur géométrique pour la recherche géographique"\)
 
-### Autres filtres
+### Autres filtres {#others}
 
 Tous les autres filtres sémantiques fonctionnent de la même manière \(sélection d'une modalité dans une liste déroulante\). La seule exception est le filtre sur les actions disponibles pour lequel les options souhaitées doivent être cochées.
 
@@ -55,7 +57,7 @@ Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'u
 
 ---
 
-## Afficher les résultats
+## Afficher les résultats {#display}
 
 Lors de la saisie de texte dans la barre de recherche et de l'action sur un filtre sémantique, le contenu des autres filtres se met à jour, et le nombre de résultats attendus s'affiche dans le bouton orange.
 
@@ -89,6 +91,3 @@ Les autres tris disponibles sont :
 * Date de dernière modification de la métadonnée
 * Date de création de la donnée
 * Date de dernière modification de la donnée
-
-
-
