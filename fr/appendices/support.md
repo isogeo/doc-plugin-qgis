@@ -14,7 +14,11 @@ Si vous obtenez un message d'erreur ou bien vous constatez un comportement anorm
 
 Le problème persiste et signe ? Le \(dys\)fonctionnement est incompréhensible ?
 
-Il faut alors [créer un ticket ici](https://github.com/isogeo/isogeo-plugin-qgis/issues) en joignant une capture de l'onglet de la fenêtre messages et _surtout le fichier log\_isogeo\_plugin.log_ situé dans le dossier d'installation du plugin \(`C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Debian\) :
+Il faut alors [créer un ticket ici](https://github.com/isogeo/isogeo-plugin-qgis/issues) en joignant une capture de l'onglet de la fenêtre messages et _surtout le fichier log\_isogeo\_plugin.log_ situé dans le dossier `_logs` du dossier d'installation du plugin \(`C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Debian\).
+
+Pour y accéder, il suffit de cliquer sur le bouton dédié dans l'onglet `Paramètres` :
+
+
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/qgis_plugin_folder_structure.png "Structure du dossier du plugin Isogeo pour QGIS")
 
