@@ -7,7 +7,7 @@ To take advantage of Isogeo search engine (based on contextual filters) and also
 
 Note that user can display results list withtout any filter:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/ui_tabs_main_search_empty_en.png "Search form without any filter")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/ui_tabs_main_search_empty_en.png "Search form without any filter")
 
 ## Semantic search {#search-terms}
 
@@ -30,7 +30,7 @@ To know more about how does the Isogeo search engine works, [read the official o
 
 To filter by keywords, check one or more in the dedicated drop-down list:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/search_options_keywords_en.png "Keyword dropdown filter")
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_options_keywords_en.png "Keyword dropdown filter")
 
 ### Geographic filter {#geometric}
 
