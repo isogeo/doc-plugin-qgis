@@ -1,6 +1,9 @@
 # Support et questions fréquentes
 
-## Comment signaler un comportement anormal ?
+
+.
+
+## Comment signaler un comportement anormal ? {#report}
 
 Si vous obtenez un message d'erreur ou bien vous constatez un comportement anormal, voici la procédure à suivre :
 
@@ -17,7 +20,7 @@ Il faut alors [créer un ticket ici](https://github.com/isogeo/isogeo-plugin-qgi
 
 ---
 
-## Questions fréquentes
+## Questions fréquentes {#faq}
 
 ### Pourquoi n'y a t'il aucune donnée dans mon plugin ? {#nodata}
 
