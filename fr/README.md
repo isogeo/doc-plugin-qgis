@@ -20,7 +20,7 @@ Le plugin Isogeo  pour QGIS est entièrement conçu et développé par la socié
 
 La participation de [Lorient Agglomération](https://www.lorient-agglo.bzh/) et du [SMAVD](http://www.smavd.org/) en tant que [primos adoptants](https://fr.wikipedia.org/wiki/Primo_adoptant) a permis de sortir [la première version](/appendices/versions.md), de la tester et d’en valider sa pertinence en interne.
 
-### Vidéo de présentation
+### Vidéo de présentation {#video}
 
 L'application a été présentée lors du webinaire du 10 mai 2017 :
 
