@@ -15,3 +15,7 @@ En tapant `Ici c'est Isogeo !` dans la barre de recherche, le logo d'Isogeo est 
 ## Le Picasa de l'information géographique
 
 En tapant `Picasa` dans la barre de recherche, le projet est renommé en "Isogeo, le Picasa de l'information géographique !" de façon transparente. Le changement n'est visible qu'à l'enregistrement du projet (.qgs).
+
+![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/special/easteregg_picasa.png)
+
+
