@@ -14,8 +14,6 @@ It's been registered during a webinar in 2017:
 https://www.youtube.com/watch?v=cIqJ7gaG6Fc
 {% endyoutube %}
 
----
-
 ### Multilingual
 
 Plugin is available in 2 languages:
