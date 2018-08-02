@@ -80,7 +80,7 @@ jobs:
 
       - run:
           name: Build output bundles
-          command: yarn gitbook build Help/ dist/qgis/
+          command: yarn gitbook build ./ dist/qgis/
 
       - persist_to_workspace:
           root: *workspace_root
