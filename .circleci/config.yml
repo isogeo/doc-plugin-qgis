@@ -98,7 +98,7 @@ jobs:
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/qgis qa:\$web/qgis --delete-after
+          command: rclone sync dist/qgis qa:\$web/qgis --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
 
   deploy-prod:
     <<: *golang_container
