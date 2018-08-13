@@ -13,8 +13,9 @@
 * l'authentification à l'API Isogeo est désormais capable de gérer d'autres isntances que celle de la plateforme Isogeo. Requis pour une installation [_on-premises_](https://fr.wikipedia.org/wiki/Auto-h%C3%A9bergement_(Internet)). [#149](https://github.com/isogeo/isogeo-plugin-qgis/issues/149)
 * corrections d'anomalies mineures :
     - depuis la version précédente, certaines icônes ne s'affichaient pas dans la fiche de métadonnées [#147](https://github.com/isogeo/isogeo-plugin-qgis/issues/147 et [#148](https://github.com/isogeo/isogeo-plugin-qgis/issues/148))
-    - une erreur pouvait intervenir dans certains cas de chargement de données fichiers
+    - une erreur pouvait intervenir dans certains cas de chargement de données fichiers [#129](https://github.com/isogeo/isogeo-plugin-qgis/issues/129)
     - des fenêtres d'information à l'utilisateur ne fonctionnaient pas
+    - le fond de carte d'une métadonnée détaillée ne s'affichait [plus #150](https://github.com/isogeo/isogeo-plugin-qgis/issues/150)
 
 <!-- /timeline -->
 
