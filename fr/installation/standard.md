@@ -18,7 +18,7 @@ Ouvrir le gestionnaire d'extensions, rechercher Isogeo et cliquer sur "Installer
 
 Au premier lancement du plugin (ou au clic sur [le bouton de changement d'identifiants](/usage/configuration.md)), le formulaire d'authentification s'ouvre. 
 
-   ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/ui_auth_prompt_upload_credentials_file_fr.png "Charger le fichier client_secrets.json transmis par mail")
+   ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/ui_auth_prompt_upload_credentials_file_fr.png "Charger le fichier client_secrets json transmis par mail")
 
 Et voilà, bonne utilisation !
 
@@ -30,9 +30,6 @@ Au premier lancement du plugin, entrer les identifiants reçus par mail, puis cl
 
    * Si vos identifiants ne sont pas reconnus, un message d'erreur s'affiche et les fonctionnalités du plugin sont bloquées. Le bouton "Enregistrer" reste inactif.
 
-
-   ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/Capture_authentication_invalid.PNG)
- 
    * Si vos identifiants sont reconnus, le bouton "Enregistrer" s'active. Cliquer dessus pour accéder au plugin.
 
    ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/ui_auth_prompt_fr.png
