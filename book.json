@@ -1,22 +1,30 @@
 {
- "plugins": ["image-captions",
-             "page-toc",
-             "timeline",
-             "youtube"
-             ],
-  "pluginsConfig": {
-                "image-captions": {
-                              "variable_name": "pictures",
-                              "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_",
-                              "images": {"1.1.1": {"skip": true}}
-                              },
-                "page-toc": {
-                              "position": "top",
-                              "selector": ".markdown-section h2, .markdown-section h3"
-                              }
-                },
- "variables": {
+    "plugins": [
+        "ga",
+        "image-captions",
+        "page-toc",
+        "timeline",
+        "youtube"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-22345848-2"
+        },
+        "image-captions": {
+            "variable_name": "pictures",
+            "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_",
+            "images": {
+                "1.1.1": {
+                    "skip": true
+                }
+            }
+        },
+        "page-toc": {
+            "position": "top",
+            "selector": ".markdown-section h2, .markdown-section h3"
+        }
+    },
+    "variables": {
         "pictures": []
     }
-
- }
+}
