@@ -8,8 +8,6 @@ Dans les paramètres, il est également possible de changer de compte, pour se c
 
 ![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/settings_switch_api_fr.png "Changer les clés API du plugin")
 
-Puis s
-
 ---
 
 ## Partager les catalogues de ses données au plugin

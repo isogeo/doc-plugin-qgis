@@ -4,6 +4,7 @@
         "image-captions",
         "page-toc",
         "timeline",
+        "toggle-headers",
         "youtube"
     ],
     "pluginsConfig": {
