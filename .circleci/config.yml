@@ -118,6 +118,16 @@ jobs:
           paths:
             - .changelog/
 
+      - run:
+          name: Display changelog
+          command: cat CHANGELOG.md
+
+      - persist_to_workspace:
+          name: Persist changelog
+          root: *workspace_root
+          paths:
+            - CHANGELOG.md
+
   deploy-qa:
     <<: *golang_container
     steps:
