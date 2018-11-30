@@ -11,13 +11,13 @@ The [authentication form](/installation/standard.md#auth-form) shows up when:
 * the plugin is launched for the first time,
 * the API credentials have expired.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/ui_auth_prompt_en.png "Authentication form to enter API keys")
+![](/assets/ui_auth_prompt_en.png "Authentication form to enter API keys")
 
 ### Change API credentials
 
 In the `Settings` tab, it's possible to change API keys:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/settings_switch_api_en.png "Change API authentication")
+![](/assets/settings_switch_api_en.png "Change API authentication")
 
 ---
 
@@ -26,7 +26,7 @@ In the `Settings` tab, it's possible to change API keys:
 
 Create a share to the application *QGIS Plugin* in the administration console on [APP](https://app.isogeo.com/admin/shares);
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/app_share_toPlugin_en.png "A share to publish metadata into the plugin from Isogeo administration console")
+![](/assets/app_share_toPlugin_en.png "A share to publish metadata into the plugin from Isogeo administration console")
 
 ---
 
@@ -34,7 +34,7 @@ Create a share to the application *QGIS Plugin* in the administration console on
 
 In the `Settings` tabs, informations about the application are displayed:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/settings_shares_details_en.png "Informations about application in the Settings tab")
+![](/assets/settings_shares_details_en.png "Informations about application in the Settings tab")
 
 * name of the application declared to the Isogeo platform, corresponding to the plugin in use,
 * count of shares feeding the plugin in use. Then, each share is described:

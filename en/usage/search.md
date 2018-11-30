@@ -7,7 +7,7 @@ To take advantage of Isogeo search engine (based on contextual filters) and also
 
 Note that user can display results list withtout any filter:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/ui_tabs_main_search_empty_en.png "Search form without any filter")
+![](/assets/ui_tabs_main_search_empty_en.png "Search form without any filter")
 
 ## Semantic search {#search-terms}
 
@@ -30,7 +30,7 @@ To know more about how does the Isogeo search engine works, [read the official o
 
 To filter by keywords, check one or more in the dedicated drop-down list:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_options_keywords_en.png "Keyword dropdown filter")
+![](/assets/search_options_keywords_en.png "Keyword dropdown filter")
 
 ### Geographic filter {#geometric}
 
@@ -40,18 +40,18 @@ It's possible to filter on:
 - map canvas bounding box
 - convex hull stored from an active layers
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_options_geographic_en.png "Geographic filter - From an active layer")
+![](/assets/search_options_geographic_en.png "Geographic filter - From an active layer")
 
 By default, the geographical filter give all data which intersect with the bounding box selected.
 To change this behavior, choose a different operator in "Settings" tab, and then restart the search.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/settings_geographic_en.png "Set geometric operator for geographic filter")
+![](/assets/settings_geographic_en.png "Set geometric operator for geographic filter")
 
 ### Other filters {#others}
 
 All others filters are operating the same way, selecting a value will update all other dropdown lists:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_options_filters_en.png "Advanced search - all filters")
+![](/assets/search_options_filters_en.png "Advanced search - all filters")
 
 ---
 
@@ -59,7 +59,7 @@ All others filters are operating the same way, selecting a value will update all
 
 When a search is made (search terms or filter used), the number of results is updated and displayed in the orange button.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_results_show_en.png "Results count on the display button")
+![](/assets/search_results_show_en.png "Results count on the display button")
 
 Clicking on this button displays search results in the table, 15 per 15 (pagination).
 
@@ -72,7 +72,7 @@ For each result, are displayed:
 
 Two buttons allow navigation between different pages:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_results_pagination_en.png "Results pagination")
+![](/assets/search_results_pagination_en.png "Results pagination")
 
 ### Order results {#order}
 

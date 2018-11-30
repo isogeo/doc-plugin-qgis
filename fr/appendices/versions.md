@@ -1,6 +1,5 @@
 # Notes de versions
 
-
 <!-- timeline -->
 
 ## 1.6.1 {#version161}
@@ -19,9 +18,6 @@
 
 <!-- /timeline -->
 
-
-
-
 <!-- timeline -->
 
 ## 1.6 {#version16}
@@ -39,7 +35,6 @@
 * corrections d'anomalies mineures
 
 <!-- /timeline -->
-
 
 <!-- timeline -->
 

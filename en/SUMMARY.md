@@ -25,4 +25,3 @@
 * [FAQ and support](appendices/support.md)
 * [Releases notes](appendices/versions.md)
 * [Images index](pictures.md)
-

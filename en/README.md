@@ -1,8 +1,8 @@
-<img src="https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/logo_complet_IsoQGIS.png?raw=true" width="400">
+![Logo Isogeo QGIS](../assets/logo_IsoQGIS.png)
 
 Based on Isogeo RESTful API, the QGIS plugn si the best way to access your or external geodata without moving away from your favourite GIS software.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/ui_tabs_main_add_service_wms_en.png "Overview of Isogeo plugin for QGIS")
+![Overview of Isogeo plugin for QGIS](/assets/ui_tabs_main_add_service_wms_en.png)
 
 ### Video guided tour {#video}
 

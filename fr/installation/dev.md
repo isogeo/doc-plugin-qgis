@@ -1,4 +1,4 @@
-# Utiliser la version en développement
+# Développement
 
 Pour les développeurs ou à des fins de test, il est possible d'utiliser les versions au plus proche du développement. Les méthodes décrites ici sont destinées aux développeurs ou utilisateurs expérimentés.
 

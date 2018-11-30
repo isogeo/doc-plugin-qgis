@@ -1,5 +1,4 @@
-<img src="https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/logo_complet_IsoQGIS.png?raw=true" width="400">
-
+![Logo Isogeo QGIS](../assets/logo_IsoQGIS.png)
 
 Vous rêviez d’un moteur de recherche de données dans votre SIG… Isogeo l'a fait !
 
@@ -9,7 +8,8 @@ Ainsi, le “moteur de recherche”, présenté sous forme de plugin (sur soluti
 Ce moteur de recherche est techniquement connecté aux catalogues de la plateforme Isogeo.
 Grâce au moteur d'indexation Isogeo, vous pourrez accéder en quelques clics à vos données, celles de vos partenaires et aux données ouvertes (INSPIRE & Opendata) sans quitter votre environnement de travail.
 
-Les différents plugins et widgets partagent une base fonctionnelle commune, résumé ci-après : 
+Les différents plugins et widgets partagent une base fonctionnelle commune, résumé ci-après :
+
 * **Rechercher** une donnée dans le catalogue, en s’appuyant sur le système de filtres et de tri ;
 * **Consulter** la fiche de métadonnées dans une fenêtre dédiée ;
 * **Visualiser** l’emprise de la donnée sur la carte ;
@@ -20,7 +20,7 @@ Le plugin Isogeo  pour QGIS est entièrement conçu et développé par la socié
 
 La participation de [Lorient Agglomération](https://www.lorient-agglo.bzh/) et du [SMAVD](http://www.smavd.org/) en tant que [primos adoptants](https://fr.wikipedia.org/wiki/Primo_adoptant) a permis de sortir [la première version](/appendices/versions.md), de la tester et d’en valider sa pertinence en interne.
 
-### Vidéo de présentation {#video}
+## Vidéo de présentation {#video}
 
 L'application a été présentée lors du webinaire du 10 mai 2017 :
 

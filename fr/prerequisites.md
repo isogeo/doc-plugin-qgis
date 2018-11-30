@@ -17,6 +17,4 @@ ___
 
 ### Essayer le plugin {#try-it}
 
-Vous ne disposez pas encore d'un compte Isogeo mais vous souhaitez essayer le plugin Isogeo pour QGIS ? Merci de remplir le formulaire ci-dessous :
-
-<div class="pipedriveWebForms" data-pd-webforms="https://pipedrivewebforms.com/form/73f6215ad660efcc946e1e6d9ff0f62a52944"><script src="https://webforms.pipedriveassets.com/webforms.min.js"></script></div>
+Vous ne disposez pas encore d'un compte Isogeo mais vous souhaitez essayer le plugin Isogeo pour QGIS ? Merci de [remplir ce formulaire](https://pipedrivewebforms.com/form/73f6215ad660efcc946e1e6d9ff0f62a52944).

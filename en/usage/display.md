@@ -6,15 +6,15 @@ Here come the different use cases:
 
 - The dataset can be added through different options. User choose its preferred option in the drop-down list.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_results_add_OK_multi_en.png "Data can be added through multiple ways")
+![Data can be added through multiple ways](/assets/search_results_add_OK_multi_en.png)
 
 - The dataset can be added through only one way. The column "Add" is a button.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_results_addOk_one_en.png "Data can be added through one way")
+![Data can be added through one way](/assets/search_results_addOk_one_en.png)
 
 - The dataset can't be added: file is not reachable and any correct webservice is linked.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/search_results_addNot_en.png "Unable to add data - check criterias")
+![Unable to add data - check criterias](/assets/search_results_addNot_en.png)
 ___
 
 ## Criteria
@@ -24,6 +24,7 @@ ___
 Metadata field `Resource location has to contain the absolute path to the datafile.
 
 This path must be reachable:
+
 * by the system user who launched QGIS (read);
 * from the machine if the data is located on a local network.
 

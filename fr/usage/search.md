@@ -5,7 +5,7 @@ Pour tenir compte du moteur de recherche Isogeo \(basé sur le principes des fac
 1. l'utilisateur entre les paramètres de sa recherche qui ressert de plus en plus le nombre de résultats ;
 2. l'utilisateur affiche et parcourt la liste des résultats.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/ui_tabs_main_search_empty_fr.png "Interface du plugin avec une recherche vide")
+![Interface du plugin avec une recherche vide](/assets/ui_tabs_main_search_empty_fr.png)
 
 ## Recherche sémantique {#search-terms}
 
@@ -19,7 +19,7 @@ Les termes saisis sont recherchés au sein :
 * de ses mots-clés
 * de ses thèmes INSPIRE
 
-Pour en savoir plus sur le fonctionnement du moteur de recherche Isogeo, [consulter l'aide en ligne](http://help.isogeo.com/fr/features/inventory/search.html).
+Pour en savoir plus sur le fonctionnement du moteur de recherche Isogeo, [consulter l'aide en ligne](http://help.isogeo.com/admin/fr/features/inventory/search.html).
 
 ---
 
@@ -29,7 +29,7 @@ Pour en savoir plus sur le fonctionnement du moteur de recherche Isogeo, [consul
 
 Pour filtrer par mots-clés, cocher un ou plusieurs mots-clés dans la liste déroulante dédiée.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_keywords_fr.png "Filtre par mot-cl&eacute;")
+![Filtre par mot-cl&eacute;](/assets/search_options_keywords_fr.png)
 
 ### Filtre géographique {#geometric}
 
@@ -39,20 +39,20 @@ On y trouve les possibilités de filtrer sur :
 * L'emprise actuelle de la carte
 * L'enveloppe convexe des couches actuellement affichées
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_geographic_fr.png "Filtre à partir de la carte ou d&apos;une couche active")
+![Filtre à partir de la carte ou d&apos;une couche active](/assets/search_options_geographic_fr.png)
 
 Par défaut, le filtre géographique remonte toute les données qui intersectent l'emprise considérée.
 
 Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opérateur différent, puis relancer la recherche.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/settings_geographic_fr.png "Param&eacute;trer l&apos;op&eacute;rateur g&eacute;om&eacute;trique pour la recherche g&eacute;ographique")
+![Param&eacute;trer l&apos;op&eacute;rateur g&eacute;om&eacute;trique pour la recherche g&eacute;ographique](/assets/settings_geographic_fr.png)
 
 ### Autres filtres {#others}
 
 Tous les autres filtres sémantiques fonctionnent de la même manière \(sélection d'une modalité dans une liste déroulante\).
 Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'un filtre fait évoluer les modalités disponibles dans toutes les listes déroulantes.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_options_advanced_fr.png "Autres filtres de recherche avanc&eacute;e")
+![Autres filtres de recherche avanc&eacute;e](/assets/search_options_advanced_fr.png)
 
 ---
 
@@ -60,7 +60,7 @@ Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'u
 
 Lors de la saisie de texte dans la barre de recherche et de l'action sur un filtre sémantique, le contenu des autres filtres se met à jour, et le nombre de résultats attendus s'affiche dans le bouton orange.
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_show_fr.png "Nombre de r&eacute;sultats sur le bouton pour les afficher")
+![Nombre de r&eacute;sultats sur le bouton pour les afficher](/assets/search_results_show_fr.png)
 
 Au clic sur ce bouton, les résultats de la recherche sont affichés dans le tableau des résultats, paginés de manière à ne jamais afficher plus de 10 résultats simultanément.
 
@@ -73,13 +73,13 @@ Pour chaque résultat, on trouve :
 
 Deux boutons sont consacrés à la navigation entre les différentes pages de résultats en bas du tableau :
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/search_results_pagination_fr.png "Pagination des r&eacute;sultats")
+![Pagination des r&eacute;sultats](/assets/search_results_pagination_fr.png)
 
 ### Trier les résultats {#order}
 
 Une fois affichés, les résultats peuvent être triés.
 
-Le tri par défaut est **le score de pertinence** \(voir [ici pour le détail du calcul du score](http://help.isogeo.com/fr/features/inventory/search.html#pertinence-)\). Il s'agit du tri recommandé lors de recherches textuelles.
+Le tri par défaut est **le score de pertinence** \(voir [ici pour le détail du calcul du score](http://help.isogeo.com/admin/fr/features/inventory/search.html#pertinence-)\). Il s'agit du tri recommandé lors de recherches textuelles.
 
 Lorsqu'aucun texte n'est saisi dans la barre de recherche, le score de pertinence étant nul pour tous les résultats c'est alors le tri décroissant par date de création de la fiche de métadonnée qui est appliqué par défaut.
 

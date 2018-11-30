@@ -7,5 +7,4 @@ In the "Settings" tab, user can configure the default search, i.e. the search pa
 1. Make the wanted search,
 2. In the settings tab, clic on save button:
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/en/settings_defaultSearch_en.png "Set the default search")
-
+!["Set the default search"](/assets/settings_defaultSearch_en.png)
