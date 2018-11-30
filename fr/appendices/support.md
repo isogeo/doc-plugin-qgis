@@ -1,8 +1,5 @@
 # Support et questions fréquentes
 
-
-.
-
 ## Comment signaler un comportement anormal ? {#report}
 
 Si vous obtenez un message d'erreur ou bien vous constatez un comportement anormal, voici la procédure à suivre :
@@ -10,17 +7,18 @@ Si vous obtenez un message d'erreur ou bien vous constatez un comportement anorm
 * vérifier dans cette documentation si par hasard rien ne correspond à une explication du comportement constaté ;\)
 * regarder l'onglet dédié à isogeo dans la fenêtre des messages de QGIS :
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/qgis_log_view_tab_isogeo_fr.png "Ouvrir la fenêtre des messages de QGIS")
+!["Ouvrir la fenêtre des messages de QGIS"](/assets/qgis_log_view_tab_isogeo_fr.png)
 
 Le problème persiste et signe ? Le \(dys\)fonctionnement est incompréhensible ?
 
-Il faut alors [créer un ticket ici](https://github.com/isogeo/isogeo-plugin-qgis/issues) en joignant une capture de l'onglet de la fenêtre messages et _surtout le fichier log\_isogeo\_plugin.log_ situé dans le dossier `_logs` du dossier d'installation du plugin \(`C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Debian\).
+Il faut alors cliquer sur le bouton dédié au signalement (porte-voix rouge) ou directement [créer un ticket](https://github.com/isogeo/isogeo-plugin-qgis/issues) en :
+
+* joignant une capture de l'onglet de la fenêtre messages
+* et _surtout le fichier log\_isogeo\_plugin.log_ situé dans le dossier `_logs` du dossier d'installation du plugin \(`C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Debian\).
 
 Pour y accéder, il suffit de cliquer sur le bouton dédié dans l'onglet `Paramètres` :
 
-
-
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/fr/qgis_plugin_folder_structure.png "Structure du dossier du plugin Isogeo pour QGIS")
+!["Paramètres - Boutons log et signalement"](/assets/settings_resources_fr.png)
 
 ---
 
@@ -50,9 +48,6 @@ Oui, si le qlr se nomme de la même façon que le fichier de la donnée source e
 
 ### Pourquoi le thème de QGIS est-il modifié ? {#qgis_theme}
 
-Il existe plusieurs thèmes pour QGIS \(Préférence/Options/Général/Style\). Certains ne permettent pas d'afficher les cases à cocher dans la liste des mots-clefs. Il s'agit des thèmes _Macintosh \(aqua\)_ et _Cleanlooks_. A l'ouverture du plugin, celui-ci détecte le thème et le modifie automatiquement. Après redémarrage de QGIS, le thème _Plastique_ est configuré et le plugin peut fonctionner dans les meilleurs conditions. 
+Il existe plusieurs thèmes pour QGIS \(Préférence/Options/Général/Style\). Certains ne permettent pas d'afficher les cases à cocher dans la liste des mots-clefs. Il s'agit des thèmes _Macintosh \(aqua\)_ et _Cleanlooks_. A l'ouverture du plugin, celui-ci détecte le thème et le modifie automatiquement. Après redémarrage de QGIS, le thème _Plastique_ est configuré et le plugin peut fonctionner dans les meilleurs conditions.
 
-N.B: Ce problème affecte principalement les utilisateurs de QGIS sous MacOS car le thème par défaut n'est pas adapté. 
-
-
-
+N.B: Ce problème affecte principalement les utilisateurs de QGIS sous MacOS car le thème par défaut n'est pas adapté.
