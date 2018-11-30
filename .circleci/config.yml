@@ -120,17 +120,32 @@ jobs:
 
       - run:
           name: Display changelog
-          command: cat CHANGELOG.md
+          command: cat dist/qgis/CHANGELOG.md
 
       - persist_to_workspace:
           name: Persist changelog
           root: *workspace_root
           paths:
-            - CHANGELOG.md
+            - dist/qgis/CHANGELOG.md
 
       - store_artifacts:
-          path: CHANGELOG.md
-          destination: CHANGELOG-OUTPUT
+          path: dist/qgis/CHANGELOG.md
+          destination: CHANGELOG.md
+
+  release:
+    <<: *golang_container
+    steps:
+      - *attach_workspace
+      - *restore_node_modules
+
+      - run:
+          name: Install github-release
+          command: go get github.com/aktau/github-release
+
+      - run:
+          name: Create GitHub release
+          command: github-release release --user $CIRCLE_PROJECT_USERNAME --repo $CIRCLE_PROJECT_REPONAME --tag $CIRCLE_TAG --description "$(cat CHANGELOG.md)" --name $CIRCLE_TAG
+
 
   deploy-qa:
     <<: *golang_container
@@ -189,6 +204,11 @@ workflows:
             - install
           filters: *default_filters
 
+      - release:
+          requires:
+            - changelog
+          filters: *default_filters
+
       - build:
           requires:
             - install
@@ -197,11 +217,12 @@ workflows:
       - deploy-qa:
           requires:
             - build
-            - changelog
 
       - deploy-prod:
           requires:
             - build
+            - changelog
+            - release
           filters:
             <<: *default_filters
             branches:

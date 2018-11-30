@@ -41,7 +41,7 @@
         "labels": {
             "bug": ":bug: Bug Fix",
             "cleanup": ":shower: Cleanup",
-            "documentation": ":memo: Documentation",
+            "content": ":memo: Documentation",
             "enhancement": ":rocket: Enhancement",
             "performance": ":racehorse: Performance",
             "security": ":policeman: Security"
