@@ -87,6 +87,8 @@ Consulter [l'aide en ligne sur les syntaxes de documentation manuelle des couche
 
 #### Formats de services supportés
 
+* Esri Feature Service \(EFS\)
+* Esri Map Service \(EMS\)
 * Web Feature Service \(WFS\)
 * Web Map Service \(WMS\)
 * Web Map Tile Service \(WMTS\)
