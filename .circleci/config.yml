@@ -87,6 +87,47 @@ jobs:
           paths:
             - dist/
 
+changelog:
+    <<: *nodejs_container
+    steps:
+      - *attach_workspace
+      - *restore_node_modules
+
+      - restore_cache:
+          name: Restore changelog cache
+          keys:
+            - isogeo-help-changelog-{{ .BuildNum }}
+            - isogeo-help-changelog-
+
+      - run:
+          name: Generate changelog
+          command: |
+            if [ $CIRCLE_TAG ]; then
+              PREV_TAG=$(git describe --abbrev=0 --tags $CIRCLE_TAG^)
+              echo "[+] Running for range $PREV_TAG...$CIRCLE_TAG"
+              node_modules/.bin/lerna-changelog --from $PREV_TAG --to $CIRCLE_TAG > CHANGELOG.md
+            else
+              PREV_TAG=$(git describe --abbrev=0 --tags)
+              echo "[+] Running from $PREV_TAG"
+              node_modules/.bin/lerna-changelog --from $PREV_TAG > CHANGELOG.md
+            fi
+      - save_cache:
+          name: Save changelog cache
+          key: isogeo-help-{{ .BuildNum }}
+          paths:
+            - .changelog/
+
+      - run:
+          name: Display changelog
+          command: cat CHANGELOG.md
+
+      - persist_to_workspace:
+          name: Persist changelog
+          root: *workspace_root
+          paths:
+            - CHANGELOG.md
+
+
   deploy-qa:
     <<: *golang_container
     steps:
@@ -135,10 +176,12 @@ workflows:
       - deploy-qa:
           requires:
             - build
+            - changelog
 
       - deploy-prod:
           requires:
             - build
+            - changelog
           filters:
             <<: *default_filters
             branches:
