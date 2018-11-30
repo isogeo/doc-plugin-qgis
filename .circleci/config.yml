@@ -199,22 +199,14 @@ workflows:
             - checkout
           filters: *default_filters
 
-      - changelog:
+      - build:
           requires:
             - install
           filters: *default_filters
 
-      - release:
+      - changelog:
           requires:
-            - changelog
-          filters:
-            <<: *default_filters
-            branches:
-              ignore: /.*/
-
-      - build:
-          requires:
-            - install
+            - build
           filters: *default_filters
 
       - deploy-qa:
@@ -224,8 +216,15 @@ workflows:
       - deploy-prod:
           requires:
             - build
+          filters:
+            <<: *default_filters
+            branches:
+              ignore: /.*/
+
+      - release:
+          requires:
             - changelog
-            - release
+            - deploy-prod
           filters:
             <<: *default_filters
             branches:
