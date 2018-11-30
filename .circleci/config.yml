@@ -93,18 +93,6 @@ jobs:
       - *attach_workspace
       - *restore_node_modules
 
-      - restore_cache:
-          name: Restore changelog cache
-          keys:
-            - isogeo-help-changelog-{{ .BuildNum }}
-            - isogeo-help-changelog-
-
-      - save_cache:
-          name: Save changelog cache
-          key: isogeo-help-{{ .BuildNum }}
-          paths:
-            - .changelog/
-
   deploy-qa:
     <<: *golang_container
     steps:
@@ -158,7 +146,6 @@ workflows:
       - deploy-prod:
           requires:
             - build
-            - changelog
           filters:
             <<: *default_filters
             branches:
