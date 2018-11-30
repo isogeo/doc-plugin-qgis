@@ -87,7 +87,7 @@ jobs:
           paths:
             - dist/
 
-changelog:
+  changelog:
     <<: *nodejs_container
     steps:
       - *attach_workspace
