@@ -133,6 +133,11 @@ workflows:
             - checkout
           filters: *default_filters
 
+      - changelog:
+          requires:
+            - install
+          filters: *default_filters
+
       - build:
           requires:
             - install
@@ -141,7 +146,6 @@ workflows:
       - deploy-qa:
           requires:
             - build
-            - changelog
 
       - deploy-prod:
           requires:
