@@ -138,6 +138,12 @@ jobs:
       - *attach_workspace
 
       - run:
+          name: Rename robots.txt
+          command: |
+            mv dist/qgis/robots_qa.txt dist/qgis/robots.txt
+            rm dist/qgis/robots_prod.txt
+
+      - run:
           name: Install rclone
           command: go get github.com/ncw/rclone
 
@@ -151,12 +157,18 @@ jobs:
       - *attach_workspace
 
       - run:
+          name: Rename robots.txt
+          command: |
+            mv dist/qgis/robots_prod.txt dist/qgis/robots.txt
+            rm dist/qgis/robots_qa.txt
+
+      - run:
           name: Install rclone
           command: go get github.com/ncw/rclone
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/qgis prod:\$web/qgis --delete-after
+          command: rclone sync dist/qgis prod:\$web/qgis --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
 
 
 workflows:
