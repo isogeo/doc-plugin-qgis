@@ -27,6 +27,10 @@ This path must be reachable:
 * by the system user who launched QGIS (read);
 * from the machine if the data is located on a local network.
 
+#### Cache
+
+To improve performances, the plugin embed a minimalist cache system storing the unreachable paths. To empty the cache, click on the dedicated button in settings tab.
+
 #### Supported formats
 
 ##### Vector

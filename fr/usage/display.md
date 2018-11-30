@@ -38,6 +38,12 @@ Le chemin vers la donnée doit être rempli dans le champ `Emplacement de la don
 * par l'utilisateur ayant lancé QGIS \(droits en lecture\);
 * depuis le poste sur lequel le plugin se trouve \(en local ou via le réseau local\).
 
+#### Cache {#filespaths_cache}
+
+Pour améliorer les performances, le plugin intègre un système de cache minimaliste sur les chemins d'accès inaccessibles. Pour vider le cache, cliquer sur le bouton dédié dans l'onglet paramètres :
+
+![Bouton pour vider le cache des chemins de fichiers inacessibles](/assets/settings_cache_trash_fr.png)
+
 #### Formats supportés
 
 ##### Vecteur
