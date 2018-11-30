@@ -207,7 +207,10 @@ workflows:
       - release:
           requires:
             - changelog
-          filters: *default_filters
+          filters:
+            <<: *default_filters
+            branches:
+              ignore: /.*/
 
       - build:
           requires:
