@@ -2,6 +2,7 @@
     "plugins": [
         "ga",
         "image-captions",
+        "html-minifier",
         "page-toc",
         "sitemap-general",
         "timeline",
@@ -30,6 +31,7 @@
         }
     },
     "variables": {
+        "author": "Isogeo",
         "pictures": []
     }
 }

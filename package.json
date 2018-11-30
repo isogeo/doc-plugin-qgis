@@ -1,11 +1,12 @@
 {
   "name": "isogeo-help-app-plugin-qgis",
-  "version": "2.20.0-107",
+  "version": "2018.12",
   "private": true,
-  "description": "",
+  "description": "Plugin isogeo pour QGIS - Documentation",
   "keywords": [
     "isogeo",
     "help",
+    "qgis",
     "userguide",
     "documentation",
     "aide en ligne"
@@ -18,6 +19,7 @@
     "gitbook": "^3.2.3",
     "gitbook-cli": "^2.3.2",
     "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-html-minifier": "^0.0.1",
     "gitbook-plugin-image-captions": "^3.1.0",
     "gitbook-plugin-page-toc": "^1.0.2",
     "gitbook-plugin-sitemap-general": "^0.1.1",
