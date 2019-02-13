@@ -1,8 +1,8 @@
 {
     "plugins": [
         "ga",
-        "image-captions",
         "html-minifier",
+        "image-captions",
         "page-toc",
         "sitemap-general",
         "timeline",
