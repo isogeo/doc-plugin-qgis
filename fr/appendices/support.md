@@ -1,3 +1,7 @@
+---
+description: FAQ et comment résoudre les problèmes avec le plugin Isogeo pour QGIS
+---
+
 # Support et questions fréquentes
 
 ## Comment signaler un comportement anormal ? {#report}
@@ -5,7 +9,7 @@
 Si vous obtenez un message d'erreur ou bien vous constatez un comportement anormal, voici la procédure à suivre :
 
 * vérifier dans cette documentation si par hasard rien ne correspond à une explication du comportement constaté ;\)
-* regarder l'onglet dédié à isogeo dans la fenêtre des messages de QGIS :
+* regarder l'onglet dédié à Isogeo dans la fenêtre des messages de QGIS :
 
 !["Ouvrir la fenêtre des messages de QGIS"](/assets/qgis_log_view_tab_isogeo_fr.png)
 
@@ -30,7 +34,7 @@ Vérifier qu'au moins un partage alimente l'application : voir [comment partager
 
 ### Pourquoi aucun résultat n'est ajoutable ? {#not_add_option}
 
-Pour qu'une donnée soit ajoutable à la carte \(canevas cartographique selon le vocabulaire QGIS\), il faut que des informations le permettant soient cataloguées dans la métadonnée.
+Pour qu'une donnée soit ajoutable à la carte \(canevas cartographique selon le vocabulaire QGIS\), il faut que des informations le permettant soient cataloguées dans la métadonnée. Essayer également de vider le cache.
 
 Pour en savoir plus, [consulter la section dédiée dans la documentation](/usage/display.md).
 

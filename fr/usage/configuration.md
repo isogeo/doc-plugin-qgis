@@ -1,3 +1,7 @@
+---
+description: Configurer le plugin Isogeo pour QGIS
+---
+
 # Configuration et paramètres
 
 ## Authentification

@@ -1,3 +1,9 @@
+---
+description: Présentation générale du plugin Isogeo pour QGIS
+---
+
+# Plugin Isogeo pour QGIS
+
 ![Logo Isogeo QGIS](../assets/logo_IsoQGIS.png)
 
 Vous rêviez d’un moteur de recherche de données dans votre SIG… Isogeo l'a fait !

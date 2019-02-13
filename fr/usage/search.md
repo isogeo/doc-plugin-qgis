@@ -1,3 +1,7 @@
+---
+description: Utiliser le moteur de recherche de données Isogeo dans QGIS
+---
+
 # Rechercher
 
 Pour tenir compte du moteur de recherche Isogeo \(basé sur le principes des facettes contextuelles\) mais aussi pour les performances, la recherche se passe en deux temps :

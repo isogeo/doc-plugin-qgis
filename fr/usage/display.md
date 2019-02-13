@@ -1,4 +1,8 @@
-# Ajouter une donnée à la carte
+---
+description: Ajouter une donnée à la carte de QGIS (canevas) avec le plugin Isogeo
+---
+
+# Ajouter une donnée à la carte {#add_data_from_metadata}
 
 La principale finalité du plugin est de permettre à l'utilisateur final d'ajouter les données du catalogue directement à sa carte, sans se soucier de configurer les paramètres d'accès aux données sources.
 
@@ -9,7 +13,7 @@ Pour pouvoir ajouter les données à l'espace de travail du logiciel SIG, le plu
 * **aucune donnée ne transite par notre infrastructure**
 * seules les métadonnées sont utilisées et plus particulièrement les champs d'identification de la donnée source ([emplacement et nom technique](http://help.isogeo.com/admin/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donn%C3%A9e))
 
-## Options d&apos;ajout
+## Options d&apos;ajout {#add_options}
 
 Pour ajouter une donnée à la carte, la colonne "Ajouter" liste les options possibles.
 
@@ -29,7 +33,7 @@ Il y a plusieurs cas de figure :
 
 ---
 
-## Critères
+## Critères {#add_criteria}
 
 ### Données fichier {#add_files}
 

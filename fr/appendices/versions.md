@@ -1,4 +1,32 @@
+---
+description: Changelog des versions du plugin Isogeo pour QGIS
+---
+
 # Notes de versions
+
+
+<!-- timeline -->
+
+## 1.6.3 {#version163}
+
+<br> Publiée le 1er février 2019 :
+
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/8?closed=1)
+
+* correction d'un problème bloquant l'installation [#165](https://github.com/isogeo/isogeo-plugin-qgis/issues/165)
+* correction d'un problème bloquant l'ajout de données raster [#166](https://github.com/isogeo/isogeo-plugin-qgis/issues/166)
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
+## 1.6.2 {#version162}
+
+<br> Publiée le 30 novembre 2018 :
+
+* amélioration du système de cache [#135](https://github.com/isogeo/isogeo-plugin-qgis/issues/135)
+
+<!-- /timeline -->
 
 <!-- timeline -->
 
