@@ -31,10 +31,10 @@ La participation de [Lorient Agglomération](https://www.lorient-agglo.bzh/) et 
 L'application a été présentée lors du webinaire du 10 mai 2017 :
 
 {% youtube %}
-https://www.youtube.com/watch?v=cIqJ7gaG6Fc
+<https://www.youtube.com/watch?v=cIqJ7gaG6Fc>
 {% endyoutube %}
 
----
+----
 
 ## Caractéristiques
 
@@ -50,3 +50,7 @@ L'application est disponible en 2 langues :
 Le plugin est développé sous [Licence GNU GPL v3](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/LICENSE).
 
 Chacun est libre de modifier le code source à condition d’en reverser les modifications au [dépôt principal](https://github.com/isogeo/isogeo-plugin-qgis) et d'être en accord avec la feuille de route établie exclusivement par Isogeo.
+
+----
+
+Date de la dernière mise à jour de cette documentation : {{ gitbook.time | date("DD/MM/YYYY") }}.
