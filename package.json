@@ -1,7 +1,7 @@
 {
     "author": "Isogeo <contact@isogeo.fr>",
     "name": "isogeo-help-app-plugin-qgis",
-    "version": "2019.03",
+    "version": "2019.07",
     "private": true,
     "description": "Plugin isogeo pour QGIS - Documentation",
     "license": "CC-BY-NC-SA-4.0",
@@ -9,7 +9,9 @@
         "isogeo",
         "help",
         "qgis",
-        "userguide",
+        "plugin",
+        "metadata",
+        "user guide",
         "documentation",
         "aide en ligne"
     ],
@@ -22,12 +24,11 @@
         "dev": "gitbook serve"
     },
     "engines": {
-        "node": ">=8.11.1",
+        "node": ">=10.15.0",
         "gitbook": ">=3.2.2",
         "yarn": ">= 1.13.0"
     },
     "dependencies": {
-        "ebook-convert": "~2.0.1",
         "gitbook": "^3.2.3",
         "gitbook-cli": "^2.3.2",
         "gitbook-plugin-ga": "^1.0.1",
@@ -38,5 +39,9 @@
         "gitbook-plugin-timeline": "^1.0.13",
         "gitbook-plugin-toggle-headers": "^0.1.0",
         "gitbook-plugin-youtube": "^1.1.0"
+    },
+    "devDependencies": {
+        "ebook-convert": "^2.0.1",
+        "gitbook-plugin-redirect": "^0.0.7"
     }
 }
