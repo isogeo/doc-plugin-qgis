@@ -9,7 +9,7 @@ En tapant `Ici c'est Isogeo !` dans la barre de recherche, le logo d'Isogeo est 
 - en WMS
 - en WFS
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/special/easteregg_icicestisogeo.png)
+![Afficher le logo Isogeo](/assets/easteregg_icicestisogeo.png)
 
 ---
 
@@ -17,6 +17,4 @@ En tapant `Ici c'est Isogeo !` dans la barre de recherche, le logo d'Isogeo est 
 
 En tapant `Picasa` dans la barre de recherche, le projet est renomm&eacute; en "Isogeo, le Picasa de l'information géographique !" de façon transparente. Le changement n'est visible qu'à l'enregistrement du projet (.qgs).
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/special/easteregg_picasa.png)
-
-
+![Isogeo le Picasa de la géographie](/assets/easteregg_picasa.png)
