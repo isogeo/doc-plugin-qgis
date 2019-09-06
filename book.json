@@ -46,7 +46,7 @@
             "top": 36,
             "bottom": 36
         },
-        "headerTemplate": "_TITLE_",
+        // "headerTemplate": "_TITLE_",
         "footerTemplate": "Plugin Isogeo - QGIS"
     },
     "variables": {
