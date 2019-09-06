@@ -14,10 +14,12 @@ Une fois les résultats affichés, l'utilisateur peut consulter la fiche de mét
 
 ## Synchroniser les métadonnées {#sync}
 
-Lors de l'ajout d'une donnée à QGIS depuis le plugin, les métadonnées Isogeo sont ajoutées aux informations de la couche :
+Lors de l'ajout d'une donnée à QGIS depuis le plugin, les métadonnées Isogeo (titre, résumé, mots-clés) sont ajoutées aux propriétés de la couche :
 
-* titre ;
-* résumé ;
-* mots-clés.
+* dans l'onglet "QGIS Server" pour la version 2.x du plugin
 
-![M&eacute;tadonn&eacute;es de couche remplies à partir d&apos;Isogeo](/assets/ui_layer_metadata_fr.png)
+![M&eacute;tadonn&eacute;es de couche remplies à partir d&apos;Isogeo (version 2.x)](/assets/ui_layer_metadata_fr.png)
+
+* dans l'onglet "Métadonnées" pour la version 1.x du plugin
+
+![M&eacute;tadonn&eacute;es de couche remplies à partir d&apos;Isogeo (version 1.x)](/assets/ui_layer_metadata_fr.png)
