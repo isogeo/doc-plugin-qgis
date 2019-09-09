@@ -86,7 +86,6 @@ jobs:
   - task: AzureFileCopy@3
     displayName: 'Copy files to Azure Storage Blob: qaisogeohelp/$web/$(project_name_clean)'
     inputs:
-      cleanTargetBeforeCopy: true
       SourcePath: '$(System.DefaultWorkingDirectory)/book_to_upload'
       azureSubscription: 'Isogeo - MPN(82885610-5841-4749-8d71-46f56b643ad2)'
       Destination: 'AzureBlob'
