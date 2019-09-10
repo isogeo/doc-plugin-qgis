@@ -18,8 +18,8 @@ Lors de l'ajout d'une donnée à QGIS depuis le plugin, les métadonnées Isogeo
 
 * dans l'onglet "QGIS Server" pour la version 2.x du plugin
 
-![M&eacute;tadonn&eacute;es de couche remplies à partir d&apos;Isogeo (version 2.x)](/assets/ui_layer_metadata_new_fr.png)
+![M&eacute;tadonn&eacute;es de couche remplies à partir d&apos;Isogeo (QGSI 3)](/assets/ui_layer_metadata_new_fr.png)
 
 * dans l'onglet "Métadonnées" pour la version 1.x du plugin
 
-![M&eacute;tadonn&eacute;es de couche remplies à partir d&apos;Isogeo (version 1.x)](/assets/ui_layer_metadata_old_fr.png)
+![M&eacute;tadonn&eacute;es de couche remplies à partir d&apos;Isogeo (QGSI 3)](/assets/ui_layer_metadata_old_fr.png)
