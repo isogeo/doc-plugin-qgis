@@ -134,7 +134,7 @@ jobs:
       tagSource: 'gitTag'
       assets: '$(Build.ArtifactStagingDirectory)/book_to_upload/*'
       changeLogCompareToRelease: 'lastFullRelease'
-      changeLogType: 'issueBased'
+      changeLogType: 'commitBased'
 
   - task: AzureFileCopy@3
     displayName: 'Copy files to Azure Storage Blob: prodisogeohelp/$web/$(project_name_clean)'
