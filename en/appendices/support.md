@@ -2,15 +2,26 @@
 
 ## Report an issue {#report}
 
-Si vous obtenez un message d'erreur ou bien vous constatez un comportement anormal, voici la procédure à suivre :
+If you get an error message or notice unusual behaviour, here's what you can do :
 
-  - vérifier dans cette documentation si par hasard rien ne correspond à une explication du comportement constaté ;)
-  - regarder l'onglet dédié à isogeo dans la fenêtre des messages de QGIS :
+- check in this documentation that the problem encountered has not already been documented ;)
 
-![](/assets/qgis_log_view_tab_isogeo_fr.png "Ouvrir la fenêtre des messages de QGIS")
+- look at the Isogeo tab in the QGIS message window :
 
-Le problème persiste et signe ? Le (dys)fonctionnement est incompréhensible ?
+!["Open the QGIS message window"](/assets/qgis_log_view_tab_isogeo_en.png)
 
-Il faut alors [créer un ticket ici](https://github.com/isogeo/isogeo-plugin-qgis/issues) en joignant une capture de l'onglet de la fenêtre messages et *surtout le fichier log_isogeo_plugin.log* situé dans le dossier d'installation du plugin (`C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Debian) :
+If the problem persists, [report it in a new Issue](https://github.com/isogeo/isogeo-plugin-qgis/issues) by clicking on the dedicated button (red megaphone) in the `Settings` tab, attaching :
 
-![](https://raw.githubusercontent.com/isogeo/isogeo-plugin-qgis/master/img/qgis_plugin_folder_structure.png "Structure du dossier du plugin Isogeo pour QGIS")
+- a screenshot of the Isogeo tab of the QGIS messages window
+
+- and most importantly the log\_isogeo\_plugin.log file located in the `_logs` folder of the plugin installation folder. To access it, simply click on the dedicated button in the `Settings` tab (to the left of the red megaphone) :
+
+  !["Settings -log and report button"](/assets/settings_resources_en.png)
+
+  You can also access it from the QGIS plugin directory:
+
+  - 2.x plugin version (QGIS 3): `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_log` for Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_log` for Ubuntu
+
+  - 1.x plugin version (QGIS 2): `C:\Users\%USERNAME%\.qgis2\python\plugins\isogeo_search_engine\_log` for Windows or `/home/$USER/.qgis2/python/plugins/isogeo_search_engine/_log` for Ubuntu
+
+---

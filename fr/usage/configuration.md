@@ -24,7 +24,7 @@ Créer un partage avec un ou plusieurs catalogues vers l'application _Plugin QGI
 
 ## Consulter les groupes de travail alimentant le plugin
 
-Dans l'onglet "Paramètres" du plugin, on retrouve les informations sur les groupes de travail qui alimentent l'application.
+Dans l'onglet "Paramètres" du plugin, on retrouve les informations sur les partages qui alimentent l'application.
 
 ![Informations sur les partages dans les Paramètres](/assets/settings_shares_details_fr.png)
 

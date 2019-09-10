@@ -7,7 +7,7 @@ To take advantage of Isogeo search engine (based on contextual filters) and also
 
 Note that user can display results list withtout any filter:
 
-![](/assets/ui_tabs_main_search_empty_en.png "Search form without any filter")
+!["Search form without any filter"](/assets/ui_tabs_main_search_empty_en.png)
 
 ## Semantic search {#search-terms}
 
@@ -30,7 +30,7 @@ To know more about how does the Isogeo search engine works, [read the official o
 
 To filter by keywords, check one or more in the dedicated drop-down list:
 
-![](/assets/search_options_keywords_en.png "Keyword dropdown filter")
+!["Keyword dropdown filter"](/assets/search_options_keywords_en.png)
 
 ### Geographic filter {#geometric}
 
@@ -40,18 +40,18 @@ It's possible to filter on:
 - map canvas bounding box
 - convex hull stored from an active layers
 
-![](/assets/search_options_geographic_en.png "Geographic filter - From an active layer")
+!["Geographic filter - From an active layer"](/assets/search_options_geographic_en.png)
 
 By default, the geographical filter give all data which intersect with the bounding box selected.
 To change this behavior, choose a different operator in "Settings" tab, and then restart the search.
 
-![](/assets/settings_geographic_en.png "Set geometric operator for geographic filter")
+!["Set geometric operator for geographic filter"](/assets/settings_geographic_en.png)
 
 ### Other filters {#others}
 
 All others filters are operating the same way, selecting a value will update all other dropdown lists:
 
-![](/assets/search_options_filters_en.png "Advanced search - all filters")
+!["Advanced search - all filters"](/assets/search_options_filters_en.png)
 
 ---
 
@@ -59,7 +59,7 @@ All others filters are operating the same way, selecting a value will update all
 
 When a search is made (search terms or filter used), the number of results is updated and displayed in the orange button.
 
-![](/assets/search_results_show_en.png "Results count on the display button")
+!["Results count on the display button"](/assets/search_results_show_en.png)
 
 Clicking on this button displays search results in the table, 15 per 15 (pagination).
 
@@ -72,7 +72,7 @@ For each result, are displayed:
 
 Two buttons allow navigation between different pages:
 
-![](/assets/search_results_pagination_en.png "Results pagination")
+!["Results pagination"](/assets/search_results_pagination_en.png)
 
 ### Order results {#order}
 
@@ -87,5 +87,3 @@ Others order options available:
 - Metadata last update
 - Data creation
 - Data last update
-
-

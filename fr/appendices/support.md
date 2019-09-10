@@ -18,11 +18,15 @@ Le problème persiste et signe ? Le \(dys\)fonctionnement est incompréhensible 
 Il faut alors cliquer sur le bouton dédié au signalement (porte-voix rouge) ou directement [créer un ticket](https://github.com/isogeo/isogeo-plugin-qgis/issues) en :
 
 * joignant une capture de l'onglet de la fenêtre messages
-* et _surtout le fichier log\_isogeo\_plugin.log_ situé dans le dossier `_logs` du dossier d'installation du plugin \(`C:\Users\%USERNAME%\.qgis2\python\plugins` pour Windows ou `/home/$USER/.qgis2/python/plugins` pour Debian\).
+* et _surtout le fichier log\_isogeo\_plugin.log_ situé dans le dossier `_logs` du dossier d'installation du plugin. Pour y accéder, il suffit de cliquer sur le bouton dédié dans l'onglet `Paramètres` (à gauche du porte-voix rouge) :
 
-Pour y accéder, il suffit de cliquer sur le bouton dédié dans l'onglet `Paramètres` :
+  !["Paramètres - Boutons log et signalement"](/assets/settings_resources_fr.png)
 
-!["Paramètres - Boutons log et signalement"](/assets/settings_resources_fr.png)
+  Il est également possible d'y accéder depuis le répertoire des plugins QGIS:
+
+  * version 2.x du plugin (QGIS 3): `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_log` pour Windows ou dans `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_log` pour Ubuntu
+
+  * version 1.x du pluign (QGIS 2): `C:\Users\%USERNAME%\.qgis2\python\plugins\isogeo_search_engine\_log` pour Windows ou `/home/$USER/.qgis2/python/plugins/isogeo_search_engine/_log` pour Ubuntu
 
 ---
 

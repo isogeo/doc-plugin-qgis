@@ -37,7 +37,7 @@ Il y a plusieurs cas de figure :
 
 ### Données fichier {#add_files}
 
-Le chemin vers la donnée doit être rempli dans le champ `Emplacement de la donnée` sur [https://app.isogeo.com](https://app.isogeo.com). Ce chemin doit être accessible :
+Le chemin vers la donnée doit être rempli dans le champ `Emplacement de la donnée` de l'onglet `Identification` sur [https://app.isogeo.com](https://app.isogeo.com). Ce chemin doit être accessible :
 
 * par l'utilisateur ayant lancé QGIS \(droits en lecture\);
 * depuis le poste sur lequel le plugin se trouve \(en local ou via le réseau local\).
