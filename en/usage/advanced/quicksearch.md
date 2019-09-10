@@ -6,7 +6,7 @@ Every search can be saved as a quicksearch in order to be used as a shortcut and
 
 The process is simple:
 
-1. When search parameters are active (terms and/or filters), click on save button:
+1. When search parameters are active (terms and/or filters), click on save button (at the top left of the results table):
 
     !["Form to save a quicksearch"](/assets/search_quicksearch_save_button_en.png)
 
@@ -16,6 +16,6 @@ The process is simple:
 
 ## Use quick searches
 
-Pick the wanted quicksearch from the drop-down list:
+Pick the wanted quicksearch from the drop-down list (bottom right of the search bar):
 
 !["Quicksearch picker"](/assets/search_quicksearch_pick_en.png)

@@ -21,7 +21,7 @@ ___
 
 ### File data
 
-Metadata field `Resource location has to contain the absolute path to the datafile.
+Metadata field `Resource location` of `Identification` tab has to contain the absolute path to the datafile.
 
 This path must be reachable:
 

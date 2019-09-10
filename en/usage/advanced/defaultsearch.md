@@ -1,6 +1,6 @@
 # Default search
 
-In the "Settings" tab, user can configure the default search, i.e. the search parameters applied systematically when the plugin starts. By default, it's an empty search containing every metadata shared to the plugin application.
+In the "Settings" tab, user can configure the default search, i.e. the search parameters applied systematically when the plugin starts. By default, it's a search that filters on the "type" field containing every metadata shared to the plugin application, except service sheets.
 
 ## Set the default search
 

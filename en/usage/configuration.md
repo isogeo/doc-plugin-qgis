@@ -23,7 +23,6 @@ In the `Settings` tab, it's possible to change API keys:
 
 ## Share catalogs to the plugin
 
-
 Create a share to the application *QGIS Plugin* in the administration console on [APP](https://app.isogeo.com/admin/shares);
 
 ![](/assets/app_share_toPlugin_en.png "A share to publish metadata into the plugin from Isogeo administration console")
@@ -32,7 +31,7 @@ Create a share to the application *QGIS Plugin* in the administration console on
 
 ## Display shares which are feeding the plugin
 
-In the `Settings` tabs, informations about the application are displayed:
+In the `Settings` tabs, informations about shares feeding the application are displayed:
 
 ![](/assets/settings_shares_details_en.png "Informations about application in the Settings tab")
 
