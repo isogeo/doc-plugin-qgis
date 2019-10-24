@@ -18,7 +18,7 @@ Pour les développeurs ou à des fins de test, il est possible d'utiliser les ve
     git clone https://github.com/isogeo/isogeo-plugin-qgis.git isogeo_search_engine_dev --branch qgis2
     ```
 
-* **version 2.x du plugin**
+* **version 3.x du plugin**
 
     Cloner le dépôt dans `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins` pour Windows ou dans `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins` pour Ubuntu, en spécifiant un nom de dossier **sans caractères spéciaux ni tiret** (contrairement au nom du dépôt) :
 

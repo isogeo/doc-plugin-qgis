@@ -12,7 +12,7 @@ From the results list, user can display full Isogeo metadata from the data titel
 
 When a data is added through the plugin, Isogeo metadata (title, abstract, keywords) are automatically added to the layer properties:
 
-* in the "QGIS Server" tab for plugin version 2.x
+* in the "QGIS Server" tab for plugin version 3.x
 
 !["Layer properties fillfulled with Isogeo metadata (QGIS 3)"](/assets/ui_layer_metadata_new_en.png)
 

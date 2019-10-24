@@ -24,7 +24,7 @@ Il faut alors cliquer sur le bouton dédié au signalement (porte-voix rouge) ou
 
   Il est également possible d'y accéder depuis le répertoire des plugins QGIS:
 
-  * version 2.x du plugin (QGIS 3): `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_log` pour Windows ou dans `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_log` pour Ubuntu
+  * version 3.x du plugin (QGIS 3): `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_log` pour Windows ou dans `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_log` pour Ubuntu
 
   * version 1.x du pluign (QGIS 2): `C:\Users\%USERNAME%\.qgis2\python\plugins\isogeo_search_engine\_log` pour Windows ou `/home/$USER/.qgis2/python/plugins/isogeo_search_engine/_log` pour Ubuntu
 
