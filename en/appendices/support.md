@@ -20,7 +20,7 @@ If the problem persists, [report it in a new Issue](https://github.com/isogeo/is
 
   You can also access it from the QGIS plugin directory:
 
-  - 2.x plugin version (QGIS 3): `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_log` for Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_log` for Ubuntu
+  - 3.x plugin version (QGIS 3): `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_log` for Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_log` for Ubuntu
 
   - 1.x plugin version (QGIS 2): `C:\Users\%USERNAME%\.qgis2\python\plugins\isogeo_search_engine\_log` for Windows or `/home/$USER/.qgis2/python/plugins/isogeo_search_engine/_log` for Ubuntu
 

@@ -9,7 +9,7 @@
 
 ## Development version
 
-* **plugin version 2.x**
+* **plugin version 3.x**
 
     Clone the repository in  `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins` on Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins` on Ubuntu, specifiying a foldername **without special character nor hyphen** (unlike the repository name...):
 
