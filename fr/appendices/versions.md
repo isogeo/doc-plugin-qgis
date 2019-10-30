@@ -4,6 +4,35 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 # Notes de versions
 
+<!-- timeline -->
+
+## 3.0.1 {#version163}
+
+<br> Publiée le 25 octobre 2019 :
+
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/11?closed=1)
+
+* correction d'un problème bloquant durant l'authentification [#296](https://github.com/isogeo/isogeo-plugin-qgis/issues/296)
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
+## 3.0.0 {#version163}
+
+<br> Publiée le 23 octobre 2019 :
+
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/3?closed=1)
+
+* [portage du plugin vers QGIS LTR 3.4.x](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/v2.0.0-alpha1)
+* refactoring du code source :
+  * [beta 1](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/2.0.0-beta1)
+  * [beta 2](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/2.0.0-beta2)
+  * [beta 3](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/2.0.0-beta3)
+  * [beta 4](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/2.0.0-beta4)
+  * [première version stable pour QGIS 3](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.0.0)
+
+<!-- /timeline -->
 
 <!-- timeline -->
 
@@ -39,10 +68,10 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 * amélioration du rapport d'anomalie [#139](https://github.com/isogeo/isogeo-plugin-qgis/issues/139#issuecomment-405258056)
 * l'authentification à l'API Isogeo est désormais capable de gérer d'autres isntances que celle de la plateforme Isogeo. Requis pour une installation [_on-premises_](https://fr.wikipedia.org/wiki/Auto-h%C3%A9bergement_(Internet)). [#149](https://github.com/isogeo/isogeo-plugin-qgis/issues/149)
 * corrections d'anomalies mineures :
-    - depuis la version précédente, certaines icônes ne s'affichaient pas dans la fiche de métadonnées [#147](https://github.com/isogeo/isogeo-plugin-qgis/issues/147 et [#148](https://github.com/isogeo/isogeo-plugin-qgis/issues/148))
-    - une erreur pouvait intervenir dans certains cas de chargement de données fichiers [#129](https://github.com/isogeo/isogeo-plugin-qgis/issues/129)
-    - des fenêtres d'information à l'utilisateur ne fonctionnaient pas
-    - le fond de carte d'une métadonnée détaillée ne s'affichait [plus #150](https://github.com/isogeo/isogeo-plugin-qgis/issues/150)
+  * depuis la version précédente, certaines icônes ne s'affichaient pas dans la fiche de métadonnées [#147](https://github.com/isogeo/isogeo-plugin-qgis/issues/147 et [#148](https://github.com/isogeo/isogeo-plugin-qgis/issues/148))
+  * une erreur pouvait intervenir dans certains cas de chargement de données fichiers [#129](https://github.com/isogeo/isogeo-plugin-qgis/issues/129)
+  * des fenêtres d'information à l'utilisateur ne fonctionnaient pas
+  * le fond de carte d'une métadonnée détaillée ne s'affichait [plus #150](https://github.com/isogeo/isogeo-plugin-qgis/issues/150)
 
 <!-- /timeline -->
 
