@@ -23,5 +23,6 @@
 ## Appendices
 
 * [FAQ and support](appendices/support.md)
+* [Use cases](appendices/use_cases.md)
 * [Releases notes](appendices/versions.md)
 * [Images index](pictures.md)
