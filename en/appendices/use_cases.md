@@ -6,7 +6,7 @@
 
 When using the QGIS Isogeo plugin for the first time, the location of the `client_secrets.json` file must be specified to perform authentication. The file is then moved to the plugin folder (`C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` for Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine` for Ubuntu). This behavior can make it difficult to deploy the QGIS Isogeo plugin.
 
-### Marche à suivre
+### Process
 
 1. [Install Isogeo plugin and authenticate](/installation/standard.md) by indicating the location of the `client_secrets.json` file provided by Isogeo. The file is moved to the QGIS plugin folder (in `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_auth` for Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_auth` for Ubuntu).
 
