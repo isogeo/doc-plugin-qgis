@@ -3,7 +3,7 @@
 ## Environnement technique
 
 * QGIS 3.x en version LTR (+ 3 mois) - consulter [le calendrier des sorties](https://www.qgis.org/fr/site/getinvolved/development/roadmap.html#release-schedule)
-* une connexion autoris&eacute;e et configur&eacute;e (proxy, pare-feu...) vers [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) et [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/) afin de permettre les échanges entre le plugin et l'API Isogeo. Il peut être nécessaire d'ajouter les URLs suivante aux exceptions de l'outrepassement SSL (*SSL offloading*) du proxy :
+* une connexion autoris&eacute;e et configur&eacute;e (proxy, pare-feu...) vers [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) et [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/) afin de permettre les échanges entre le plugin et l'API Isogeo. Il peut être nécessaire d'ajouter les URLs suivantes aux exceptions de l'outrepassement SSL (*SSL offloading*) du proxy :
   * id.api.isogeo.com
   * v1.api.isogeo.com
   * api.isogeo.com
