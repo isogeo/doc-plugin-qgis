@@ -3,7 +3,12 @@
 ## Technical environment
 
 * QGIS 3.x LTR version (+ 3 months) - check [the roadmap and the release schedule](https://www.qgis.org/fr/site/getinvolved/development/roadmap.html#release-schedule)
-* an Internet connection to [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) and [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/). Think about proxies, firewall...
+* an Internet connection to [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) and [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/)(think about proxies, firewall...). It could be necessary to add following URLs as exceptions of proxy SSL offloading :
+  * id.api.isogeo.com
+  * v1.api.isogeo.com
+  * api.isogeo.com
+  * open.isogeo.com
+  * app.isogeo.com
 
 ___
 
