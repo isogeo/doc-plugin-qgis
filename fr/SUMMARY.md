@@ -13,6 +13,7 @@
 
 ## Utilisation
 
+* [Authentification](usage/authentication.md)
 * [Configurer](usage/configuration.md)
 * [Rechercher](usage/search.md)
 * [Métadonnées](usage/metadata.md)
