@@ -14,16 +14,6 @@ Ouvrir le gestionnaire d'extensions, rechercher Isogeo et cliquer sur "Installer
 
 !["Installer le plugin Isogeo depuis le gestionnaire d&apos;extensions de QGIS"](/assets/qgis_install_extension_fr.png)
 
-## Connecter le plugin à Isogeo {#authentication}
-
-Au premier lancement du plugin (ou au clic sur [le bouton de changement d'identifiants](/usage/configuration.md)), le formulaire d'authentification s'ouvre.
-
-Utiliser le bouton `...` pour charger le fichier d'authentification (`client_secrets.json`) que vous devez avoir reçu d'Isogeo ou de votre administrateur.
-
-!["Charger le fichier client_secrets&#46;json transmis par mail"](/assets/ui_auth_prompt_upload_credentials_file_fr.png)
-
-Et voilà, bonne utilisation !
-
 ---
 
 ## Versions antérieures à la 1.6.1 {#authentication_old}
