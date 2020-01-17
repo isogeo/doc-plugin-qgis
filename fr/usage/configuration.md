@@ -1,12 +1,8 @@
----
-description: Configurer le plugin Isogeo pour QGIS
----
-
 # Configuration et paramètres
 
 ## Authentification
 
-### Changer les clés d'authentification
+### Changer les clés d'authentification {#authentication}
 
 Dans les paramètres, il est également possible de changer de compte, pour se connecter à une autre instance du plugin QGIS.
 
@@ -14,15 +10,15 @@ Dans les paramètres, il est également possible de changer de compte, pour se c
 
 ---
 
-## Partager les catalogues de ses données au plugin
+## Partager les catalogues de ses métadonnées au plugin {#shares}
 
-Créer un partage avec un ou plusieurs catalogues vers l'application _Plugin QGIS_ dans l'administration des partages sur [APP](https://app.isogeo.com) ;
+[Créer un partage](http://help.isogeo.com/admin/fr/features/admin/shares.html) avec un ou plusieurs catalogues vers l'application _Plugin QGIS_ dans l'administration des partages sur [APP](https://app.isogeo.com) ;
 
 ![Créer et configurer un partage](/assets/app_share_toPlugin_fr.png)
 
 ---
 
-## Consulter les groupes de travail alimentant le plugin
+## Consulter les groupes de travail alimentant le plugin {#app_properties}
 
 Dans l'onglet "Paramètres" du plugin, on retrouve les informations sur les partages qui alimentent l'application.
 
