@@ -26,9 +26,8 @@ La boîte de dialogue de QGIS permet d'ignorer ces erreurs et ainsi de poursuivr
 * Les erreurs SSL peuvent être ignorées ponctuellement en cliquant sur `Ignorer`, auquel cas la ou les erreurs seront signalées au début de chaque session d'utilisation du plugin et l'utilisateur devra les ignorer pour poursuivre l'utilisation.
 * Il est aussi possible de cocher la case `Sauvegarder le serveur SSL exception` avant de cliquer sur `Enregistrer & Ignorer`. Ainsi, le logiciel retient que cette erreur peut être ignorée et ne la signalera plus lors des sessions d'utilisation à venir (les exceptions SSL enregistrées dans QGIS peuvent être gérées dans Préférences > Options... > Authentification > `Gestion des Certificats` > onglet Serveurs)
 
-> Pas d'inquiétude, les URLs de l'API Isogeo sont fiables et y accéder via le plugin QGIS n'est pas plus dangereux que se rendre sur app.isogeo.com via un navigateur.
-
 >**Cas particulier :**
+>
 >!["Erreur de certificat SSL due à l'outrepassement SSL"](/assets/qgis_dialog_ssloffloading_error_fr.png)
 >
 >Dans le cas de l'image ci-dessus, l'URL d'authentification à l'API Isogeo (api.isogeo.com/oauth/token) est concernée par l'erreur suivante : "Impossible d'identifier l'origine du certificat". Cette erreur peut être due à une configuration particulière du proxy qui nécessite d'ajouter les URLs suivantes aux exceptions de l'outrepassement SSL (*SSL offloading*) du proxy :
