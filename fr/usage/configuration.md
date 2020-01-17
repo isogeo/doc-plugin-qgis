@@ -1,8 +1,6 @@
 # Configuration et paramètres
 
-## Authentification
-
-### Changer les clés d'authentification {#authentication}
+## Changer les clés d'authentification {#authentication}
 
 Dans les paramètres, il est également possible de changer de compte, pour se connecter à une autre instance du plugin QGIS.
 
