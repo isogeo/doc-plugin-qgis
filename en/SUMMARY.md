@@ -13,6 +13,7 @@
 
 ## Usage
 
+* [Authentication](usage/authentication.md)
 * [Configure](usage/configuration.md)
 * [Search](usage/search.md)
 * [Metadata](usage/metadata.md)
@@ -23,5 +24,6 @@
 ## Appendices
 
 * [FAQ and support](appendices/support.md)
+* [Use cases](appendices/use_cases.md)
 * [Releases notes](appendices/versions.md)
 * [Images index](pictures.md)

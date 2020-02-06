@@ -1,13 +1,28 @@
 # Pr&eacute;requis
 
-## Environnement technique
+## Environnement technique {#technical}
 
-* QGIS 3.x en version LTR (+ 3 mois) - consulter [le calendrier des sorties](https://www.qgis.org/fr/site/getinvolved/development/roadmap.html#release-schedule)
-* une connexion autoris&eacute;e et configur&eacute;e \(proxy, pare-feu...\) vers [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) et [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/)
+### Version de QGIS
+
+Le plugin Isogeo fonctionne sur QGIS 3.x en version LTR (+ 3 mois) - consulter [le calendrier des sorties](https://www.qgis.org/fr/site/getinvolved/development/roadmap.html#release-schedule).
+
+### Proxy et pare-feu
+
+Il est indispensable que l'ordinateur sur lequel le plugin est utilisé dispose d'une connexion autoris&eacute;e et configur&eacute;e (proxy, pare-feu...) vers [https://v1.api.isogeo.com/\*](https://v1.api.isogeo.com/) et [https://id.api.isogeo.com/\*](https://v1.api.isogeo.com/).
+
+Si un proxy est configuré dans Windows, il doit l'être également [dans QGIS](https://docs.qgis.org/3.4/fr/docs/user_manual/introduction/qgis_configuration.html#network-settings).
+
+Dans le cas de certaines configurations proxy particulières, il sera nécessaire d'ajouter les URLs suivantes aux exceptions de l'outrepassement SSL (*SSL offloading*) du proxy :
+
+* id.api.isogeo.com
+* v1.api.isogeo.com
+* api.isogeo.com
+* open.isogeo.com
+* app.isogeo.com
 
 ___
 
-## Accès Isogeo
+## Accès Isogeo {#Isogeo}
 
 ### Pour consulter ses propres donn&eacute;es
 
