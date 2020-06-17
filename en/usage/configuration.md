@@ -27,3 +27,5 @@ In the `Settings` tabs, informations about shares feeding the application are di
   * the share name - a clic opens the administration console on Isogeo,
   * the share last update,
   * the Isogeo workgroup owning the share and its email contact
+
+## Add metadata Isogeo Portal's URL to added layers'properties {#metadata_portal_url}
