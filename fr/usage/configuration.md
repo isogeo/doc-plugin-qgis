@@ -34,15 +34,15 @@ On retrouve donc :
 
 > Cette rubrique concerne uniquement les utilisateurs du plugin QGIS ayant également accès au [Portail Isogeo](https://www.isogeo.com/nos-produits/Portail)
 
-Cette fonctionnalité nécessite deux prérequis :
+Cette fonctionnalité implique deux prérequis :
 
 * certains des catalogues partagés au plugin QGIS le sont également au Portail Isogeo
 * certaines des fiches de métadonnées partagées remplissent [les conditions permettant l'ajout de couches au canevas](/usage/display.md#add_criteria)
 
-Si ces conditions sont remplies, l'URL de la fiche de métadonnées du Portail Isogeo correspondant à la couche ajoutée au canevas apparaîtra dans les "Propriétés" de cette couche (dans le champ "Url de la donnée" de la rubrique "Description" de l'onglet "QGIS Server") :
+Si ces 2 prérequis sont satisfait, l'URL de la fiche de métadonnées du Portail Isogeo correspondant à la couche ajoutée au canevas apparaîtra dans les "Propriétés" de cette couche (dans le champ "Url de la donnée" de la rubrique "Description" de l'onglet "QGIS Server") :
 
 ![Propriétés de la couche, onglet "QGIS Server"](/assets/layer_properties_portal_data_url_fr.png)
 
-Afin d'obtenir ce résultat, il est nécessaire de cocher la case correspondante dans l'onglet "Paramètres" du plugin et d'indiquer dans le champ de texte prévu à cet effet la base de l'URL du portail comme ci-dessous :
+Afin d'obtenir ce résultat, il est nécessaire de cocher la case correspondante dans l'onglet "Paramètres" du plugin et d'indiquer dans le champ de texte prévu à cet effet la base de l'URL du Portail comme ci-dessous :
 
 ![Paramètres du Portail isogeo](/assets/settings_isogeo_portal_fr.png)
