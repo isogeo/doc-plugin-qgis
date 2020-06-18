@@ -30,7 +30,7 @@ In the `Settings` tabs, informations about shares feeding the application are di
 
 ## Add metadata Isogeo Portal's URL to added layer's properties {#metadata_portal_url}
 
-> This section only concerns users of the QGIS plugin who also have access to the [Isogeo Portal].(https://www.isogeo.com/nos-produits/Portail)
+> This section only concerns users of the QGIS plugin who also have access to the [Isogeo Portal](https://www.isogeo.com/nos-produits/Portail).
 
 This functionality involves two prerequisites:
 
