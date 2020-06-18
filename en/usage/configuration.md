@@ -28,7 +28,7 @@ In the `Settings` tabs, informations about shares feeding the application are di
   * the share last update,
   * the Isogeo workgroup owning the share and its email contact
 
-## Add metadata Isogeo Portal's URL to added layers'properties {#metadata_portal_url}
+## Add metadata Isogeo Portal's URL to added layer's properties {#metadata_portal_url}
 
 > This section only concerns users of the QGIS plugin who also have access to the [Isogeo Portal].(https://www.isogeo.com/nos-produits/Portail)
 
