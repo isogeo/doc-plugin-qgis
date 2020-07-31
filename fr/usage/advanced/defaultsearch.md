@@ -8,3 +8,9 @@ Dans l'onglet "Paramètres", l’utilisateur peut configurer la recherche par d�
 2. Se rendre dans l'onglet des paramètres et cliquer sur le bouton de sauvegarde de la recherche par défaut :
 
 !["Sauvegarder la recherche par d&eacute;faut"](/assets/settings_defaultSearch_fr.png)
+
+## Réinitialiser la recherche par défaut
+
+Se rendre dans l'onglet des paramètres et cliquer sur le bouton de réinitailisation de la recherche par défaut :
+
+!["Réinitialiser la recherche par d&eacute;faut"](/assets/reset_defaultSearch_fr.png)
