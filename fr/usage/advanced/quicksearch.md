@@ -30,4 +30,4 @@ Les recherches rapides enregistrées peuvent être supprimées ou renommées dep
 
 2. Cliquer sur "Renommer" ou "Supprimer"
 
-![Gérer les recherches rpaides](settings_manage_quicksearch_fr.png)
+![Gérer les recherches rapides](/assets/settings_manage_quicksearch_fr.png)
