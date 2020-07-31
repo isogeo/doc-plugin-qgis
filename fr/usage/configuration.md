@@ -30,6 +30,8 @@ On retrouve donc :
   * la date de dernière mise à jour du partage ;
   * le groupe de travail Isogeo à qui appartient le partage, ainsi que le mail de contact
 
+---
+
 ## Ajouter l'URL de la metadonnées du Portail Isogeo aux propriétés de la couche {#metadata_portal_url}
 
 > Cette rubrique concerne uniquement les utilisateurs du plugin QGIS ayant également accès au [Portail Isogeo](https://www.isogeo.com/nos-produits/Portail).
@@ -46,3 +48,5 @@ Si ces 2 prérequis sont satisfaits, l'URL de la fiche de métadonnées du Porta
 Afin d'obtenir ce résultat, il est nécessaire de cocher la case correspondante dans l'onglet "Paramètres" du plugin et d'indiquer dans le champ de texte prévu à cet effet la base de l'URL du Portail comme ci-dessous :
 
 ![Paramètres du Portail isogeo](/assets/settings_isogeo_portal_fr.png)
+
+> La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte les modifications apportées au champ ci-dessus.
