@@ -94,3 +94,11 @@ Les autres tris disponibles sont :
 * Date de dernière modification de la métadonnée
 * Date de création de la donnée
 * Date de dernière modification de la donnée
+
+---
+
+## Réinitialiser la recherche {#reset}
+
+Pour réinitialiser les résultats et les valeurs de tous les filtres, il suffit d'appuyer sur ce bouton :
+
+![Réinitialiser la recherche](/assets/reset_search_fr.png)
