@@ -32,7 +32,7 @@ On retrouve donc :
 
 ---
 
-## Ajouter l'URL de la metadonnées du Portail Isogeo aux propriétés de la couche {#metadata_portal_url}
+## Ajouter l'URL de la metadonnée du Portail Isogeo aux propriétés de la couche {#metadata_portal_url}
 
 > Cette rubrique concerne uniquement les utilisateurs du plugin QGIS ayant également accès au [Portail Isogeo](https://www.isogeo.com/nos-produits/Portail).
 
