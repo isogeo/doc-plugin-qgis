@@ -20,7 +20,7 @@ Metadata fields where terms are searched::
 - keywords
 - INSPIRE themes
 
-To know more about how does the Isogeo search engine works, [read the official online documentation](http://help.isogeo.com/en/features/inventory/search.html).
+To know more about how does the Isogeo search engine works, [read the official online documentation](https://help.isogeo.com/en/features/inventory/search.html).
 
 ---
 

@@ -11,7 +11,7 @@ La principale finalité du plugin est de permettre à l'utilisateur final d'ajou
 Pour pouvoir ajouter les données à l'espace de travail du logiciel SIG, le plugin se base uniquement sur les métadonnées. Pour rappel :
 
 * **aucune donnée ne transite par notre infrastructure**
-* seules les métadonnées sont utilisées et plus particulièrement les champs d'identification de la donnée source ([emplacement et nom technique](http://help.isogeo.com/admin/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donn%C3%A9e))
+* seules les métadonnées sont utilisées et plus particulièrement les champs d'identification de la donnée source ([emplacement et nom technique](https://help.isogeo.com/admin/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donn%C3%A9e))
 
 ## Options d&apos;ajout {#add_options}
 
@@ -80,14 +80,14 @@ Une table PostGIS pourra être ajoutée par le plugin dans les conditions suivan
 
 Le plugin supporte les couches de services documentés automatiquement et associés aux métadonnées de données.
 
-Consulter [l'aide en ligne au sujet du recensement automatisé des services et de l'association couche de service / donnée cataloguée](http://help.isogeo.com/admin/fr/features/inventory/md_services/srv_intro.html).
+Consulter [l'aide en ligne au sujet du recensement automatisé des services et de l'association couche de service / donnée cataloguée](https://help.isogeo.com/admin/fr/features/inventory/md_services/srv_intro.html).
 
 Il supporte également les URLs de couches de services renseignées manuellement dans la métadonnée. Si cette méthode \(dépréciée\) est utilisée :
 
 * L’url doit contenir la base de l’url du service géographique
 * Elle doit également contenir le nom de la couche du service à afficher.
 
-Consulter [l'aide en ligne sur les syntaxes de documentation manuelle des couches de services](http://help.isogeo.com/admin/fr/features/publish/webservices.html).
+Consulter [l'aide en ligne sur les syntaxes de documentation manuelle des couches de services](https://help.isogeo.com/admin/fr/features/publish/webservices.html).
 
 #### Formats de services supportés
 
