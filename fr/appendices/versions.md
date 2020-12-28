@@ -14,9 +14,9 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 * informer l'utilisteur à propos des limitations auxquelles les données qu'il ajoute au caneva sont sujettes [#164](https://github.com/isogeo/isogeo-plugin-qgis/issues/164)
 * permettre l'écriture automatique de l'URL de la fiche de métadonnées du portail Isogeo dans les propriétés des couches ajoutées au caneva [#312](https://github.com/isogeo/isogeo-plugin-qgis/issues/312)
-* ajout de ressources dans la fenêtre d'authentification facilitant l'essaie du plugin pour les utilisateurs ne disposant pas encore de compte Isogeo [#325](https://github.com/isogeo/isogeo-plugin-qgis/issues/325)
-* correction de divers bugs : [#332](https://github.com/isogeo/isogeo-plugin-qgis/issues/332), [#331](https://github.com/isogeo/isogeo-plugin-qgis/issues/331), [#309](https://github.com/isogeo/isogeo-plugin-qgis/issues/309), [#280](https://github.com/isogeo/isogeo-plugin-qgis/issues/280)
-* améliorations mineurs : [#298](https://github.com/isogeo/isogeo-plugin-qgis/issues/298), [#327](https://github.com/isogeo/isogeo-plugin-qgis/issues/327)
+* ajout de ressources dans la fenêtre d'authentification facilitant l'essai du plugin pour les utilisateurs ne disposant pas encore de compte Isogeo [#325](https://github.com/isogeo/isogeo-plugin-qgis/issues/325)
+* corrections de bug : [#332](https://github.com/isogeo/isogeo-plugin-qgis/issues/332), [#331](https://github.com/isogeo/isogeo-plugin-qgis/issues/331), [#309](https://github.com/isogeo/isogeo-plugin-qgis/issues/309), [#280](https://github.com/isogeo/isogeo-plugin-qgis/issues/280)
+* améliorations mineures : [#298](https://github.com/isogeo/isogeo-plugin-qgis/issues/298), [#327](https://github.com/isogeo/isogeo-plugin-qgis/issues/327)
 
 <!-- /timeline -->
 
