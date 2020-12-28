@@ -11,7 +11,6 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 <br> Publiée le 17 décembre 2021 :
 
 > [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/10?closed=1)
-> [Consulter la Github release.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.1.0)
 
 * informer l'utilisteur à propos des limitations auxquelles les données qu'il ajoute au caneva sont sujettes [#164](https://github.com/isogeo/isogeo-plugin-qgis/issues/164)
 * permettre l'écriture automatique de l'URL de la fiche de métadonnées du portail Isogeo dans les propriétés des couches ajoutées au caneva [#312](https://github.com/isogeo/isogeo-plugin-qgis/issues/312)
