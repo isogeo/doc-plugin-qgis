@@ -6,7 +6,38 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 <!-- timeline -->
 
-## 3.0.1 {#version163}
+## 3.1.0 {#version310}
+
+<br> Publiée le 17 décembre 2021 :
+
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/10?closed=1)
+
+* informer l'utilisteur à propos des limitations auxquelles les données qu'il ajoute au caneva sont sujettes [#164](https://github.com/isogeo/isogeo-plugin-qgis/issues/164)
+* permettre l'écriture utomatique de l'URL de la fiche de métadonnées du portail Isogeo dans les propriétés des couches ajoutées au caneva [#312](https://github.com/isogeo/isogeo-plugin-qgis/issues/312)
+* ajout de ressources dans la fenêtre d'authentification facilitant l'essaie du plugin pour les utilisateurs ne disposant pas encore de compte Isogeo [#325](https://github.com/isogeo/isogeo-plugin-qgis/issues/325)
+* correction de divers bugs : [#332](https://github.com/isogeo/isogeo-plugin-qgis/issues/332), [#331](https://github.com/isogeo/isogeo-plugin-qgis/issues/331), [#309](https://github.com/isogeo/isogeo-plugin-qgis/issues/309), [#280](https://github.com/isogeo/isogeo-plugin-qgis/issues/280)
+* améliorations mineurs : [#298](https://github.com/isogeo/isogeo-plugin-qgis/issues/298), [#327](https://github.com/isogeo/isogeo-plugin-qgis/issues/327)
+
+> Consulter les GitHub Releases correspondantes :
+>
+> * [3.1.0-beta1](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.1.0-beta1)
+> * [3.1.0](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.1.0)
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
+## 3.0.2 {#version302}
+
+<br> Publiée le 28 janvier 2020 :
+
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/13?closed=1)
+
+* meilleur gestion des erreurs due aux certificats SSL [#299](https://github.com/isogeo/isogeo-plugin-qgis/pull/299)
+
+<!-- /timeline -->
+
+## 3.0.1 {#version301}
 
 <br> Publiée le 25 octobre 2019 :
 
@@ -18,7 +49,7 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 <!-- timeline -->
 
-## 3.0.0 {#version163}
+## 3.0.0 {#version300}
 
 <br> Publiée le 23 octobre 2019 :
 
