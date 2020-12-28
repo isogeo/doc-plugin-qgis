@@ -32,6 +32,8 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 <!-- /timeline -->
 
+<!-- timeline -->
+
 ## 3.0.1 {#version301}
 
 <br> Publiée le 25 octobre 2019 :
