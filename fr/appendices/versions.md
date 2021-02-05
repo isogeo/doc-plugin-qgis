@@ -5,16 +5,34 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 # Notes de versions
 
 <!-- timeline -->
+## 3.1.1 {#version311}
+
+<br>Publiée le 4 février 2021 :
+
+> ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.1.1)
+
+* refonte et amélioration des performances :
+  * de la fonctionnalité d'ajout de couche à la carte : [#318](https://github.com/isogeo/isogeo-plugin-qgis/issues/318)
+  * du remplissage du tableau des résultats : [#316](https://github.com/isogeo/isogeo-plugin-qgis/issues/316), [#330](https://github.com/isogeo/isogeo-plugin-qgis/issues/330)
+* meilleure gestion des spécificités des services géographiques (OGC et ESRI): [#341](https://github.com/isogeo/isogeo-plugin-qgis/issues/341), [#348](https://github.com/isogeo/isogeo-plugin-qgis/issues/348), [#349](https://github.com/isogeo/isogeo-plugin-qgis/issues/349), [#350](https://github.com/isogeo/isogeo-plugin-qgis/issues/350), [#351](https://github.com/isogeo/isogeo-plugin-qgis/issues/351)
+* corrections de bugs :
+  * majeurs : [#336](https://github.com/isogeo/isogeo-plugin-qgis/issues/336), [#337](https://github.com/isogeo/isogeo-plugin-qgis/issues/337)
+  * mineurs : [#339](https://github.com/isogeo/isogeo-plugin-qgis/issues/339), [#345](https://github.com/isogeo/isogeo-plugin-qgis/issues/345)
+* améliorations mineures : [#333](https://github.com/isogeo/isogeo-plugin-qgis/issues/333), [#340](https://github.com/isogeo/isogeo-plugin-qgis/issues/340), [#343](https://github.com/isogeo/isogeo-plugin-qgis/issues/343)
+
+<!-- /timeline -->
+
+<!-- timeline -->
 
 ## 3.1.0 {#version310}
 
-<br> Publiée le 17 décembre 2021 :
+<br> Publiée le 17 décembre 2020 :
 
-> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/10?closed=1)
+> ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.1.0)
 
-* informer l'utilisteur à propos des limitations auxquelles les données qu'il ajoute au caneva sont sujettes [#164](https://github.com/isogeo/isogeo-plugin-qgis/issues/164)
-* permettre l'écriture automatique de l'URL de la fiche de métadonnées du portail Isogeo dans les propriétés des couches ajoutées au caneva [#312](https://github.com/isogeo/isogeo-plugin-qgis/issues/312)
-* ajout de ressources dans la fenêtre d'authentification facilitant l'essai du plugin pour les utilisateurs ne disposant pas encore de compte Isogeo [#325](https://github.com/isogeo/isogeo-plugin-qgis/issues/325)
+* informer l'utilisteur à propos des limitations auxquelles les données qu'il ajoute au caneva sont sujettes : [#164](https://github.com/isogeo/isogeo-plugin-qgis/issues/164)
+* permettre l'écriture automatique de l'URL de la fiche de métadonnées du portail Isogeo dans les propriétés des couches ajoutées au caneva : [#312](https://github.com/isogeo/isogeo-plugin-qgis/issues/312)
+* ajout de ressources dans la fenêtre d'authentification facilitant l'essai du plugin pour les utilisateurs ne disposant pas encore de compte Isogeo : [#325](https://github.com/isogeo/isogeo-plugin-qgis/issues/325)
 * corrections de bug : [#332](https://github.com/isogeo/isogeo-plugin-qgis/issues/332), [#331](https://github.com/isogeo/isogeo-plugin-qgis/issues/331), [#309](https://github.com/isogeo/isogeo-plugin-qgis/issues/309), [#280](https://github.com/isogeo/isogeo-plugin-qgis/issues/280)
 * améliorations mineures : [#298](https://github.com/isogeo/isogeo-plugin-qgis/issues/298), [#327](https://github.com/isogeo/isogeo-plugin-qgis/issues/327)
 
