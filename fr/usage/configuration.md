@@ -1,5 +1,10 @@
+---
+description: Configurer le plugin Isogeo pour QGIS
+---
+
 # Configuration et paramètres
 
+![Onglet "Paramètres"](/assets/ui_tabs_settings_fr.png)
 ## Changer les clés d'authentification {#authentication}
 
 Dans les paramètres, il est également possible de changer de compte, pour se connecter à une autre instance du plugin QGIS.
@@ -32,9 +37,51 @@ On retrouve donc :
 
 ---
 
+## Configuration des connexions PostgeSQL utilisées par le plugin {#pgdb_connections}
+
+!!! note Contexte : Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions PostgeSQL ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
+
+Cette situation peut survenir dans les cas suivants :
+
+* on cherche à se connecter à une même base de données avec différents utilisateurs :
+![Deux connexions à une même base PostgreSQL avec différents utilisateurs](/assets/config_pgdb_connection_diff_user.png)
+* il s'agit de deux bases de données dont le nom est identique mais qui sont hébergées sur des serveurs différents :
+![Deux connexions à des bases de données homonymes hébergées sur différents serveurs](/assets/config_pgdb_connection_diff_host.png)
+
+### Comportement par défaut du plugin
+
+Dans ce cas là, le plugin QGIS propose à l'utilisateur une option d'ajout par connexion enregistrée pour la base de données dont la donnée est issue :
+
+![](/assets/config_pgdb_connection_several_options.png)
+
+De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la couche, la connexion qui sera utilisées pour accéder à la table PostGIS correspondante.
+
+### Paramétrage des connexions utilisées par le plugin QGIS
+
+Il est possible de choisir de manière durable la connexion qui sera utilisée par le plugin pour accéder à chaque base de données. Ce choix est configurable via une interface graphique dédiée accessible en cliquant sur un bouton situé dans la rubrique "Paramètres d'ajout de couche" de l'onglet "Paramètres" du plugin.
+
+![Ouvrir la boîte de dialogue de configuration des connexions PostgreSQL](/assets/config_pgdb_connection_open_dialog_btn.png)
+
+Cette interface contient :
+
+* un tableau dans lequel des listes déroulantes (colonne de droite) permettent de sélectionner la connexion qui sera utilisée pour accéder à une base de données spécifique (colonne de gauche)
+* des boutons permettant de :
+  * recharger les connexions PostgeSQL configurées dans QGIS
+  * réinitialiser le tableau pour remettre le slistes déroulantes dans leur configuration initiale
+  * enregistrer la configuration
+  * annuler la configuration 
+
+#### Choisir la connexion a utiliser pour accéder aux tables du base de données spécifique :
+
+1. Choisir le nom de cette connexion dans la liste dé roulante correspondante
+
+!!! note Important : La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte cette configuration.
+
+---
+
 ## Ajouter l'URL de la metadonnée du Portail Isogeo aux propriétés de la couche {#metadata_portal_url}
 
-> Cette rubrique concerne uniquement les utilisateurs du plugin QGIS ayant également accès au [Portail Isogeo](https://www.isogeo.com/nos-produits/Portail).
+!!! note Précision : Cette rubrique concerne uniquement les utilisateurs du plugin QGIS ayant également accès au [Portail Isogeo](https://www.isogeo.com/nos-produits/Portail).
 
 Cette fonctionnalité implique deux prérequis :
 
@@ -49,4 +96,4 @@ Afin d'obtenir ce résultat, il est nécessaire de cocher la case correspondante
 
 ![Paramètres du Portail isogeo](/assets/settings_isogeo_portal_fr.png)
 
-> La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte les modifications apportées au champ ci-dessus.
+!!! note Important : La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte les modifications apportées au champ ci-dessus.
