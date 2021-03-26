@@ -1,5 +1,5 @@
 ---
-description: Exemples de bonnes pratiques
+description: Exemples de cas d'usage du plugin Isogeo pour QGIS
 ---
 
 # Cas d'usage

@@ -1,5 +1,5 @@
 ---
-description: Utiliser le moteur de recherche de données Isogeo dans QGIS
+description: Utiliser le moteur de recherche de métadonnées Isogeo dans QGIS
 ---
 
 # Rechercher

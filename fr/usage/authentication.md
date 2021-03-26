@@ -1,3 +1,7 @@
+---
+description: Authentifier le plugin Isogeo pour QGIS
+---
+
 # Authentification
 
 ## Indiquer l'emplacement du fichier d'authentification {#auth_file}

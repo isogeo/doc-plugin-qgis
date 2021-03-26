@@ -1,3 +1,7 @@
+---
+description: Gestion de la recherche par défaut dans le plugin Isogeo pour QGIS
+---
+
 # Recherche par défaut
 
 Dans l'onglet "Paramètres", l’utilisateur peut configurer la recherche par défaut, à savoir la recherche qui s’exécute automatiquement au lancement du plugin. Par défaut, il s’agit d’une requête qui filtre sur le champ "type", renvoyant la totalité des données partagées avec le plugin, à l'exception des fiches de services.

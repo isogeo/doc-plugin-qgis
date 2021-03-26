@@ -1,3 +1,7 @@
+---
+description: Gestion des recherches rapides dans le plugin Isogeo pour QGIS
+---
+
 # Recherches rapides
 
 ## Enregistrer une recherche rapide {#quicksearch_new}
