@@ -5,6 +5,21 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 # Notes de versions
 
 <!-- timeline -->
+## 3.2.0 {#version320}
+
+<br>Publiée le X avril 2021 :
+
+> ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.2.0)
+
+* meilleure gestion des connexions aux bases de données PostgeSQL: []()
+* corrections de bugs :
+  * majeurs : [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X), [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X)
+  * mineurs : [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X), [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X)
+* améliorations mineures : [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X), [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X), [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X)
+
+<!-- /timeline -->
+
+<!-- timeline -->
 ## 3.1.1 {#version311}
 
 <br>Publiée le 4 février 2021 :
