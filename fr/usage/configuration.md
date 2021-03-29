@@ -39,7 +39,7 @@ On retrouve donc :
 
 ## Configuration des connexions PostgeSQL utilisées par le plugin {#pgdb_connections}
 
-!!! note Contexte : Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions PostgeSQL ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
+> Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions PostgeSQL ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
 
 Cette situation peut survenir dans les cas suivants :
 
@@ -50,7 +50,7 @@ Cette situation peut survenir dans les cas suivants :
 
 ### Comportement par défaut du plugin
 
-Dans ce cas là, le plugin QGIS propose à l'utilisateur une option d'ajout par connexion enregistrée pour la base de données dont la donnée est issue :
+Dans ce cas là, le plugin QGIS propose à l'utilisateur une option d'ajout par connexion enregistrée pour la base de données dont la donnée est issue en indiquant le nom de la connexion :
 
 ![](/assets/config_pgdb_connection_several_options.png)
 
@@ -60,22 +60,33 @@ De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la 
 
 Il est possible de choisir de manière durable la connexion qui sera utilisée par le plugin pour accéder à chaque base de données. Ce choix est configurable via une interface graphique dédiée accessible en cliquant sur un bouton situé dans la rubrique "Paramètres d'ajout de couche" de l'onglet "Paramètres" du plugin.
 
-![Ouvrir la boîte de dialogue de configuration des connexions PostgreSQL](/assets/config_pgdb_connection_open_dialog_btn.png)
+![Ouvrir la boîte de dialogue dédiée à la configuration des connexions PostgreSQL](/assets/config_pgdb_connection_open_dialog_btn.png)
 
-Cette interface contient :
+![Interface de configuration des connexions PostgreSQL](/assets/config_pgdb_connection_open_dialog_btn.png)
 
-* un tableau dans lequel des listes déroulantes (colonne de droite) permettent de sélectionner la connexion qui sera utilisée pour accéder à une base de données spécifique (colonne de gauche)
-* des boutons permettant de :
-  * recharger les connexions PostgeSQL configurées dans QGIS
-  * réinitialiser le tableau pour remettre le slistes déroulantes dans leur configuration initiale
-  * enregistrer la configuration
-  * annuler la configuration 
+Les listes déroulantes (colonne de droite) permettent de sélectionner la connexion qui sera utilisée par le plugin pour accéder à la base de données correspondante (colonne de gauche).
 
-#### Choisir la connexion a utiliser pour accéder aux tables du base de données spécifique :
+![Sélectionner la connexion à utiliser pour accéder à une base de données](/assets/config_pgdb_connection_dialog_cbb_open.png)
 
-1. Choisir le nom de cette connexion dans la liste dé roulante correspondante
+Une fois la configuration effectuée, l'utilisateur peut :
 
-!!! note Important : La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte cette configuration.
+1. **Réinitialiser** le tableau : pour remettre les listes déroulantes dans leur configuration initiale (au moment de l'ouverture de la boîte de dialogue)
+2. **Enregistrer** la configuration : pour enregistrer durablement les choix faits par l'utilisateur avant de fermer la boîte de dialogue
+3. **Annuler** la configuration : pour fermer la boîte de dialogue sans prendre n ecompte les choix faits pas l'utilisateur
+
+![Réinitialiser/Enregistrer/Annuler la configuration](/assets/config_pgdb_connection_dialog_btn_box.png)
+
+Si une connexion à une base de données a été modifiée/ajoutée/supprimée pendant la session d'utilisation courrante de QGIS, il faut cliquer sur "Recharger les connexions" pour que la modification soit prise en compte par le plugin Isogeo :
+
+![Recharger les connexions](/assets/config_pgdb_connection_dialog_btn_box.png)
+
+Une fois la configuration enregistrée, elle se répercute dans les options d'ajout de couche proposées à l'utilisateur :
+
+![](/assets/config_pgdb_connection_unique_option.png)
+
+Le plugin ne propose plus qu'une option d'ajout à l'utilisateur correspondant à la connexion qu'il a sélectionné.
+
+> La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte cette configuration.
 
 ---
 
@@ -96,4 +107,4 @@ Afin d'obtenir ce résultat, il est nécessaire de cocher la case correspondante
 
 ![Paramètres du Portail isogeo](/assets/settings_isogeo_portal_fr.png)
 
-!!! note Important : La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte les modifications apportées au champ ci-dessus.
+> La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte les modifications apportées au champ ci-dessus.
