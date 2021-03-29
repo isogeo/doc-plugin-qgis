@@ -6,11 +6,13 @@
 * [Prérequis](prerequisites.md)
 * [Essayez le plugin](Tryit.md)
 
-## Installation
+## Installation/Désinstallation
 
-* [Standard](installation/standard.md)
-* [Version bêta](installation/beta.md)
-* [Version en développement](installation/dev.md)
+* [Installation](installation/install.md)
+  * [Standard](installation/install.md#standard)
+  * [Bêta](installation/install.md#install_beta)
+  * [Développement](installation/install.md#install_dev)
+* [Désinstallation](installation/uninstall.md)
 
 ## Utilisation
 
