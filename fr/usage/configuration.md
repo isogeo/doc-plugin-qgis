@@ -4,7 +4,6 @@ description: Configurer le plugin Isogeo pour QGIS
 
 # Configuration et paramètres
 
-![Onglet "Paramètres"](/assets/ui_tabs_settings_fr.png)
 ## Changer les clés d'authentification {#authentication}
 
 Dans les paramètres, il est également possible de changer de compte, pour se connecter à une autre instance du plugin QGIS.

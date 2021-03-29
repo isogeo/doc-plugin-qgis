@@ -20,16 +20,16 @@ Ouvrir le gestionnaire d'extensions, rechercher Isogeo et cliquer sur "Installer
 
 !["Installer le plugin Isogeo depuis le gestionnaire d&apos;extensions de QGIS"](/assets/qgis_install_extension_fr.png)
 
+>### Versions antérieures à la 1.6.1 {#authentication_old}
+>
+>Au premier lancement du plugin, entrer les identifiants reçus par mail, puis cliquer sur le bouton "Vérifier" :
+>
+>* Si vos identifiants ne sont pas reconnus, un message d'erreur s'affiche et les fonctionnalités du plugin sont bloquées. Le bouton "Enregistrer" reste inactif.
+>* Si vos identifiants sont reconnus, le bouton "Enregistrer" s'active. Cliquer dessus pour accéder au plugin.
+>
+>!["Bo&icirc;te de dialogue pour authentifier le plugin avec les cl&eacute;s API"](/assets/ui_auth_prompt_fr.png)
+
 ---
-
-### Versions antérieures à la 1.6.1 {#authentication_old}
-
-Au premier lancement du plugin, entrer les identifiants reçus par mail, puis cliquer sur le bouton "Vérifier" :
-
-* Si vos identifiants ne sont pas reconnus, un message d'erreur s'affiche et les fonctionnalités du plugin sont bloquées. Le bouton "Enregistrer" reste inactif.
-* Si vos identifiants sont reconnus, le bouton "Enregistrer" s'active. Cliquer dessus pour accéder au plugin.
-
-!["Bo&icirc;te de dialogue pour authentifier le plugin avec les cl&eacute;s API"](/assets/ui_auth_prompt_fr.png)
 
 ## Version bêta {#install_beta}
 
@@ -46,6 +46,8 @@ A des fins de recette ou ponctuellement pour présenter la prochaine version, il
 4. Cliquer sur "Recharger tous les dépôts" ;
 
 5. Installer ou réinstaller l'extension via le gestionnaire de plugins de QGIS.
+
+---
 
 ## Versions de développement {#install_dev}
 
