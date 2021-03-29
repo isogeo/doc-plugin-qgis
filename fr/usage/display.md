@@ -79,7 +79,7 @@ Une table PostGIS pourra être ajoutée par le plugin dans les conditions suivan
   !["Configuration d'une connexion à une base de données PostgreSQL via un Service"](/assets/display_postgis_dbconnection_service.png)
 * La fiche documentant la table PostGIS a été créée à partir du scan FME Isogeo. En créant une fiche manuellement dans [https://app.isogeo.com](https://app.isogeo.com), il est impossible de renseigner le champ _name_ nécessaire à l’ajout de la table.
 
-!!! note Nota bene : Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](configuration.md#pgdb_connections) pour accéder aux données stockées dans la base concernée.
+> Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](configuration.md#pgdb_connections) pour accéder aux données stockées dans la base concernée.
 ### Services géographiques {#add_services}
 
 Le plugin supporte les couches de services documentés automatiquement et associés aux métadonnées de données.

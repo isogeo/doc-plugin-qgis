@@ -39,7 +39,9 @@ On retrouve donc :
 
 ## Configuration des connexions PostgeSQL utilisées par le plugin {#pgdb_connections}
 
-> Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions PostgeSQL ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
+### Contexte
+
+Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions PostgeSQL ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
 
 Cette situation peut survenir dans les cas suivants :
 
@@ -50,7 +52,7 @@ Cette situation peut survenir dans les cas suivants :
 
 ### Comportement par défaut du plugin
 
-Dans ce cas là, le plugin QGIS propose à l'utilisateur une option d'ajout par connexion enregistrée pour la base de données dont la donnée est issue en indiquant le nom de la connexion :
+Dans ce contexte, le plugin QGIS propose à l'utilisateur une option d'ajout par connexion enregistrée en précisant le nom de la connexion :
 
 ![](/assets/config_pgdb_connection_several_options.png)
 
@@ -58,9 +60,11 @@ De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la 
 
 ### Paramétrage des connexions utilisées par le plugin QGIS
 
-Il est possible de choisir de manière durable la connexion qui sera utilisée par le plugin pour accéder à chaque base de données. Ce choix est configurable via une interface graphique dédiée accessible en cliquant sur un bouton situé dans la rubrique "Paramètres d'ajout de couche" de l'onglet "Paramètres" du plugin.
+Afin d'éviter d'avoir à choisir la connexion à chaque ajout de couche, il est possible de configurer ce choix de manière durable.
 
 ![](/assets/config_pgdb_connection_open_dialog_btn.png)
+
+Une interface graphique dédiée (ci-dessous) est accessible en cliquant sur un bouton situé dans la rubrique "Paramètres d'ajout de couche" de l'onglet "Paramètres" du plugin (ci-dessus).
 
 ![](/assets/config_pgdb_connection_dialog.png)
 
@@ -92,7 +96,7 @@ Le plugin ne propose plus qu'une option d'ajout à l'utilisateur, correspondant 
 
 ## Ajouter l'URL de la metadonnée du Portail Isogeo aux propriétés de la couche {#metadata_portal_url}
 
-!!! note Précision : Cette rubrique concerne uniquement les utilisateurs du plugin QGIS ayant également accès au [Portail Isogeo](https://www.isogeo.com/nos-produits/Portail).
+> Cette rubrique concerne uniquement les utilisateurs du plugin QGIS ayant également accès au [Portail Isogeo](https://www.isogeo.com/nos-produits/Portail).
 
 Cette fonctionnalité implique deux prérequis :
 
