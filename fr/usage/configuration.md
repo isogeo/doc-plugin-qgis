@@ -44,9 +44,9 @@ On retrouve donc :
 Cette situation peut survenir dans les cas suivants :
 
 * on cherche à se connecter à une même base de données avec différents utilisateurs :
-![Deux connexions à une même base PostgreSQL avec différents utilisateurs](/assets/config_pgdb_connection_diff_user.png)
+![](/assets/config_pgdb_connection_diff_user.png)
 * il s'agit de deux bases de données dont le nom est identique mais qui sont hébergées sur des serveurs différents :
-![Deux connexions à des bases de données homonymes hébergées sur différents serveurs](/assets/config_pgdb_connection_diff_host.png)
+![](/assets/config_pgdb_connection_diff_host.png)
 
 ### Comportement par défaut du plugin
 
@@ -60,31 +60,31 @@ De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la 
 
 Il est possible de choisir de manière durable la connexion qui sera utilisée par le plugin pour accéder à chaque base de données. Ce choix est configurable via une interface graphique dédiée accessible en cliquant sur un bouton situé dans la rubrique "Paramètres d'ajout de couche" de l'onglet "Paramètres" du plugin.
 
-![Ouvrir la boîte de dialogue dédiée à la configuration des connexions PostgreSQL](/assets/config_pgdb_connection_open_dialog_btn.png)
+![](/assets/config_pgdb_connection_open_dialog_btn.png)
 
-![Interface de configuration des connexions PostgreSQL](/assets/config_pgdb_connection_open_dialog_btn.png)
+![](/assets/config_pgdb_connection_dialog.png)
 
 Les listes déroulantes (colonne de droite) permettent de sélectionner la connexion qui sera utilisée par le plugin pour accéder à la base de données correspondante (colonne de gauche).
 
-![Sélectionner la connexion à utiliser pour accéder à une base de données](/assets/config_pgdb_connection_dialog_cbb_open.png)
+![](/assets/config_pgdb_connection_dialog_cbb_open.png)
 
 Une fois la configuration effectuée, l'utilisateur peut :
 
 1. **Réinitialiser** le tableau : pour remettre les listes déroulantes dans leur configuration initiale (au moment de l'ouverture de la boîte de dialogue)
 2. **Enregistrer** la configuration : pour enregistrer durablement les choix faits par l'utilisateur avant de fermer la boîte de dialogue
-3. **Annuler** la configuration : pour fermer la boîte de dialogue sans prendre n ecompte les choix faits pas l'utilisateur
+3. **Annuler** la configuration : pour fermer la boîte de dialogue sans prendre en compte les choix faits pas l'utilisateur
 
-![Réinitialiser/Enregistrer/Annuler la configuration](/assets/config_pgdb_connection_dialog_btn_box.png)
+![](/assets/config_pgdb_connection_dialog_btn_box.png)
 
-Si une connexion à une base de données a été modifiée/ajoutée/supprimée pendant la session d'utilisation courrante de QGIS, il faut cliquer sur "Recharger les connexions" pour que la modification soit prise en compte par le plugin Isogeo :
+Si une connexion à une base de données a été modifiée/ajoutée/supprimée pendant la session d'utilisation courante de QGIS, il faut cliquer sur "Recharger les connexions" pour que la modification soit prise en compte par le plugin Isogeo :
 
-![Recharger les connexions](/assets/config_pgdb_connection_dialog_btn_box.png)
+![](/assets/config_pgdb_connection_dialog_reload_conn.png)
 
 Une fois la configuration enregistrée, elle se répercute dans les options d'ajout de couche proposées à l'utilisateur :
 
 ![](/assets/config_pgdb_connection_unique_option.png)
 
-Le plugin ne propose plus qu'une option d'ajout à l'utilisateur correspondant à la connexion qu'il a sélectionné.
+Le plugin ne propose plus qu'une option d'ajout à l'utilisateur, correspondant à la connexion qu'il a sélectionné.
 
 > La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte cette configuration.
 
