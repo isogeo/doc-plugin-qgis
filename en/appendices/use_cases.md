@@ -4,15 +4,15 @@
 
 ### Context
 
-When using the QGIS Isogeo plugin for the first time, the location of the `client_secrets.json` file must be specified to perform authentication. The file is then moved to the plugin folder (`C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` for Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine` for Ubuntu). This behavior can make it difficult to deploy the QGIS Isogeo plugin.
+When using the QGIS Isogeo plugin for the first time, the location of the `client_secrets.json` file must be specified to perform authentication. The file is then moved to the plugin folder (`C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` for Windows or `/home/%userprofile%/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine` for Ubuntu). This behavior can make it difficult to deploy the QGIS Isogeo plugin.
 
 ### Process
 
-1. [Install Isogeo plugin and authenticate](/usage/authentication.md) by indicating the location of the `client_secrets.json` file provided by Isogeo. The file is moved to the QGIS plugin folder (in `C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_auth` for Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_auth` for Ubuntu).
+1. [Install Isogeo plugin and authenticate](/usage/authentication.md) by indicating the location of the `client_secrets.json` file provided by Isogeo. The file is moved to the QGIS plugin folder (in `C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_auth` for Windows or `/home/%userprofile%/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_auth` for Ubuntu).
 
     ![`client_secrets.json` file location after the authentication](/assets/_auth_folder_en.png)
 
-2. Create a ZIP file from the QGIS plugin folder on the computer used in the first step (`C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` for Windows or `/home/$USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine` for Ubuntu).
+2. Create a ZIP file from the QGIS plugin folder on the computer used in the first step (`C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` for Windows or `/home/%userprofile%/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine` for Ubuntu).
 
     ![Creating a ZIP file from the plugin folder after authentication](/assets/create_zip_en.png)
 

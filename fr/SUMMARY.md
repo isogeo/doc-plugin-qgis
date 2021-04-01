@@ -28,6 +28,6 @@
 ## Annexes
 
 * [Questions fréquentes et support](appendices/support.md)
-* [Cas d'usage](appendices/use_cases.md)
+* [Déployer le plugin via un ZIP](appendices/zip_deployment.md)
 * [Notes des versions](appendices/versions.md)
 * [Index des images et figures](pictures.md)

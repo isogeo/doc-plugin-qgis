@@ -12,6 +12,8 @@ Utiliser le bouton `...` pour charger le fichier d'authentification (`client_sec
 
 !["Charger le fichier client_secrets&#46;json transmis par mail"](/assets/ui_auth_prompt_upload_credentials_file_fr.png)
 
+> Le fichier est déplacé dans le répertoire d'installation du plugin QGIS Isogeo (dans `C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine\_auth` pour Windows ou `/home/%userprofile%/.local/share/QGIS/QGIS3/profiles/default/python/plugins/isogeo_search_engine/_auth` pour Ubuntu).
+
 Et voilà, bonne utilisation !
 
 ---
