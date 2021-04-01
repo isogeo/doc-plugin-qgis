@@ -75,7 +75,7 @@ Une fois la configuration effectuée, l'utilisateur peut :
 
 1. **Réinitialiser** le tableau : pour remettre les listes déroulantes dans leur configuration initiale (au moment de l'ouverture de la boîte de dialogue)
 2. **Enregistrer** la configuration : pour enregistrer durablement les choix faits par l'utilisateur avant de fermer la boîte de dialogue
-3. **Annuler** la configuration : pour fermer la boîte de dialogue sans prendre en compte les choix faits pas l'utilisateur
+3. **Annuler** la configuration : pour fermer la boîte de dialogue sans prendre en compte les choix faits par l'utilisateur
 
 ![](/assets/config_pgdb_connection_dialog_btn_box.png)
 
