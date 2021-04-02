@@ -49,7 +49,7 @@ Cette situation peut survenir dans les cas suivants :
 * il s'agit de deux bases de données dont le nom est identique mais qui sont hébergées sur des serveurs différents :
 ![](/assets/config_pgdb_connection_diff_host.png)
 
-### Comportement par défaut du plugin
+### Comportement par défaut du plugin {#pgdb_connections_default}
 
 Dans ce contexte, le plugin QGIS propose à l'utilisateur une option d'ajout par connexion enregistrée en précisant le nom de la connexion :
 
@@ -57,7 +57,7 @@ Dans ce contexte, le plugin QGIS propose à l'utilisateur une option d'ajout par
 
 De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la couche, la connexion qui sera utilisées pour accéder à la table PostGIS correspondante.
 
-### Paramétrage des connexions utilisées par le plugin QGIS
+### Paramétrage des connexions utilisées par le plugin QGIS {#pgdb_connections_config}
 
 Afin d'éviter d'avoir à choisir la connexion à chaque ajout de couche, il est possible de configurer ce choix de manière durable.
 

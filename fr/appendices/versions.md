@@ -11,11 +11,15 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 > ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.2.0)
 
-* meilleure gestion des connexions aux bases de données PostgeSQL: []()
+* meilleure gestion des connexions aux bases de données PostgeSQL:
+  * possibilité de choisir la connexion utilisée par le plugin pour accéder à chaque base de données : [#320](https://github.com/isogeo/isogeo-plugin-qgis/issues/320):
+    * [au moment d'ajouter une couche issue d'une table PostGIS](configuration.md#pgdb_connections_default)
+    * [de manière durable via une interface dédiée](configuration.md#pgdb_connections_config)
+  * prise en compte des [connexions via des services](display.md#add_postgis) configurés dans un fichier `pg_service.conf` : [#321](https://github.com/isogeo/isogeo-plugin-qgis/issues/321)
 * corrections de bugs :
-  * majeurs : [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X), [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X)
-  * mineurs : [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X), [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X)
-* améliorations mineures : [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X), [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X), [#X](https://github.com/isogeo/isogeo-plugin-qgis/issues/X)
+  * majeurs : [#355](https://github.com/isogeo/isogeo-plugin-qgis/issues/355)
+  * mineurs : [#110](https://github.com/isogeo/isogeo-plugin-qgis/issues/110), [#279](https://github.com/isogeo/isogeo-plugin-qgis/issues/279), [#353](https://github.com/isogeo/isogeo-plugin-qgis/issues/353)
+* améliorations mineures : [#359](https://github.com/isogeo/isogeo-plugin-qgis/issues/359), [#274](https://github.com/isogeo/isogeo-plugin-qgis/issues/274)
 
 <!-- /timeline -->
 
