@@ -7,15 +7,15 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 <!-- timeline -->
 ## 3.2.0 {#version320}
 
-<br>Publiée le X avril 2021 :
+<br>Publiée le 2 avril 2021 :
 
 > ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.2.0)
 
 * meilleure gestion des connexions aux bases de données PostgeSQL:
   * possibilité de choisir la connexion utilisée par le plugin pour accéder aux tables de chaque base de données : [#320](https://github.com/isogeo/isogeo-plugin-qgis/issues/320):
-    * [au moment d'ajouter une couche PostGIS](configuration.md#pgdb_connections_default)
-    * [de manière durable via une interface dédiée](configuration.md#pgdb_connections_config)
-  * prise en compte des [connexions via des services](display.md#add_postgis) configurés dans un fichier `pg_service.conf` : [#321](https://github.com/isogeo/isogeo-plugin-qgis/issues/321)
+    * [au moment d'ajouter une couche PostGIS](fr/usage/configuration.md#pgdb_connections_default)
+    * [de manière durable via une interface dédiée](fr/usage/configuration.md#pgdb_connections_config)
+  * prise en compte des [connexions via des services](fr/usage/display.md#add_postgis) configurés dans un fichier `pg_service.conf` : [#321](https://github.com/isogeo/isogeo-plugin-qgis/issues/321)
 * corrections de bugs :
   * majeurs : [#355](https://github.com/isogeo/isogeo-plugin-qgis/issues/355)
   * mineurs : [#110](https://github.com/isogeo/isogeo-plugin-qgis/issues/110), [#279](https://github.com/isogeo/isogeo-plugin-qgis/issues/279), [#353](https://github.com/isogeo/isogeo-plugin-qgis/issues/353)
