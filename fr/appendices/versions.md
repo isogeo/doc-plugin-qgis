@@ -13,9 +13,9 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 * meilleure gestion des connexions aux bases de données PostgeSQL:
   * possibilité de choisir la connexion utilisée par le plugin pour accéder aux tables de chaque base de données : [#320](https://github.com/isogeo/isogeo-plugin-qgis/issues/320):
-    * [au moment d'ajouter une couche PostGIS](fr/usage/configuration.md#pgdb_connections_default)
-    * [de manière durable via une interface dédiée](fr/usage/configuration.md#pgdb_connections_config)
-  * prise en compte des [connexions via des services](fr/usage/display.md#add_postgis) configurés dans un fichier `pg_service.conf` : [#321](https://github.com/isogeo/isogeo-plugin-qgis/issues/321)
+    * [au moment d'ajouter une couche PostGIS](/fr/usage/configuration.md#pgdb_connections_default)
+    * [de manière durable via une interface dédiée](/fr/usage/configuration.md#pgdb_connections_config)
+  * prise en compte des [connexions via des services](/fr/usage/display.md#add_postgis) configurés dans un fichier `pg_service.conf` : [#321](https://github.com/isogeo/isogeo-plugin-qgis/issues/321)
 * corrections de bugs :
   * majeurs : [#355](https://github.com/isogeo/isogeo-plugin-qgis/issues/355)
   * mineurs : [#110](https://github.com/isogeo/isogeo-plugin-qgis/issues/110), [#279](https://github.com/isogeo/isogeo-plugin-qgis/issues/279), [#353](https://github.com/isogeo/isogeo-plugin-qgis/issues/353)

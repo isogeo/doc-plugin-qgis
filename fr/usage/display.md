@@ -79,7 +79,7 @@ Une table PostGIS pourra être ajoutée par le plugin dans les conditions suivan
   * en indiquant le nom d'un service faisant référence à un fichier de configuration `pg_service.conf` dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
   !["Configuration d'une connexion à une base de données PostgreSQL via un Service"](/assets/display_postgis_dbconnection_service.png)
 
-> Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](fr/usage/configuration.md#pgdb_connections) pour accéder aux données stockées dans la base concernée.
+> Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](/fr/usage/configuration.md#pgdb_connections) pour accéder aux données stockées dans la base concernée.
 ### Services géographiques {#add_services}
 
 Le plugin supporte les couches de services documentés automatiquement et associés aux métadonnées de données.

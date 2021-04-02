@@ -20,7 +20,7 @@ Et voilà, bonne utilisation !
 
 ## Les erreurs SSL {#ssl_errors}
 
-Au lancement du plugin (ou après l'[authentification](fr/usage/authentication.md) dans le cas d'une première utilisation), il est possible que le logiciel signal une erreur de certificat SSL par l'intermédiaire de la fenêtre suivante :
+Au lancement du plugin (ou après l'[authentification](/fr/usage/authentication.md) dans le cas d'une première utilisation), il est possible que le logiciel signal une erreur de certificat SSL par l'intermédiaire de la fenêtre suivante :
 
 !["Erreur de certificat SSL signalée lors de l'authentification"](/assets/qgis_dialog_ssl_errors_id_fr.png)
 
