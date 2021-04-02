@@ -14,7 +14,7 @@ Une fois les résultats affichés, l'utilisateur peut consulter la fiche de mét
 
 ## Synchroniser les métadonnées {#sync}
 
-Lors de l'[ajout d'une donnée à QGIS depuis le plugin](display.md), les métadonnées Isogeo (titre, résumé, mots-clés) sont ajoutées aux propriétés de la couche :
+Lors de l'[ajout d'une donnée à QGIS depuis le plugin](/usage/display.md), les métadonnées Isogeo (titre, résumé, mots-clés) sont ajoutées aux propriétés de la couche :
 
 * dans l'onglet "QGIS Server" pour la version 3.x du plugin
 
