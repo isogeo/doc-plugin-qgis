@@ -36,11 +36,11 @@ On retrouve donc :
 
 ---
 
-## Configuration des connexions PostgeSQL utilisées par le plugin {#pgdb_connections}
+## Configuration des connexions PostgreSQL utilisées par le plugin {#pgdb_connections}
 
 ### Contexte
 
-Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions PostgeSQL ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
+Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions PostgreSQL ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
 
 Cette situation peut survenir dans les cas suivants :
 

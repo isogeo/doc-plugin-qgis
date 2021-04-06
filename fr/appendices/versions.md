@@ -11,7 +11,7 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 > ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.2.0)
 
-* meilleure gestion des connexions aux bases de données PostgeSQL:
+* meilleure gestion des connexions aux bases de données PostgreSQL:
   * possibilité de choisir la connexion utilisée par le plugin pour accéder aux tables de chaque base de données : [#320](https://github.com/isogeo/isogeo-plugin-qgis/issues/320):
     * [au moment d'ajouter une couche PostGIS](/usage/configuration.md#pgdb_connections_default)
     * [de manière durable via une interface dédiée](/usage/configuration.md#pgdb_connections_config)
