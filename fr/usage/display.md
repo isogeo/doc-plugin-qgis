@@ -72,14 +72,15 @@ Pour améliorer les performances, le plugin intègre un système de cache minima
 
 Une table PostGIS pourra être ajoutée par le plugin dans les conditions suivantes :
 
-* La connexion à la base de données PostgreSQL dans laquelle elle se trouve a été enregistrée dans QGIS et configurée au choix :
 * La fiche documentant la table PostGIS a été créée à partir du scan FME Isogeo. En créant une fiche manuellement dans [https://app.isogeo.com](https://app.isogeo.com), il est impossible de renseigner le champ _name_ nécessaire à l’ajout de la table.
+* La connexion à la base de données PostgreSQL dans laquelle elle se trouve a été enregistrée dans QGIS et configurée au choix :
   * en indiquant mot de passe et nom d'utilisateur et en choisissant de les stocker :
   !["Configuration 'traditionnel' d'une connexion à une base de données PostgreSQL"](/assets/display_postgis_dbconnection_tradi.png)
   * en indiquant le nom d'un service faisant référence à un fichier de configuration `pg_service.conf` dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
   !["Configuration d'une connexion à une base de données PostgreSQL via un Service"](/assets/display_postgis_dbconnection_service.png)
 
 > Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](/fr/usage/configuration.md#pgdb_connections) pour accéder aux données stockées dans la base concernée.
+
 ### Services géographiques {#add_services}
 
 Le plugin supporte les couches de services documentés automatiquement et associés aux métadonnées de données.
