@@ -87,6 +87,9 @@ Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les
 
 Le plugin supporte les couches de services documentés automatiquement et associés aux métadonnées de données.
 
+> **Note importante**  
+> Seuls les services "ouverts" (ne nécessitant pas d'authentification) sont exploitables via le plugin QGIS Isogeo.
+
 Consulter [l'aide en ligne au sujet du recensement automatisé des services et de l'association couche de service / donnée cataloguée](https://help.isogeo.com/admin/fr/features/inventory/md_services/srv_intro.html).
 
 Il supporte également les URLs de couches de services renseignées manuellement dans la métadonnée. Si cette méthode \(dépréciée\) est utilisée :
