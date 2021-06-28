@@ -38,11 +38,11 @@ On retrouve donc :
 
 ## Configuration des connexions aux bases de données (Oracle et PostgreSQL) utilisées par le plugin {#db_connections}
 
+> Toute cette rubrique s'appuie sur l'exemple des bases de données PostgreSQL mais le fonctionnement est identique pour les bases de données Oracle.
+
 ### Contexte
 
 Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
-
-> Toute cette rubrique prend l'exemple des bases de données PostgreSQL mais le fonctionenment est identique pour les bases de données Oracle.
 
 Cette situation peut survenir dans les cas suivants :
 
