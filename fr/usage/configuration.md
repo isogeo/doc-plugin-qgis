@@ -63,9 +63,9 @@ De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la 
 
 Afin d'éviter d'avoir à choisir la connexion à chaque ajout de couche, il est possible de configurer ce choix de manière durable.
 
-![](/assets/config_pgdb_connection_open_dialog_btn.png)
+![](/assets/config_db_connection_open_dialog_btn.png)
 
-Une interface graphique dédiée (ci-dessous) est accessible en cliquant sur un bouton situé dans la rubrique "Paramètres d'ajout de couche" de l'onglet "Paramètres" du plugin (ci-dessus).
+Une interface graphique dédiée (ci-dessous) est accessible en cliquant sur un bouton situé dans la rubrique "Paramètres d'ajout de couche" de l'onglet "Paramètres" du plugin (ci-dessus, bouton de gauche pour les connexions Oracle et bouton de droite pour les connections PostgreSQL).
 
 ![](/assets/config_pgdb_connection_dialog.png)
 
