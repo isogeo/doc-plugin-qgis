@@ -36,11 +36,13 @@ On retrouve donc :
 
 ---
 
-## Configuration des connexions PostgreSQL utilisées par le plugin {#pgdb_connections}
+## Configuration des connexions aux bases de données (Oracle et PostgreSQL) utilisées par le plugin {#db_connections}
 
 ### Contexte
 
-Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions PostgreSQL ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
+Cette fonctionnalité sert à gérer le cas suivant : plusieurs connexions ont été configurées dans QGIS pour des bases de données dont le nom est identique (champ "Base de données" du formulaire de configuraton de la connexion).
+
+> Toute cette rubrique prend l'exemple des bases de données PostgreSQL mais le fonctionenment est identique pour les bases de données Oracle.
 
 Cette situation peut survenir dans les cas suivants :
 
@@ -49,7 +51,7 @@ Cette situation peut survenir dans les cas suivants :
 * il s'agit de deux bases de données dont le nom est identique mais qui sont hébergées sur des serveurs différents :
 ![](/assets/config_pgdb_connection_diff_host.png)
 
-### Comportement par défaut du plugin {#pgdb_connections_default}
+### Comportement par défaut du plugin {#db_connections_default}
 
 Dans ce contexte, le plugin QGIS propose à l'utilisateur une option d'ajout par connexion enregistrée en précisant le nom de la connexion :
 
@@ -57,7 +59,7 @@ Dans ce contexte, le plugin QGIS propose à l'utilisateur une option d'ajout par
 
 De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la couche, la connexion qui sera utilisées pour accéder à la table PostGIS correspondante.
 
-### Paramétrage des connexions utilisées par le plugin QGIS {#pgdb_connections_config}
+### Paramétrage des connexions utilisées par le plugin QGIS {#db_connections_config}
 
 Afin d'éviter d'avoir à choisir la connexion à chaque ajout de couche, il est possible de configurer ce choix de manière durable.
 
