@@ -57,7 +57,7 @@ Dans ce contexte, le plugin QGIS propose à l'utilisateur une option d'ajout par
 
 ![](/assets/config_pgdb_connection_several_options.png)
 
-De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la couche, la connexion qui sera utilisées pour accéder à la table PostGIS correspondante.
+De cette manière, l'utilisateur peut choisir lui-même, au moment d'ajouter la couche, la connexion qui sera utilisées pour accéder à la table correspondante.
 
 ### Paramétrage des connexions utilisées par le plugin QGIS {#db_connections_config}
 
