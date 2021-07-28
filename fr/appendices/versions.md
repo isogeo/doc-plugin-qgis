@@ -5,6 +5,20 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 # Notes de versions
 
 <!-- timeline -->
+## 3.3.0 {#version330}
+
+<br>Publiée le 28 juillet 2021 :
+
+> ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.3.0)
+
+* ajout de couches issues de tables Oracle Spatial : [#124](https://github.com/isogeo/isogeo-plugin-qgis/issues/124)
+* affichage des mots-clefs de la liste déroulante dans un ordre alphabétique insensible à la casse et aux accents : [#373](https://github.com/isogeo/isogeo-plugin-qgis/issues/373)
+* le fichier `.json` n'est plus déplacé pendant l'authentification : [#378](https://github.com/isogeo/isogeo-plugin-qgis/issues/378)
+* améliorations mineures : [#366](https://github.com/isogeo/isogeo-plugin-qgis/issues/366), [#367](https://github.com/isogeo/isogeo-plugin-qgis/issues/367), [#368](https://github.com/isogeo/isogeo-plugin-qgis/issues/368)
+
+<!-- /timeline -->
+
+<!-- timeline -->
 ## 3.2.0 {#version320}
 
 <br>Publiée le 2 avril 2021 :
