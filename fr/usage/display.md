@@ -72,11 +72,11 @@ Pour améliorer les performances, le plugin intègre un système de cache minima
 
 Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les conditions suivantes :
 
-* La fiche documentant la table a été créée à partir du scan FME Isogeo. En créant une fiche manuellement dans [https://app.isogeo.com](https://app.isogeo.com), il est impossible de renseigner le champ _name_ nécessaire à l’ajout de la table.
+* La fiche documentant la table a été **créée à partir du Scan FME** Isogeo. En créant une fiche manuellement dans [https://app.isogeo.com](https://app.isogeo.com), il est impossible de renseigner le champ _name_ nécessaire à l’ajout de la table.
 * La connexion à la base de données dans laquelle elle se trouve a été configurée au choix :
   * dans le gestionnaire des sources de données de QGIS, en indiquant mot de passe et nom d'utilisateur et en choisissant de les stocker :
   !["Configuration 'traditionnelle' d'une connexion à une base de données"](/assets/display_postgis_dbconnection_tradi.png)
-  * en inscrivant les informations de connexion dans le fichier `_user/db_connections.json` qui se trouve dans le réprtoire d'installation du plugin QGIS Isogeo (`C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` dans la plupart des cas) :
+  * en inscrivant les informations de connexion dans le fichier `_user/db_connections.json` qui se trouve dans le répertoire d'installation du plugin QGIS Isogeo (`C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` dans la plupart des cas) :
 
     Par exemple pour configurer une seule connexion à une base de données PostgreSQL :
 
@@ -136,7 +136,7 @@ Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les
   * pour les bases de données **PostgreSQL uniquement**, il existe une dernière option : en indiquant le nom d'un service faisant référence à un fichier de configuration `pg_service.conf` dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
   !["Configuration d'une connexion à une base de données PostgreSQL via un Service"](/assets/display_postgis_dbconnection_service.png)
 
-> Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](/usage/configuration.md#pgdb_connections) pour accéder aux données stockées dans la base concernée.
+> Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](/usage/configuration.md#db_connections) pour accéder aux données stockées dans la base concernée.
 
 ### Services géographiques {#add_services}
 
