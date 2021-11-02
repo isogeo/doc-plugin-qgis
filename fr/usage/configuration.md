@@ -81,7 +81,7 @@ Une fois la configuration effectuée, l'utilisateur peut :
 
 ![](/assets/config_pgdb_connection_dialog_btn_box.png)
 
-Si une connexion à une base de données a été modifiée/ajoutée/supprimée pendant la session d'utilisation courante de QGIS, il faut cliquer sur "Recharger les connexions" pour que la modification soit prise en compte par le plugin Isogeo :
+Si une connexion à une base de données a été modifiée/ajoutée/supprimée pendant la session d'utilisation courante de QGIS (dans le gestionnaire des sources de données ou dans le fichier `_user/db_connections.json`), il faut cliquer sur "Recharger les connexions" pour que la modification soit prise en compte par le plugin Isogeo :
 
 ![](/assets/config_pgdb_connection_dialog_reload_conn.png)
 
