@@ -134,6 +134,7 @@ Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les
     > Si cette option semble ne pas fonctionner, prenez le temps de vérifier que chacun des 6 champs a bien été rempli. Vous pouvez également utiliser [ce site](https://jsonformatter.curiousconcept.com/#) (ou un équivalent) pour vérifier que le format du contenu du fichier JSON est conforme aux spécifications.
 
   * pour les bases de données **PostgreSQL uniquement**, il existe une dernière option : en indiquant le **nom d'un service** dans le gestionnaire des sources de données. Ce "service" doit avoir été spécifié dans une fichier de configuration [`pg_service.conf`](https://www.postgresql.org/docs/14/libpq-pgservice.html) dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
+
   !["Configuration d'une connexion à une base de données PostgreSQL via un Service"](/assets/display_postgis_dbconnection_service.png)
 
 > Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](/usage/configuration.md#db_connections) pour accéder aux données stockées dans la base concernée.
