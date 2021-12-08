@@ -177,11 +177,11 @@ Consulter [l'aide en ligne sur les syntaxes de documentation manuelle des couche
 
 ### Formats de services supportés
 
-* Esri Feature Service \(EFS\)
-* Esri Map Service \(EMS\)
-* Web Feature Service \(WFS\)
-* Web Map Service \(WMS\)
-* Web Map Tile Service \(WMTS\)
+* Esri Feature Service (EFS)
+* Esri Map Service (EMS)
+* Web Feature Service (WFS)
+* Web Map Service (WMS)
+* Web Map Tile Service (WMTS)
 
 > **Note importante**  
 > Si le titre de la couche comprend des caractères spéciaux ou des accents, il est possible que la couche ne puisse pas être affichée convenablement dans QGIS. Il s’agit d’un problème de gestion de l'encodage par l’API PyQGIS.
