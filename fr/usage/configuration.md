@@ -65,7 +65,7 @@ Afin d'éviter d'avoir à choisir la connexion à chaque ajout de couche, il est
 
 ![](/assets/config_db_connection_open_dialog_btn.png)
 
-Une interface graphique dédiée (ci-dessous) est accessible en cliquant sur un bouton situé dans la rubrique "Paramètres d'ajout de couche" de l'onglet "Paramètres" du plugin (ci-dessus, bouton de gauche pour les connexions Oracle et bouton de droite pour les connections PostgreSQL).
+Une interface graphique dédiée (ci-dessous) est accessible en cliquant sur un bouton situé dans la rubrique "Ajout de couche" de l'onglet "Paramètres" du plugin (ci-dessus, bouton de gauche pour les connexions Oracle et bouton de droite pour les connections PostgreSQL).
 
 ![](/assets/config_pgdb_connection_dialog.png)
 
@@ -102,14 +102,29 @@ Le plugin ne propose plus qu'une option d'ajout à l'utilisateur, correspondant 
 Cette fonctionnalité implique deux prérequis :
 
 * certains des catalogues partagés au plugin QGIS le sont également au Portail Isogeo
-* certaines des fiches de métadonnées partagées remplissent [les conditions permettant l'ajout de couches au canevas](/usage/display.md#add_criteria)
+* certaines des fiches de métadonnées partagées remplissent les conditions permettant l'ajout de couches au canevas:
+  * [données fichier](/usage/display.md#add_files)
+  * [tables PostGIS ou Oracle Spatial](/usage/display.md#add_tables)
+  * [couches de services géographiques](/usage/display.md#add_services)
 
-Si ces 2 prérequis sont satisfaits, l'URL de la fiche de métadonnées du Portail Isogeo correspondant à la couche ajoutée au canevas apparaîtra dans les "Propriétés" de cette couche (dans le champ "Url de la donnée" de la rubrique "Description" de l'onglet "QGIS Server") :
+Si ces 2 prérequis sont satisfaits, l'URL de la fiche de métadonnées du Portail Isogeo correspondant à la couche ajoutée au canevas sera affichable dans les "Propriétés" de cette couche (dans le champ "Url de la donnée" de la rubrique "Description" de l'onglet "QGIS Server") :
 
 ![Propriétés de la couche, onglet "QGIS Server"](/assets/layer_properties_portal_data_url_fr.png)
 
-Afin d'obtenir ce résultat, il est nécessaire de cocher la case correspondante dans l'onglet "Paramètres" du plugin et d'indiquer dans le champ de texte prévu à cet effet la base de l'URL du Portail comme ci-dessous :
+Afin d'obtenir ce résultat, il faut passer par une courte étape de configuration.
 
-![Paramètres du Portail isogeo](/assets/settings_isogeo_portal_fr.png)
+![](/assets/layer_properties_portal_data_url_open_dialog_btn.png)
 
-> La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte les modifications apportées au champ ci-dessus.
+La boîte de dialogue (ci-dessous) est accessible en cliquant sur un bouton situé dans la rubrique "Ajout de couche" de l'onglet "Paramètres" (ci-dessus).
+
+![](/assets/layer_properties_portal_data_url_dialog.png)
+
+Avant d'ajouter l'URL de la metadonnée du Portail Isogeo aux propriétés de la couche, le plugin doit générer cet URL. Pour ce faire, il se base sur la valeur indiquée dans la zone de saisie de texte. Une fois généré, l'URL est ajouté aux propriétés des couches ajoutées uniquement si la case "Ajouter l'URL de la métadonnée du portail Isogeo..." est cochée.
+
+![](/assets/layer_properties_portal_data_url_dialog_input.png)
+
+![](/assets/layer_properties_portal_data_url_dialog_chb.png)
+
+de cocher la case correspondante dans l'onglet "Paramètres" du plugin et d'indiquer dans le champ de texte prévu à cet effet la base de l'URL du Portail comme ci-dessous :
+
+> La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte les modifications effectuées dans la boîte de dialogue "Configuration de l'ajout de l'URL du portail".
