@@ -119,12 +119,12 @@ La boîte de dialogue (ci-dessous) est accessible en cliquant sur un bouton situ
 
 ![](/assets/layer_properties_portal_data_url_dialog.png)
 
-Avant d'ajouter l'URL de la metadonnée du Portail Isogeo aux propriétés de la couche, le plugin doit générer cet URL. Pour ce faire, il se base sur la valeur indiquée dans la zone de saisie de texte. Une fois généré, l'URL est ajouté aux propriétés des couches ajoutées uniquement si la case "Ajouter l'URL de la métadonnée du portail Isogeo..." est cochée.
+Avant d'ajouter l'URL de la metadonnée du Portail Isogeo aux propriétés de la couche, le plugin doit générer cet URL. Pour ce faire, il se base sur la valeur indiquée dans la zone de saisie de texte.
 
 ![](/assets/layer_properties_portal_data_url_dialog_input.png)
 
-![](/assets/layer_properties_portal_data_url_dialog_chb.png)
+Une fois généré, l'URL est ajouté aux propriétés des couches ajoutées uniquement si la case "Ajouter l'URL de la métadonnée du portail Isogeo..." est cochée.
 
-de cocher la case correspondante dans l'onglet "Paramètres" du plugin et d'indiquer dans le champ de texte prévu à cet effet la base de l'URL du Portail comme ci-dessous :
+![](/assets/layer_properties_portal_data_url_dialog_chb.png)
 
 > La [recherche](/usage/search.md#reset) doit être réinitialisée pour prendre en compte les modifications effectuées dans la boîte de dialogue "Configuration de l'ajout de l'URL du portail".
