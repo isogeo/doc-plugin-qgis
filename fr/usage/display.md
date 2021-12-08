@@ -66,8 +66,8 @@ Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les
 
 * La fiche documentant la table a été **créée à partir du [Scan FME Isogeo](https://help.isogeo.com/scan/fr/index.html)**.
 * La **connexion à la base de données** dans laquelle elle se trouve a été configurée au choix :
-  * dans le **gestionnaire des sources de données** de QGIS
-  * dans le **fichier `_user/db_connections.json`**
+  * dans le **gestionnaire des sources de données** de QGIS;
+  * dans le **fichier `_user/db_connections.json`**.
 
   > Si plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il est possible d'[indiquer au plugin la connexion a utiliser](/usage/configuration.md#db_connections) pour accéder aux données stockées dans la base concernée.
 
