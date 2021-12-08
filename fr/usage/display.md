@@ -50,94 +50,118 @@ Pour améliorer les performances, le plugin intègre un système de cache minima
 
 #### Formats supportés
 
-##### Vecteur
+* Vecteur
+  * DXF
+  * DGN
+  * Esri shapefile
+  * MapInfo tab
+* Raster
+  * ECW
+  * Esri ascii grid
+  * Geotiff
+  * Intergraph gdb
+  * JPEG
+  * PNG
+  * XYZ
 
-* DXF
-* DGN
-* Esri FileGDB
-* Esri shapefile
-* MapInfo tab
-
-##### Raster
-
-* ECW
-* Esri ascii grid
-* Geotiff
-* Intergraph gdb
-* JPEG
-* PNG
-* XYZ
-
-### Données PostGIS ou Oracle Spatial {#add_tables}
+### Tables PostGIS ou Oracle Spatial {#add_tables}
 
 Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les conditions suivantes :
 
-* La fiche documentant la table a été **créée à partir du Scan FME** Isogeo. En créant une fiche manuellement dans [https://app.isogeo.com](https://app.isogeo.com), il est impossible de renseigner le champ _name_ nécessaire à l’ajout de la table.
-* La **connexion à la base de données** dans laquelle elle se trouve a été configurée au choix :
-  * **dans le gestionnaire des sources de données de QGIS**, en indiquant mot de passe et nom d'utilisateur et en choisissant de les stocker :
-  !["Configuration 'traditionnelle' d'une connexion à une base de données"](/assets/display_postgis_dbconnection_tradi.png)
-  * en inscrivant les informations de connexion **dans le fichier `_user/db_connections.json`** qui se trouve dans le répertoire d'installation du plugin QGIS Isogeo (`C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` dans la plupart des cas) :
+* La fiche documentant la table a été **créée à partir du [Scan FME Isogeo](https://help.isogeo.com/scan/fr/index.html)**.
+* La **connexion à la base de données** dans laquelle elle se trouve a été configurée d'une des manières suivantes :
+  * dans le gestionnaire des sources de données de QGIS
+  * dans le fichier `_user/db_connections.json`
 
-    Par exemple pour configurer une seule connexion à une base de données PostgreSQL :
+  > Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](/usage/configuration.md#db_connections) pour accéder aux données stockées dans la base concernée.
 
-    ```json
-    {
-        "Oracle" : [],
-        "PostgreSQL" : [
-            {
-                "connection_name" : "Isogeo interne - lecture seule",
-                "host" : "XX.X.XXX.XX",
-                "port" : "5432", 
-                "database" : "isogeo",
-                "username" : "isogeo_reader",
-                "password" : "mot_de_passe"
-            }
-        ]
-    }
-    ```
+#### Connexion configurée dans le gestionnaire des sources de données de QGIS {#add_tables_from_QGISconnection}
 
-    De la même manière, pour configurer 2 connexions à une base de données PostgreSQL et 1 connexion à une base de données Oracle :
+En indiquant mot de passe et nom d'utilisateur et en choisissant de les stocker :
 
-    ```json
-    {
-        "Oracle" : [
-            {
-                "connection_name" : "Isogeo interne - Oracle Spatial démonstration",
-                "host" : "XX.X.XXX.XX",
-                "port" : "5432", 
-                "database" : "isoora",
-                "username" : "isogeo_spatial_demo",
-                "password" : "mot_de_passe"
-            }
-        ],
-        "PostgreSQL" : [
-            {
-                "connection_name" : "Isogeo interne - lecture seule",
-                "host" : "XX.X.XXX.XX",
-                "port" : "5432", 
-                "database" : "isogeo",
-                "username" : "isogeo_reader",
-                "password" : "mot_de_passe"
-            },
-            {
-                "connection_name" : "Isogeo interne - lecture et écriture",
-                "host" : "XX.X.XXX.XX",
-                "port" : "5432", 
-                "database" : "isogeo",
-                "username" : "isogeo_writer",
-                "password" : "mot_de_passe"
-            }
-        ]
-    }
-    ```
+!["Configuration 'traditionnelle' d'une connexion à une base de données"](/assets/display_postgis_dbconnection_tradi.png)
 
-    > Si cette option semble ne pas fonctionner, prenez le temps de vérifier que chacun des 6 champs a bien été rempli. Vous pouvez également utiliser [ce site](https://jsonformatter.curiousconcept.com/#) (ou un équivalent) pour vérifier que le format du contenu du fichier JSON est conforme aux spécifications.
+Pour les **bases de données PostgreSQL uniquement**, il est possible d'indiquer le **nom d'un service** dans le gestionnaire des sources de données. Ce "service" doit avoir été spécifié dans une fichier de configuration [`pg_service.conf`](https://www.postgresql.org/docs/14/libpq-pgservice.html) dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
 
-  * pour les bases de données **PostgreSQL uniquement**, il existe une dernière option : en indiquant le **nom d'un service** dans le gestionnaire des sources de données. Ce "service" doit avoir été spécifié dans une fichier de configuration [`pg_service.conf`](https://www.postgresql.org/docs/14/libpq-pgservice.html) dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
+!["Configuration d'une connexion à une base de données PostgreSQL via un Service"](/assets/display_postgis_dbconnection_service.png)
 
-    !["Configuration d'une connexion à une base de données PostgreSQL via un Service"](/assets/display_postgis_dbconnection_service.png)
+#### Connexion configurée dans le fichier `_user/db_connections.json` {#add_tables_from_fileconnection}
 
-> Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](/usage/configuration.md#db_connections) pour accéder aux données stockées dans la base concernée.
+> Si cette option semble ne pas fonctionner, prenez le temps de vérifier que le fichier a été rempli avec des informations valides. Vous pouvez également utiliser [ce site](https://jsonformatter.curiousconcept.com/#) (ou un équivalent) pour vérifier que le format du contenu du fichier JSON est conforme aux spécifications.
+
+En inscrivant les informations de connexion **dans le fichier `_user/db_connections.json`** qui se trouve dans le répertoire d'installation du plugin QGIS Isogeo (`C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` dans la plupart des cas).
+
+Par exemple pour configurer une seule connexion à une base de données PostgreSQL :
+
+```json
+{
+    "Oracle" : [],
+    "PostgreSQL" : [
+        {
+            "connection_name" : "Nom de la connexion (il doit être unique)",
+            "host" : "hôte",
+            "port" : "port", 
+            "database" : "nom de la base de données",
+            "username" : "nom d'utilisateur",
+            "password" : "mot de passe de l'utilisateur"
+        }
+    ]
+}
+```
+
+Autre exemple, pour configurer 2 connexions à des bases de données PostgreSQL et 1 connexion à une base de données Oracle :
+
+```json
+{
+    "Oracle" : [
+        {
+            "connection_name" : "Nom de la connexion (il doit être unique)",
+            "host" : "hôte",
+            "port" : "port", 
+            "database" : "nom de la base de données",
+            "username" : "nom d'utilisateur",
+            "password" : "mot de passe de l'utilisateur"
+        }
+    ],
+    "PostgreSQL" : [
+        {
+            "connection_name" : "Nom de la connexion (il doit être unique)",
+            "host" : "hôte",
+            "port" : "port", 
+            "database" : "nom de la base de données",
+            "username" : "nom d'utilisateur",
+            "password" : "mot de passe de l'utilisateur"
+        },
+        {
+            "connection_name" : "Nom de la connexion (il doit être unique)",
+            "host" : "hôte",
+            "port" : "port", 
+            "database" : "nom de la base de données",
+            "username" : "nom d'utilisateur",
+            "password" : "mot de passe de l'utilisateur"
+        }
+    ]
+}
+```
+
+Dans le cas des bases de données Oracle, il est parfois nécessaire de rajouter une entrée `database_alias`. Lorsque la valeur du [champ "Emplacement de la ressource"](https://help.isogeo.com/admin/fr/features/documentation/md_identification.html#path) des fiches de métadonnées correspondant aux tables qu'on cherche à ajouter est différente du nom de la base de données, il faut renseigner l'entrée `database_alias` en inscrivant la valeur du champ "Emplacement de la ressource".
+
+```json
+{
+    "Oracle" : [],
+    "PostgreSQL" : [
+        {
+            "connection_name" : "Nom de la connexion (il doit être unique)",
+            "host" : "hôte",
+            "port" : "port", 
+            "database" : "nom de la base de données",
+            "database_alias" : "emplacement de la ressource",
+            "username" : "nom d'utilisateur",
+            "password" : "mot de passe de l'utilisateur"
+        }
+    ]
+}
+```
 
 ### Services géographiques {#add_services}
 
