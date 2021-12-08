@@ -11,11 +11,9 @@ La principale finalité du plugin est de permettre à l'utilisateur final d'ajou
 Pour pouvoir ajouter les données à l'espace de travail du logiciel SIG, le plugin se base uniquement sur les métadonnées. Pour rappel :
 
 * **aucune donnée ne transite par notre infrastructure**
-* seules les métadonnées sont utilisées et plus particulièrement les champs d'identification de la donnée source ([emplacement et nom technique](https://help.isogeo.com/admin/fr/features/documentation/md_identification.html#emplacement--nom-de-la-donn%C3%A9e))
+* seules les métadonnées sont utilisées et plus particulièrement les champs d'identification de la donnée source ([emplacement](https://help.isogeo.com/admin/fr/features/documentation/md_identification.html#path) et [nom technique](https://help.isogeo.com/admin/fr/features/documentation/md_identification.html#name))
 
-## Options d&apos;ajout {#add_options}
-
-Pour ajouter une donnée à la carte, la colonne "Ajouter" liste les options possibles.
+La quatrième colonne du tableau des résultats de recherche liste les options d'ajout possibles.
 
 Il y a plusieurs cas de figure :
 
@@ -27,28 +25,26 @@ Il y a plusieurs cas de figure :
 
 ![Donnée ajoutable de plusieurs manières](/assets/search_results_add_OK_multi_fr.png)
 
-* La donnée ne peut pas être ajoutée : le fichier n'est pas disponible et il n'y a pas de services renseignés \(ou ceux-ci sont mal renseignés\).
+* La donnée ne peut pas être ajoutée : le fichier n'est pas disponible et il n'y a pas de services renseignés (ou ceux-ci sont mal renseignés).
 
 ![Donnée non ajoutable - Critères non remplis](/assets/search_results_addNot_fr.png)
 
 ---
 
-## Critères {#add_criteria}
-
-### Données fichier {#add_files}
+## Données fichier {#add_files}
 
 Le chemin vers la donnée doit être rempli dans le champ `Emplacement de la donnée` de l'onglet `Identification` sur [https://app.isogeo.com](https://app.isogeo.com). Ce chemin doit être accessible :
 
 * par l'utilisateur ayant lancé QGIS \(droits en lecture\);
 * depuis le poste sur lequel le plugin se trouve \(en local ou via le réseau local\).
 
-#### Cache {#filespaths_cache}
+### Cache {#filespaths_cache}
 
 Pour améliorer les performances, le plugin intègre un système de cache minimaliste sur les chemins d'accès inaccessibles. Pour vider le cache, cliquer sur le bouton dédié dans l'onglet paramètres :
 
 ![Bouton pour vider le cache des chemins de fichiers inacessibles](/assets/settings_cache_trash_fr.png)
 
-#### Formats supportés
+### Formats supportés
 
 * Vecteur
   * DXF
@@ -64,30 +60,30 @@ Pour améliorer les performances, le plugin intègre un système de cache minima
   * PNG
   * XYZ
 
-### Tables PostGIS ou Oracle Spatial {#add_tables}
+## Tables PostGIS ou Oracle Spatial {#add_tables}
 
 Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les conditions suivantes :
 
 * La fiche documentant la table a été **créée à partir du [Scan FME Isogeo](https://help.isogeo.com/scan/fr/index.html)**.
-* La **connexion à la base de données** dans laquelle elle se trouve a été configurée d'une des manières suivantes :
-  * dans le gestionnaire des sources de données de QGIS
-  * dans le fichier `_user/db_connections.json`
+* La **connexion à la base de données** dans laquelle elle se trouve a été configurée au choix :
+  * dans le **gestionnaire des sources de données** de QGIS
+  * dans le **fichier `_user/db_connections.json`**
 
-  > Dans le cas où plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il faudra [indiquer au plugin la connexion a utiliser](/usage/configuration.md#db_connections) pour accéder aux données stockées dans la base concernée.
+  > Si plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il est possible d'[indiquer au plugin la connexion a utiliser](/usage/configuration.md#db_connections) pour accéder aux données stockées dans la base concernée.
 
-#### Connexion configurée dans le gestionnaire des sources de données de QGIS {#add_tables_from_QGISconnection}
+### Connexion configurée dans le gestionnaire des sources de données de QGIS {#add_tables_from_QGISconnection}
 
 En indiquant mot de passe et nom d'utilisateur et en choisissant de les stocker :
 
-!["Configuration 'traditionnelle' d'une connexion à une base de données"](/assets/display_postgis_dbconnection_tradi.png)
+![Configuration 'traditionnelle' d'une connexion à une base de données](/assets/display_postgis_dbconnection_tradi.png)
 
 Pour les **bases de données PostgreSQL uniquement**, il est possible d'indiquer le **nom d'un service** dans le gestionnaire des sources de données. Ce "service" doit avoir été spécifié dans une fichier de configuration [`pg_service.conf`](https://www.postgresql.org/docs/14/libpq-pgservice.html) dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
 
-!["Configuration d'une connexion à une base de données PostgreSQL via un Service"](/assets/display_postgis_dbconnection_service.png)
+![Configuration d'une connexion à une base de données PostgreSQL via un Service](/assets/display_postgis_dbconnection_service.png)
 
-#### Connexion configurée dans le fichier `_user/db_connections.json` {#add_tables_from_fileconnection}
+### Connexion configurée dans le fichier `_user/db_connections.json` {#add_tables_from_fileconnection}
 
-> Si cette option semble ne pas fonctionner, prenez le temps de vérifier que le fichier a été rempli avec des informations valides. Vous pouvez également utiliser [ce site](https://jsonformatter.curiousconcept.com/#) (ou un équivalent) pour vérifier que le format du contenu du fichier JSON est conforme aux spécifications.
+> Si cette option semble ne pas fonctionner, prenez le temps de vérifier que le fichier a été rempli avec des informations valides. Vous pouvez également utiliser [ce site](https://jsonformatter.curiousconcept.com/#) (ou un équivalent) pour vérifier que le contenu du fichier JSON est conforme aux spécifications.
 
 En inscrivant les informations de connexion **dans le fichier `_user/db_connections.json`** qui se trouve dans le répertoire d'installation du plugin QGIS Isogeo (`C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` dans la plupart des cas).
 
@@ -148,8 +144,7 @@ Dans le cas des bases de données Oracle, il est parfois nécessaire de rajouter
 
 ```json
 {
-    "Oracle" : [],
-    "PostgreSQL" : [
+    "Oracle" : [
         {
             "connection_name" : "Nom de la connexion (il doit être unique)",
             "host" : "hôte",
@@ -159,11 +154,12 @@ Dans le cas des bases de données Oracle, il est parfois nécessaire de rajouter
             "username" : "nom d'utilisateur",
             "password" : "mot de passe de l'utilisateur"
         }
-    ]
+    ],
+    "PostgreSQL" : []
 }
 ```
 
-### Services géographiques {#add_services}
+## Services géographiques {#add_services}
 
 Le plugin supporte les couches de services documentés automatiquement et associés aux métadonnées de données.
 
@@ -179,7 +175,7 @@ Il supporte également les URLs de couches de services renseignées manuellement
 
 Consulter [l'aide en ligne sur les syntaxes de documentation manuelle des couches de services](https://help.isogeo.com/admin/fr/features/publish/webservices.html).
 
-#### Formats de services supportés
+### Formats de services supportés
 
 * Esri Feature Service \(EFS\)
 * Esri Map Service \(EMS\)
