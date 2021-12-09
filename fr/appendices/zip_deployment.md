@@ -13,7 +13,7 @@ Une grande partie des paramétrages liés à l'utilisation du plugin Isogeo est 
 
 D'autre part, le gestionnaire des extensions de QGIS permet d'installer un plugin à partir d'un fichier `.zip`. Il est donc possible, dans le cas d'une organisation où les utilisateurs finaux du plugin Isogeo sont nombreux, de leur éviter d'avoir à effectuer eux-mêmes certains paramétrages communs à tous les utilisateurs.
 
->**Prenons l'exemple suivant:**
+>**Prenons l'exemple suivant :**
 >
 >Un utilisateur X est responsable de la diffusion du plugin QGIS Isogeo auprès d'une dizaine d'utilisateurs appartenant à son organisation :
 >
