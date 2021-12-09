@@ -83,8 +83,6 @@ Pour les **bases de données PostgreSQL uniquement**, il est possible d'indiquer
 
 ### Connexion configurée dans le fichier `_user/db_connections.json` {#add_tables_from_fileconnection}
 
-> Si cette option semble ne pas fonctionner, prenez le temps de vérifier que le fichier a été rempli avec des informations valides. Vous pouvez également utiliser [ce site](https://jsonformatter.curiousconcept.com/#) (ou un équivalent) pour vérifier que le contenu du fichier JSON est conforme aux spécifications.
-
 En inscrivant les informations de connexion **dans le fichier `_user/db_connections.json`** qui se trouve dans le répertoire d'installation du plugin QGIS Isogeo (`C:\Users\%userprofile%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\isogeo_search_engine` dans la plupart des cas).
 
 Par exemple pour configurer une seule connexion à une base de données PostgreSQL :
@@ -158,6 +156,8 @@ Dans le cas des bases de données Oracle, il est parfois nécessaire de rajouter
     "PostgreSQL" : []
 }
 ```
+
+> Si cette option semble ne pas fonctionner, prenez le temps de vérifier que le fichier a été rempli avec des informations valides. Vous pouvez également utiliser [ce site](https://jsonformatter.curiousconcept.com/#) (ou un équivalent) pour vérifier que le contenu du fichier JSON est conforme aux spécifications.
 
 ## Services géographiques {#add_services}
 
