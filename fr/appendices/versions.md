@@ -11,12 +11,11 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 
 > ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.3.1)
 
-* modification du mode saisi de la base de l'URL du Portail Isogeo : [#369](https://github.com/isogeo/isogeo-plugin-qgis/issues/369)
+* modification du mode de saisie de la base de l'URL du Portail Isogeo : [#369](https://github.com/isogeo/isogeo-plugin-qgis/issues/369)
 * meilleure gestion des services géographiques : [#371](https://github.com/isogeo/isogeo-plugin-qgis/issues/371), [#388](https://github.com/isogeo/isogeo-plugin-qgis/issues/388), [#391](https://github.com/isogeo/isogeo-plugin-qgis/issues/391), [#392](https://github.com/isogeo/isogeo-plugin-qgis/issues/392)
 * possibilité de configurer des connexions à des bases de données dans un fichier `.json` : [#383](https://github.com/isogeo/isogeo-plugin-qgis/issues/383)
 * meilleure gestion des données Oracle : [#377](https://github.com/isogeo/isogeo-plugin-qgis/issues/377), [#394](https://github.com/isogeo/isogeo-plugin-qgis/issues/394), [#395](https://github.com/isogeo/isogeo-plugin-qgis/issues/395), [#396](https://github.com/isogeo/isogeo-plugin-qgis/issues/396)
 * possibilité de configurer les URLs d'appel à l'API Isogeo dans un fichier `.json` : [#381](https://github.com/isogeo/isogeo-plugin-qgis/issues/381)
-
 * améliorations mineures : [#382](https://github.com/isogeo/isogeo-plugin-qgis/issues/382), [#398](https://github.com/isogeo/isogeo-plugin-qgis/issues/398), [#401](https://github.com/isogeo/isogeo-plugin-qgis/issues/401)
 
 <!-- /timeline -->
