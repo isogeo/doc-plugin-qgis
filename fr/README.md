@@ -14,7 +14,7 @@ Ainsi, le “moteur de recherche”, présenté sous forme de plugin (sur soluti
 Ce moteur de recherche est techniquement connecté aux catalogues de la plateforme Isogeo.
 Grâce au moteur d'indexation Isogeo, vous pourrez accéder en quelques clics à vos données, celles de vos partenaires et aux données ouvertes (INSPIRE & Opendata) sans quitter votre environnement de travail.
 
-Les différents plugins et widgets partagent une base fonctionnelle commune, résumé ci-après :
+Les différents plugins et widgets partagent une base fonctionnelle commune :
 
 * **Rechercher** une donnée dans le catalogue, en s’appuyant sur le système de filtres et de tri ;
 * **Consulter** la fiche de métadonnées dans une fenêtre dédiée ;
