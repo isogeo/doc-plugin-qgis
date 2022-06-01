@@ -18,10 +18,10 @@ La recherche textuelle s'effectue dans la barre de saisie de texte en haut à ga
 Les termes saisis sont recherchés au sein :
 
 * du titre de la fiche de métadonnées
-* du nom du fichier
-* de son résumé
-* de ses mots-clés
-* de ses thèmes INSPIRE
+* du nom technique de la donnée
+* des mots-clés associés à la fiche
+* du résumé de la fiche
+* de l'emplacement de la donnée
 
 Pour en savoir plus sur le fonctionnement du moteur de recherche Isogeo, [consulter l'aide en ligne](https://help.isogeo.com/admin/fr/features/inventory/search.html).
 
