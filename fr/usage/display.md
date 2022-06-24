@@ -73,13 +73,12 @@ Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les
 
 ### Connexion configurée dans le gestionnaire des sources de données de QGIS {#add_tables_from_QGISconnection}
 
-En indiquant mot de passe et nom d'utilisateur et en choisissant de les stocker :
+En indiquant mot de passe et nom d'utilisateur et en choisissant de les stocker (pour les bases de donées Oracle et PostGIS):
 
 ![Configuration 'traditionnelle' d'une connexion à une base de données](/assets/display_postgis_dbconnection_tradi.png)
 
-Pour les **bases de données PostgreSQL uniquement**, il est possible d'indiquer le **nom d'un service** dans le gestionnaire des sources de données. Ce "service" doit avoir été spécifié dans une fichier de configuration [`pg_service.conf`](https://www.postgresql.org/docs/14/libpq-pgservice.html) dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
-
-![Configuration d'une connexion à une base de données PostgreSQL via un Service](/assets/display_postgis_dbconnection_service.png)
+>Pour les **bases de données PostgreSQL uniquement**, il est possible d'indiquer le **nom d'un service** dans le gestionnaire des sources de données. Ce "service" doit avoir été spécifié dans une fichier de configuration [`pg_service.conf`](https://www.postgresql.org/docs/14/libpq-pgservice.html) dont l'emplacement est enregistré dans une variable d'environnement "PGSERVICEFILE" configurée dans l'OS et dans QGIS (Menu "Préférences" > "Options..." > onglet "Système" > Rubrique "Environnement" > bouton "+") :
+>![Configuration d'une connexion à une base de données PostgreSQL via un Service](/assets/display_postgis_dbconnection_service.png)
 
 ### Connexion configurée dans le fichier `_user/db_connections.json` {#add_tables_from_fileconnection}
 
@@ -138,7 +137,7 @@ Autre exemple, pour configurer 2 connexions à des bases de données PostgreSQL 
 }
 ```
 
-Dans le cas des bases de données Oracle, il est parfois nécessaire de rajouter une entrée `database_alias`. Lorsque la valeur du [champ "Emplacement de la ressource"](https://help.isogeo.com/admin/fr/features/documentation/md_identification.html#path) des fiches de métadonnées correspondant aux tables qu'on cherche à ajouter est différente du nom de la base de données, il faut renseigner l'entrée `database_alias` en inscrivant la valeur du champ "Emplacement de la ressource".
+Dans le cas des bases de données Oracle, il est parfois nécessaire de rajouter une entrée `database_alias`. Lorsque la valeur du [champ "Emplacement de la ressource"](https://help.isogeo.com/admin/fr/features/documentation/md_identification.html#path) des fiches de métadonnées est différente du nom de la base de données, il faut renseigner l'entrée `database_alias` en inscrivant la valeur du champ "Emplacement de la ressource".
 
 ```json
 {

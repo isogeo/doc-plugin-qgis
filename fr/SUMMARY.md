@@ -21,6 +21,9 @@
 * [Rechercher](usage/search.md)
 * [Métadonnées](usage/metadata.md)
 * [Ajouter une donnée](usage/display.md)
+  * [Données fichier](usage/display.md#add_files)
+  * [Tables PostGIS ou Oracle Spatial](usage/display.md#add_tables)
+  * [Couches de service géographique](usage/display.md#add_services)
 * [Recherches rapides](usage/advanced/quicksearch.md)
 * [Recherche par défaut](usage/advanced/defaultsearch.md)
 <!---* [Recherches spéciales](usage/advanced/eastereggs.md)-->
