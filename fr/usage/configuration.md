@@ -10,6 +10,8 @@ Dans les paramètres, il est également possible de changer de compte, pour se c
 
 ![Changer les clés API du plugin](/assets/settings_switch_api_fr.png)
 
+Au clic sur le bouton, le formulaire d'authentification s'ouvre. Il suffit alors d'indiquer l'emplacement d'un autre fichier d'authentification ([voir la rubrique dédiée à l'athentification](/usage/authentication#auth_file))
+
 ---
 
 ## Partager les catalogues de ses métadonnées au plugin {#shares}
