@@ -60,6 +60,8 @@ Pour améliorer les performances, le plugin intègre un système de cache minima
   * PNG
   * XYZ
 
+---
+
 ## Tables PostGIS ou Oracle Spatial {#add_tables}
 
 Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les conditions suivantes :
@@ -157,6 +159,8 @@ Dans le cas des bases de données Oracle, il est parfois nécessaire de rajouter
 ```
 
 > Si cette option semble ne pas fonctionner, prenez le temps de vérifier que le fichier a été rempli avec des informations valides. Vous pouvez également utiliser [ce site](https://jsonformatter.curiousconcept.com/#) (ou un équivalent) pour vérifier que le contenu du fichier JSON est conforme aux spécifications.
+
+---
 
 ## Services géographiques {#add_services}
 
