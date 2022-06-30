@@ -41,7 +41,7 @@ Pour filtrer les résultats sur une emprise géographique, choisir une modalité
 On y trouve les possibilités de filtrer sur :
 
 * L'emprise actuelle du canevas cartographique
-* La boîte englobante des couches actuellement ajoutées au projet
+* La boîte englobante des couches vectorielles actuellement ajoutées au projet
 
 ![Filtre à partir de la carte ou d&apos;une couche active](/assets/search_options_geographic_fr.png)
 
@@ -51,7 +51,7 @@ Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opé
 
 ![Param&eacute;trer l&apos;op&eacute;rateur g&eacute;om&eacute;trique pour la recherche g&eacute;ographique](/assets/settings_geographic_fr.png)
 
-> Après qu'une couche soit ajoutée au projet, le moteur de recherche du plugin Isogeo doit être raffraichi pour que cette couche soit proposée comme option dans la liste déroulante du filtre géographique. 
+> Après qu'une couche vectorielle soit ajoutée au projet, le moteur de recherche du plugin Isogeo doit être raffraichi pour que cette couche soit proposée comme option dans la liste déroulante du filtre géographique.
 
 ### Autres filtres {#others}
 
