@@ -40,8 +40,8 @@ Pour filtrer par mots-clés, cocher un ou plusieurs mots-clés dans la liste dé
 Pour filtrer les résultats sur une emprise géographique, choisir une modalité dans la liste déroulante dédiée.  
 On y trouve les possibilités de filtrer sur :
 
-* L'emprise actuelle de la carte
-* L'enveloppe convexe des couches actuellement affichées
+* L'emprise actuelle du canevas cartographique
+* La boîte englobante des couches actuellement ajoutées au projet
 
 ![Filtre à partir de la carte ou d&apos;une couche active](/assets/search_options_geographic_fr.png)
 
@@ -50,6 +50,8 @@ Par défaut, le filtre géographique remonte toute les données qui intersectent
 Pour changer ce comportement, aller dans l'onglet "Paramètres", choisir un opérateur différent, puis relancer la recherche.
 
 ![Param&eacute;trer l&apos;op&eacute;rateur g&eacute;om&eacute;trique pour la recherche g&eacute;ographique](/assets/settings_geographic_fr.png)
+
+> Après qu'une couche soit ajoutée au projet, le moteur de recherche du plugin Isogeo doit être raffraichi pour que cette couche soit proposée comme option dans la liste déroulante du filtre géographique. 
 
 ### Autres filtres {#others}
 
