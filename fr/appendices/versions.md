@@ -5,6 +5,23 @@ description: Changelog des versions du plugin Isogeo pour QGIS
 # Notes de versions
 
 <!-- timeline -->
+## 3.4.0 {#version340}
+
+<br>Publiée le XX juillet 2022 :
+
+> ### [Consulter la Release sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/releases/tag/3.4.0)
+
+* intégration des évolutions de l'API Isogeo :
+  * gestion des thématiques : [#393](https://github.com/isogeo/isogeo-plugin-qgis/issues/393)
+  * gestion des données tabulaires non-géographiques : [#405](https://github.com/isogeo/isogeo-plugin-qgis/issues/405)
+* adaptations pour Isogeo *on-premises* : [#384](https://github.com/isogeo/isogeo-plugin-qgis/issues/384), [#386](https://github.com/isogeo/isogeo-plugin-qgis/issues/386), [#414](https://github.com/isogeo/isogeo-plugin-qgis/issues/414), [#416](https://github.com/isogeo/isogeo-plugin-qgis/issues/416)
+* légère refonte de l'interface graphique
+* optimisation des performances et du fonctionnement : [#410](https://github.com/isogeo/isogeo-plugin-qgis/issues/410), [#411](https://github.com/isogeo/isogeo-plugin-qgis/issues/411), [#419](https://github.com/isogeo/isogeo-plugin-qgis/issues/419), [#420](https://github.com/isogeo/isogeo-plugin-qgis/issues/420), [#430](https://github.com/isogeo/isogeo-plugin-qgis/issues/430)
+* améliorations et corrections mineurs : [#402](https://github.com/isogeo/isogeo-plugin-qgis/issues/402), [#403](https://github.com/isogeo/isogeo-plugin-qgis/issues/403), [#404](https://github.com/isogeo/isogeo-plugin-qgis/issues/404), [#406](https://github.com/isogeo/isogeo-plugin-qgis/issues/406), [#407](https://github.com/isogeo/isogeo-plugin-qgis/issues/407), [#408](https://github.com/isogeo/isogeo-plugin-qgis/issues/408), [#418](https://github.com/isogeo/isogeo-plugin-qgis/issues/418), [#423](https://github.com/isogeo/isogeo-plugin-qgis/issues/423), [#425](https://github.com/isogeo/isogeo-plugin-qgis/issues/425), [#427](https://github.com/isogeo/isogeo-plugin-qgis/issues/427), [#431](https://github.com/isogeo/isogeo-plugin-qgis/issues/431), [#432](https://github.com/isogeo/isogeo-plugin-qgis/issues/432)
+
+<!-- /timeline -->
+
+<!-- timeline -->
 ## 3.3.1 {#version331}
 
 <br>Publiée le 07 janvier 2022 :
