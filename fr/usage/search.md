@@ -66,7 +66,7 @@ Tous les filtres sont inter-dépendants \(contextuels\). Ainsi l'application d'u
 
 Lors de la saisie de texte dans la barre de recherche et de l'action sur un filtre sémantique, le contenu des autres filtres se met à jour, et le nombre de résultats attendus s'affiche dans le bouton orange.
 
-![Nombre de r&eacute;sultats sur le bouton pour les afficher](/assets/search_results_show_fr.png)
+![Nombre de r&eacute;sultats sur le bouton d'affichage](/assets/search_results_show_fr.png)
 
 Au clic sur ce bouton, les résultats de la recherche sont affichés dans le tableau des résultats, paginés de manière à ne jamais afficher plus de 10 résultats simultanément.
 
