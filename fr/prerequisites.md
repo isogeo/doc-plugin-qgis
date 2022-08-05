@@ -4,7 +4,7 @@
 
 ### Version de QGIS
 
-Le plugin Isogeo fonctionne sur QGIS 3.x en version LTR (+ 3 mois) - consulter [le calendrier des sorties](https://www.qgis.org/fr/site/getinvolved/development/roadmap.html#release-schedule).
+Le plugin Isogeo fonctionne sur QGIS 3.4.x à 3.16.x (consulter [le calendrier des sorties](https://www.qgis.org/fr/site/getinvolved/development/roadmap.html#release-schedule)).
 
 ### Proxy et pare-feu
 
