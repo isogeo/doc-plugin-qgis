@@ -6,7 +6,7 @@ description: Authentifier le plugin Isogeo pour QGIS
 
 ## Indiquer l'emplacement du fichier d'authentification {#auth_file}
 
-Au premier lancement du plugin (ou au clic sur [le bouton de changement d'identifiants](/usage/configuration.md#authentication)), le formulaire d'authentification s'ouvre.
+Au premier lancement du plugin (ou au clic sur [le bouton de changement d'identifiants](/usage/configuration/authentication_dialog.md)), le formulaire d'authentification s'ouvre.
 
 Utiliser le bouton `...` pour charger le fichier d'authentification (`client_secrets.json`) que vous devez avoir reçu d'Isogeo ou de votre administrateur.
 

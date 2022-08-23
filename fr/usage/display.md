@@ -71,7 +71,7 @@ Une table PostGIS ou Oracle Spatial pourra être ajoutée via le plugin dans les
   * dans le **gestionnaire des sources de données** de QGIS;
   * dans le **fichier `_user/db_connections.json`**.
 
-  > Si plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il est possible d'[indiquer au plugin la connexion a utiliser](/usage/configuration.md#db_connections) pour accéder aux données stockées dans la base concernée.
+  > Si plusieurs connexions ont été configurées pour des bases de données dont le nom est identique, il est possible d'[indiquer au plugin la connexion a utiliser](/configuration/database_connections.md) pour accéder aux données stockées dans la base concernée.
 
 ### Connexion configurée dans le gestionnaire des sources de données de QGIS {#add_tables_from_QGISconnection}
 
