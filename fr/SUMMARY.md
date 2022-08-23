@@ -14,14 +14,6 @@
   * [Développement](installation/install.md#install_dev)
 * [Désinstallation](installation/uninstall.md)
 
-## Configuration et Paramètres
-
-* [Changer de clefs d'authentification](configuration/authentication_dialog.md)
-* [Catalogues partagés au plugin](configuration/shares.md)
-* [Connexions aux bases de données](configuration/database_connections.md)
-* [Intégrer l'URL du Portail Isogeo](configuration/isogeo_portal_url.md)
-* [Fichier `config.json`](configuration/config_file.md)
-
 ## Utilisation
 
 * [Authentification](usage/authentication.md)
@@ -34,6 +26,14 @@
 * [Recherches rapides](usage/advanced/quicksearch.md)
 * [Recherche par défaut](usage/advanced/defaultsearch.md)
 <!---* [Recherches spéciales](usage/advanced/eastereggs.md)-->
+
+## Configuration et Paramètres
+
+* [Changer de clefs d'authentification](configuration/authentication_dialog.md)
+* [Catalogues partagés au plugin](configuration/shares.md)
+* [Connexions aux bases de données](configuration/database_connections.md)
+* [Intégrer l'URL du Portail Isogeo](configuration/isogeo_portal_url.md)
+* [Fichier `config.json`](configuration/config_file.md)
 
 ## Annexes
 
