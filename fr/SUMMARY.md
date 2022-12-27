@@ -4,7 +4,6 @@
 
 * [Introduction](README.md)
 * [Prérequis](prerequisites.md)
-* [Essayez le plugin](Tryit.md)
 
 ## Installation/Désinstallation
 
