@@ -4,7 +4,9 @@ description: Présentation générale du plugin Isogeo pour QGIS
 
 # Plugin Isogeo pour QGIS
 
-![Logo Isogeo QGIS](../assets/logo_IsoQGIS.png =100x)
+<!-- ![Logo Isogeo QGIS](../assets/logo_IsoQGIS.png =100x) -->
+
+<img src="../assets/logo_IsoQGIS.png" alt="Logo Isogeo QGIS" width="400"/>
 
 Vous rêviez d’un moteur de recherche de données dans votre SIG… Isogeo l'a fait !
 
