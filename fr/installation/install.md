@@ -4,6 +4,8 @@ description: Installer le plugin Isogeo pour QGIS
 
 # Installation
 
+Les étapes ci-dessous décrivent l'installation du Plugin QGIS pour les utilisateurs de la solution Isogeo en mode SaaS. Pour le mode On-premises, nous vous invitons à prendre contact avec votre interlocuteur Isogeo qui vous fournira la documentation spécifique.
+
 ## Version stable {#standard}
 
 Installation classique pour les utilisateurs standards, via le canal stable du gestionnaire d'extensions intégré à QGIS.
